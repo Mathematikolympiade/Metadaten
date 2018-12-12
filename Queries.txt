@@ -1,0 +1,59 @@
+Diese Anfragen können unter
+http://pcai003.informatik.uni-leipzig.de:8893/sparql eingegeben werden. 
+
+-- Liste alle Aufgaben
+
+PREFIX ksn: <http://kosemnet.de/Data/Model#> 
+select ?u ?g ?s
+from <http://kosemnet.de/Data/MO-Aufgaben/>
+where {
+ ?a a ksn:AufgabenVorschlag; owl:sameAs ?u . 
+ optional { ?a ksn:zumGebiet ?g . }
+ optional { ?a ksn:hatSchwierigkeit ?s . }
+} order by ?u
+
+
+-- Suche alle Gebiete heraus, die wir in der 9/10 vergeben
+
+PREFIX ksn: <http://kosemnet.de/Data/Model#> 
+select distinct ?g
+from <http://kosemnet.de/Data/MO-Aufgaben/>
+where {
+ ?a ksn:zumGebiet ?g .
+} order by ?g
+
+-- Suche alle Aufgaben zum Gebiet Polynome
+
+PREFIX ksn: <http://kosemnet.de/Data/Model#> 
+select ?a  
+from <http://kosemnet.de/Data/MO-Aufgaben/>
+where {
+ ?a ksn:zumGebiet "Polynome" .
+}
+
+-- Suche alle Aufgaben zum Gebiet Polynome und finde heraus, zu welcher
+   Olympiade sie gestellt wurden
+
+PREFIX ksn: <http://kosemnet.de/Data/Model#> 
+select ?a ?o
+from <http://kosemnet.de/Data/MO-Aufgaben/>
+where {
+ ?a ksn:zumGebiet "Polynome" .
+ ?a owl:sameAs ?o .
+}
+
+-- Suche alle Aufgaben zum Gebiet Polynome und finde heraus, zu welcher
+   Olympiade sie gestellt wurden, unter welcher Schwierigkeit wir sie
+   eingeordnet hatten und wie sie praktisch bewältigt wurde
+
+PREFIX ksn: <http://kosemnet.de/Data/Model#> 
+select distinct ?a ?o ?s ?p
+from <http://kosemnet.de/Data/MO-Aufgaben/>
+where {
+ ?a ksn:zumGebiet "Polynome" .
+ ?a owl:sameAs ?o .
+optional{ ?a ksn:hatSchwierigkeit ?s .}
+optional{ ?o ksn:hatErfolgsQuote ?p .}
+}
+
+
