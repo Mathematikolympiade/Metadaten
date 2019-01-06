@@ -12,6 +12,22 @@ where {
  optional { ?a ksn:hatSchwierigkeit ?s . }
 } order by ?u
 
+-- Transformiere die Aufgaben
+
+PREFIX ksn: <http://kosemnet.de/Data/Model#> 
+construct { ?u a ksn:MO-Aufgabe ; ksn:zumGebiet ?g ; ksn:hatSchwierigkeit ?s . }
+from <http://kosemnet.de/Data/MO-Aufgaben/>
+where {
+ ?a a ksn:AufgabenVorschlag; owl:sameAs ?u . 
+ optional { ?a ksn:zumGebiet ?g . }
+ optional { ?a ksn:hatSchwierigkeit ?s . }
+} order by ?u
+
+Mit dieser Transformation wurden die Aufgaben nach Aufgabennummern statt der
+in der AAG 9/10 intern verwendeten Bezeichnungen sortiert und entsprechende
+normierte URIs vergeben. Auf der Basis wurden dann auch die Namensräume
+angepasst, wie in README.md genauer dargestellt. MO-Aufgaben.ttl 
+
 
 -- Suche alle Gebiete heraus, die wir in der 9/10 vergeben
 
