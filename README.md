@@ -37,6 +37,10 @@ Dabei wird der Namensraum <https://www.mathe-wettbewerbe.de/mo/rdf/Aufgabe/>
 sowie ein aus der Aufgabennummer abgeleiteter Bezeichner als URI für die
 einzelnen Aufgaben verwendet.
 
+Aus den Aufgabenvorschlägen der AAG 9/10 wurden weiter Kategorien und
+Schwierigkeitsgrade extrahiert, die dort bei der Vorsortierung der Aufgaben
+seit Längerem verwendet werden.
+
 # Web
 
 Dieser Abschnitt muss überarbeitet werden. 

@@ -3,2629 +3,2720 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix : <https://www.mathe-wettbewerbe.de/mo/rdf/Aufgabe/> .
 @prefix mo: <https://www.mathe-wettbewerbe.de/mo/rdf/Model#> .
+@prefix mog: <https://www.mathe-wettbewerbe.de/mo/rdf/Gebiet/> .
 
 <https://www.mathe-wettbewerbe.de/mo/rdf/MO-Aufgaben/>
     a owl:Ontology ;
-    rdfs:label "MO-Aufgabenvorschläge Klasse 9 und 10" .
+    rdfs:comment "Die Aufstellung enthält aktuell (08.01.2019) nur die aus den Aufgabenvorschlägen der AAG 9/10 für die MO 41-55 extrahierten Metainformationen. " ; 
+    rdfs:label "Metadaten zu den MO-Aufgaben" .
 
-mo:MO-Aufgabe
+mo:Aufgabe
     a owl:Class ;
     rdfs:label "MO Aufgabe" .
 
+mo:Kategorie
+    a owl:Class ;
+    rdfs:comment "Aktuell sind dies genau die in der AAG 9/10 seit langem verwendeten Kategorisierungen der Aufgabenvorschläge" ; 
+    rdfs:label "Kategorie" .
+
 :MO-410921
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 410921" .
 
 :MO-410922
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 410922" .
 
 :MO-410923
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 410923" .
 
 :MO-410924
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 410924" .
 
 :MO-410931
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 410931" .
 
 :MO-410932
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 410932" .
 
 :MO-410933
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 410933" .
 
 :MO-410934
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 410934" .
 
 :MO-410935
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 410935" .
 
 :MO-410936
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 410936" .
 
 :MO-410941
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 410941" .
 
 :MO-410942
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 410942" .
 
 :MO-410943
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 410943" .
 
 :MO-410944
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 410944" .
 
 :MO-410945
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 410945" .
 
 :MO-410946
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 410946" .
 
 :MO-411011
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411011" .
 
 :MO-411012
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411012" .
 
 :MO-411013
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411013" .
 
 :MO-411014
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411014" .
 
 :MO-411015
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411015" .
 
 :MO-411016
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411016" .
 
 :MO-411021
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411021" .
 
 :MO-411022
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411022" .
 
 :MO-411023
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411023" .
 
 :MO-411024
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411024" .
 
 :MO-411031
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411031" .
 
 :MO-411032
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411032" .
 
 :MO-411033
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411033" .
 
 :MO-411034
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411034" .
 
 :MO-411035
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411035" .
 
 :MO-411036
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411036" .
 
 :MO-411041
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411041" .
 
 :MO-411042
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411042" .
 
 :MO-411043
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411043" .
 
 :MO-411044
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411044" .
 
 :MO-411045
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411045" .
 
 :MO-411046
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 411046" .
 
 :MO-420911
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420911" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-420912
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420912" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-420913
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420913" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-420914
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420914" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie .
 
 :MO-420915
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420915" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-420916
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420916" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-420921
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420921" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-420922
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420922" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie .
 
 :MO-420923
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420923" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-420924
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420924" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-420931
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420931" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-420932
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420932" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-420933
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420933" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-420934
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420934" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-420935
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420935" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-420936
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420936" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-420941
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420941" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-420942
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420942" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-420943
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420943" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-420944
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420944" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie .
 
 :MO-420945
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420945" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-420946
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 420946" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-421011
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421011" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-421012
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421012" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-421013
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421013" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-421014
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421014" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie .
 
 :MO-421015
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421015" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-421016
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421016" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-421021
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421021" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-421022
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421022" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie .
 
 :MO-421023
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421023" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-421024
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421024" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-421031
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421031" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-421032
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421032" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-421033
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421033" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-421034
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421034" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-421035
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421035" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-421036
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421036" ;
-    mo:zumGebiet "Ungleichungen" .
+    mo:hasA9Tag mog:Ungleichungen .
 
 :MO-421041
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421041" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-421042
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421042" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-421043
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421043" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-421044
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421044" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie .
 
 :MO-421045
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421045" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-421046
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 421046" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-430921
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 430921" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-430923
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 430923" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-430924
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 430924" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-430931
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 430931" ;
-    mo:hatSchwierigkeit "leicht" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "leicht" .
 
 :MO-430932
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 430932" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie .
 
 :MO-430933
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 430933" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-430934
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 430934" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-430936
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 430936" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-430941
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 430941" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-430943
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 430943" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-430944
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 430944" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-430945
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 430945" ;
-    mo:hatSchwierigkeit "mittel" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "mittel" .
 
 :MO-430946
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 430946" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-431011
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 431011" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-431012
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 431012" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-431013
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 431013" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-431014
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 431014" ;
-    mo:hatSchwierigkeit "leicht--mittel" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "leicht--mittel" .
 
 :MO-431015
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 431015" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-431016
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 431016" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-431022
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 431022" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-431023
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 431023" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-431024
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 431024" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-431031
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 431031" ;
-    mo:hatSchwierigkeit "leicht" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "leicht" .
 
 :MO-431032
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 431032" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-431033
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 431033" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-431036
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 431036" .
 
 :MO-431041
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 431041" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-431042
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 431042" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-431043
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 431043" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-431044
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 431044" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-431046
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 431046" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie .
 
 :MO-440921
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 440921" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-440922
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 440922" ;
-    mo:hatSchwierigkeit "leicht" ;
-    mo:zumGebiet "Ungleichungen" .
+    mo:hasA9Tag mog:Ungleichungen ;
+    mo:hatSchwierigkeit "leicht" .
 
 :MO-440923
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 440923" ;
-    mo:zumGebiet "Stereometrie" .
+    mo:hasA9Tag mog:Stereometrie .
 
 :MO-440924
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 440924" ;
-    mo:hatSchwierigkeit "leicht" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "leicht" .
 
 :MO-440931
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 440931" ;
-    mo:hatSchwierigkeit "mittel" ;
-    mo:zumGebiet "Stereometrie" .
+    mo:hasA9Tag mog:Stereometrie ;
+    mo:hatSchwierigkeit "mittel" .
 
 :MO-440932
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 440932" ;
-    mo:hatSchwierigkeit "mittel" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "mittel" .
 
 :MO-440933
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 440933" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-440934
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 440934" ;
-    mo:hatSchwierigkeit "mittel" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "mittel" .
 
 :MO-440935
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 440935" ;
-    mo:hatSchwierigkeit "mittel" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "mittel" .
 
 :MO-440936
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 440936" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-440941
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 440941" ;
-    mo:hatSchwierigkeit "leicht" ;
-    mo:zumGebiet "Ungleichungen" .
+    mo:hasA9Tag mog:Ungleichungen ;
+    mo:hatSchwierigkeit "leicht" .
 
 :MO-440942
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 440942" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-440944
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 440944" ;
-    mo:hatSchwierigkeit "leicht" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "leicht" .
 
 :MO-440945
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 440945" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-440946
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 440946" ;
-    mo:hatSchwierigkeit "mittel" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "mittel" .
 
 :MO-441011
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441011" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-441012
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441012" ;
-    mo:zumGebiet "Knobelaufgabe" .
+    mo:hasA9Tag mog:Knobelaufgabe .
 
 :MO-441013
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441013" ;
-    mo:zumGebiet "Knobelaufgabe" .
+    mo:hasA9Tag mog:Knobelaufgabe .
 
 :MO-441014
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441014" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-441015
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441015" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-441016
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441016" ;
-    mo:hatSchwierigkeit "leicht" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "leicht" .
 
 :MO-441021
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441021" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-441022
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441022" ;
-    mo:hatSchwierigkeit "leicht" ;
-    mo:zumGebiet "Ungleichungen" .
+    mo:hasA9Tag mog:Ungleichungen ;
+    mo:hatSchwierigkeit "leicht" .
 
 :MO-441023
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441023" ;
-    mo:zumGebiet "Stereometrie" .
+    mo:hasA9Tag mog:Stereometrie .
 
 :MO-441024
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441024" ;
-    mo:hatSchwierigkeit "mittel" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "mittel" .
 
 :MO-441031
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441031" ;
-    mo:hatSchwierigkeit "mittel" ;
-    mo:zumGebiet "Stereometrie" .
+    mo:hasA9Tag mog:Stereometrie ;
+    mo:hatSchwierigkeit "mittel" .
 
 :MO-441032
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441032" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie .
 
 :MO-441033
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441033" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-441034
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441034" ;
-    mo:hatSchwierigkeit "mittel" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "mittel" .
 
 :MO-441035
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441035" ;
-    mo:hatSchwierigkeit "mittel" ;
-    mo:zumGebiet "Algebra", "Wurzelgleichung" .
+    mo:hasA9Tag mog:Algebra, mog:Wurzelgleichung ;
+    mo:hatSchwierigkeit "mittel" .
 
 :MO-441036
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441036" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-441041
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441041" ;
-    mo:hatSchwierigkeit "leicht" ;
-    mo:zumGebiet "Ungleichungen" .
+    mo:hasA9Tag mog:Ungleichungen ;
+    mo:hatSchwierigkeit "leicht" .
 
 :MO-441042
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441042" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik .
 
 :MO-441044
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441044" ;
-    mo:hatSchwierigkeit "schwer" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "schwer" .
 
 :MO-441045
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441045" ;
-    mo:hatSchwierigkeit "schwer" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "schwer" .
 
 :MO-441046
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 441046" ;
-    mo:hatSchwierigkeit "mittel" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "mittel" .
 
 :MO-450922
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 450922" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Ungleichungen" .
+    mo:hasA9Tag mog:Ungleichungen ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-450936
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 450936" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-450946
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 450946" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-451011
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 451011" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-451012
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 451012" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-451013
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 451013" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-451014
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 451014" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-451015
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 451015" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-451016
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 451016" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Ungleichungen" .
+    mo:hasA9Tag mog:Ungleichungen ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-451022
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 451022" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Ungleichungen" .
+    mo:hasA9Tag mog:Ungleichungen ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-451036
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 451036" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-451045
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 451045" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-460921
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 460921" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-460922
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 460922" ;
-    mo:zumGebiet "Arithmetik" .
+    mo:hasA9Tag mog:Arithmetik .
 
 :MO-460923
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 460923" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-460924
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 460924" ;
-    mo:hatSchwierigkeit "Status & 460924, 461024" ;
-    mo:zumGebiet "Knobelaufgabe" .
+    mo:hasA9Tag mog:Knobelaufgabe ;
+    mo:hatSchwierigkeit "Status & 460924, 461024" .
 
 :MO-460931
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 460931" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-460932
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 460932" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Stereometrie" .
+    mo:hasA9Tag mog:Stereometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-460933
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 460933" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-460934
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 460934" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-460935
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 460935" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-460936
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 460936" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-460941
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 460941" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Gleichungen" .
+    mo:hasA9Tag mog:Gleichungen ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-460942
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 460942" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-460944
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 460944" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Ungleichungen", "Zahlentheorie" .
+    mo:hasA9Tag mog:Ungleichungen, mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-460945
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 460945" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-460946
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 460946" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-461011
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461011" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-461012
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461012" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-461013
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461013" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-461014
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461014" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-461015
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461015" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-461016
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461016" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-461021
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461021" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra .
 
 :MO-461022
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461022" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Knobelaufgabe" .
+    mo:hasA9Tag mog:Knobelaufgabe ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-461023
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461023" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-461024
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461024" ;
-    mo:hatSchwierigkeit "Status & 460924, 461024" ;
-    mo:zumGebiet "Knobelaufgabe" .
+    mo:hasA9Tag mog:Knobelaufgabe ;
+    mo:hatSchwierigkeit "Status & 460924, 461024" .
 
 :MO-461031
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461031" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-461032
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461032" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Arithmetik" .
+    mo:hasA9Tag mog:Arithmetik ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-461033
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461033" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-461034
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461034" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-461035
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461035" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-461036
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461036" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Knobelaufgabe", "Stereometrie" .
+    mo:hasA9Tag mog:Knobelaufgabe, mog:Stereometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-461041
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461041" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Gleichungen" .
+    mo:hasA9Tag mog:Gleichungen ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-461042
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461042" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-461043
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461043" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-461044
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461044" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Ungleichungen", "Zahlentheorie" .
+    mo:hasA9Tag mog:Ungleichungen, mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-461045
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461045" ;
-    mo:hatSchwierigkeit "5" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "5" .
 
 :MO-461046
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 461046" ;
-    mo:hatSchwierigkeit "5" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "5" .
 
 :MO-470946
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 470946" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-471046
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 471046" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Algebra", "Zahlentheorie" .
+    mo:hasA9Tag mog:Algebra, mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-480934
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 480934" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-481034
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 481034" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-490921
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 490921" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Gleichungen" .
+    mo:hasA9Tag mog:Gleichungen ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-490922
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 490922" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Logik" .
+    mo:hasA9Tag mog:Logik ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-490923
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 490923" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-490924
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 490924" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-490931
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 490931" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-490932
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 490932" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-490933
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 490933" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Stereometrie" .
+    mo:hasA9Tag mog:Stereometrie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-490934
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 490934" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
+    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-490935
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 490935" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Ungleichungen" .
+    mo:hasA9Tag mog:Ungleichungen ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-490936
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 490936" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie .
 
 :MO-490941
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 490941" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie", "Kombinatorik" .
+    mo:hasA9Tag mog:Geometrie, mog:Kombinatorik ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-490942
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 490942" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Polynome", "Zahlentheorie" .
+    mo:hasA9Tag mog:Polynome, mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-490943
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 490943" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-490944
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 490944" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Knobelaufgabe" .
+    mo:hasA9Tag mog:Knobelaufgabe ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-490945
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 490945" ;
-    mo:hatSchwierigkeit "2-3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2-3" .
 
 :MO-490946
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 490946" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-491011
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491011" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-491012
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491012" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-491013
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491013" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-491014
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491014" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-491015
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491015" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-491016
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491016" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Gleichungen" .
+    mo:hasA9Tag mog:Gleichungen ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-491021
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491021" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Gleichungen" .
+    mo:hasA9Tag mog:Gleichungen ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-491022
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491022" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Logik" .
+    mo:hasA9Tag mog:Logik ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-491023
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491023" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-491024
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491024" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-491031
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491031" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-491032
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491032" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-491033
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491033" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Stereometrie" .
+    mo:hasA9Tag mog:Stereometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-491034
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491034" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-491035
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491035" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Ungleichungen" .
+    mo:hasA9Tag mog:Ungleichungen ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-491036
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491036" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Geometrie", "Kombinatorik" .
+    mo:hasA9Tag mog:Geometrie, mog:Kombinatorik ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-491041
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491041" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie", "Kombinatorik" .
+    mo:hasA9Tag mog:Geometrie, mog:Kombinatorik ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-491042
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491042" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Algebra", "Gleichungen" .
+    mo:hasA9Tag mog:Algebra, mog:Gleichungen ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-491043
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491043" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-491044
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491044" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Knobelaufgabe" .
+    mo:hasA9Tag mog:Knobelaufgabe ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-491045
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491045" ;
-    mo:hatSchwierigkeit "2-3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2-3" .
 
 :MO-491046
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 491046" ;
-    mo:hatSchwierigkeit "5" ;
-    mo:zumGebiet "Ungleichungen", "Zahlentheorie" .
+    mo:hasA9Tag mog:Ungleichungen, mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "5" .
 
 :MO-500921
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 500921" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Knobelaufgabe" .
+    mo:hasA9Tag mog:Knobelaufgabe ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-500922
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 500922" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-500923
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 500923" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-500924
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 500924" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-500931
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 500931" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-500932
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 500932" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-500933
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 500933" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Graphen", "Kombinatorik" .
+    mo:hasA9Tag mog:Graphen, mog:Kombinatorik ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-500934
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 500934" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-500935
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 500935" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-500936
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 500936" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-500941
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 500941" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-500942
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 500942" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Stereometrie" .
+    mo:hasA9Tag mog:Stereometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-500943
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 500943" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Ungleichung" .
+    mo:hasA9Tag mog:Ungleichung ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-500944
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 500944" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-500945
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 500945" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-500946
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 500946" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Graphen" .
+    mo:hasA9Tag mog:Graphen ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-501011
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501011" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Knobelaufgabe" .
+    mo:hasA9Tag mog:Knobelaufgabe ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-501012
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501012" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-501013
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501013" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Arithmetik" .
+    mo:hasA9Tag mog:Arithmetik ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-501014
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501014" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-501015
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501015" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-501016
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501016" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-501021
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501021" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-501022
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501022" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-501023
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501023" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-501024
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501024" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Algebra", "Geometrie" .
+    mo:hasA9Tag mog:Algebra, mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-501031
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501031" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-501032
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501032" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-501033
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501033" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-501034
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501034" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-501035
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501035" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-501036
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501036" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-501041
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501041" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-501042
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501042" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Stereometrie" .
+    mo:hasA9Tag mog:Stereometrie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-501043
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501043" ;
-    mo:hatSchwierigkeit "5" ;
-    mo:zumGebiet "Polynome", "Stochastik", "Ungleichungen" .
+    mo:hasA9Tag mog:Polynome, mog:Stochastik, mog:Ungleichungen ;
+    mo:hatSchwierigkeit "5" .
 
 :MO-501044
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501044" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-501045
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501045" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-501046
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 501046" ;
-    mo:hatSchwierigkeit "5" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "5" .
 
 :MO-510921
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 510921" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Gleichungen" .
+    mo:hasA9Tag mog:Gleichungen ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-510922
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 510922" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Logik" .
+    mo:hasA9Tag mog:Logik ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-510923
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 510923" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-510924
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 510924" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-510931
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 510931" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-510932
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 510932" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-510933
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 510933" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Algebra", "Stereometrie" .
+    mo:hasA9Tag mog:Algebra, mog:Stereometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-510934
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 510934" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Gleichungen" .
+    mo:hasA9Tag mog:Gleichungen ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-510935
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 510935" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-510936
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 510936" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-510941
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 510941" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Ungleichungen" .
+    mo:hasA9Tag mog:Ungleichungen ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-510942
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 510942" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-510943
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 510943" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Graphentheorie" .
+    mo:hasA9Tag mog:Graphentheorie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-510944
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 510944" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Spieleaufgabe" .
+    mo:hasA9Tag mog:Spieleaufgabe ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-510945
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 510945" ;
-    mo:hatSchwierigkeit "5" ;
-    mo:zumGebiet "Stereometrie" .
+    mo:hasA9Tag mog:Stereometrie ;
+    mo:hatSchwierigkeit "5" .
 
 :MO-510946
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 510946" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-511011
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511011" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-511012
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511012" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Algebra", "Ungleichungen" .
+    mo:hasA9Tag mog:Algebra, mog:Ungleichungen ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-511013
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511013" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-511014
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511014" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-511015
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511015" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Stereometrie", "Zahlentheorie" .
+    mo:hasA9Tag mog:Stereometrie, mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-511016
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511016" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Algebra", "Geometrie" .
+    mo:hasA9Tag mog:Algebra, mog:Geometrie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-511021
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511021" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Logik" .
+    mo:hasA9Tag mog:Logik ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-511022
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511022" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Ungleichungen" .
+    mo:hasA9Tag mog:Ungleichungen ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-511023
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511023" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-511024
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511024" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-511031
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511031" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-511032
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511032" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Stochastik" .
+    mo:hasA9Tag mog:Stochastik ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-511033
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511033" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Algebra", "Stereometrie" .
+    mo:hasA9Tag mog:Algebra, mog:Stereometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-511034
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511034" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Gleichungen" .
+    mo:hasA9Tag mog:Gleichungen ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-511035
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511035" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-511036
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511036" ;
-    mo:hatSchwierigkeit "5" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "5" .
 
 :MO-511041
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511041" ;
-    mo:hatSchwierigkeit "1-2" ;
-    mo:zumGebiet "Gleichungen" .
+    mo:hasA9Tag mog:Gleichungen ;
+    mo:hatSchwierigkeit "1-2" .
 
 :MO-511042
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511042" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-511043
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511043" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Algebra", "Kombinatorik" .
+    mo:hasA9Tag mog:Algebra, mog:Kombinatorik ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-511044
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511044" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Spieleaufgabe" .
+    mo:hasA9Tag mog:Spieleaufgabe ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-511045
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511045" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Stereometrie" .
+    mo:hasA9Tag mog:Stereometrie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-511046
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 511046" ;
-    mo:hatSchwierigkeit "4-5" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "4-5" .
 
 :MO-520921
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 520921" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
+    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-520922
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 520922" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-520923
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 520923" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-520924
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 520924" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Spiel" .
+    mo:hasA9Tag mog:Spiel ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-520931
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 520931" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Kombinatorik", "Logik" .
+    mo:hasA9Tag mog:Kombinatorik, mog:Logik ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-520932
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 520932" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-520933
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 520933" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-520934
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 520934" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Ungleichungen" .
+    mo:hasA9Tag mog:Ungleichungen ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-520935
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 520935" ;
-    mo:hatSchwierigkeit "5" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "5" .
 
 :MO-520936
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 520936" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-520941
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 520941" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-520942
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 520942" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-520943
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 520943" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-520944
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 520944" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-520945
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 520945" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-520946
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 520946" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-521011
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521011" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-521012
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521012" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-521013
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521013" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-521014
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521014" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Knobelaufgabe" .
+    mo:hasA9Tag mog:Knobelaufgabe ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-521015
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521015" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-521016
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521016" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-521021
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521021" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
+    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-521022
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521022" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-521023
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521023" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Spiel" .
+    mo:hasA9Tag mog:Spiel ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-521024
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521024" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-521031
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521031" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Kombinatorik", "Logik" .
+    mo:hasA9Tag mog:Kombinatorik, mog:Logik ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-521032
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521032" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Analysis", "Geometrie" .
+    mo:hasA9Tag mog:Analysis, mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-521033
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521033" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-521034
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521034" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Ungleichungen" .
+    mo:hasA9Tag mog:Ungleichungen ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-521035
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521035" ;
-    mo:hatSchwierigkeit "5" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "5" .
 
 :MO-521036
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521036" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-521041
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521041" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-521042
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521042" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-521043
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521043" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-521044
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521044" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Ungleichungen" .
+    mo:hasA9Tag mog:Ungleichungen ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-521045
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521045" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-521046
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 521046" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-530921
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 530921" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-530922
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 530922" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlenfolgen" .
+    mo:hasA9Tag mog:Zahlenfolgen ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-530923
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 530923" ;
-    mo:hatSchwierigkeit "2", "4" ;
-    mo:zumGebiet "Kombinatorik", "Stochastik" .
+    mo:hasA9Tag mog:Kombinatorik, mog:Stochastik ;
+    mo:hatSchwierigkeit "2", "4" .
 
 :MO-530924
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 530924" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-530931
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 530931" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlenfolgen" .
+    mo:hasA9Tag mog:Zahlenfolgen ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-530933
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 530933" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-530934
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 530934" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie", "Ungleichung" .
+    mo:hasA9Tag mog:Geometrie, mog:Ungleichung ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-530935
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 530935" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-530936
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 530936" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Geometrie", "Kombinatorik" .
+    mo:hasA9Tag mog:Geometrie, mog:Kombinatorik ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-530941
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 530941" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-530942
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 530942" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Ungleichung", "Zahlentheorie" .
+    mo:hasA9Tag mog:Ungleichung, mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-530943
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 530943" ;
-    mo:hatSchwierigkeit "3-4" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3-4" .
 
 :MO-530944
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 530944" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Zahlenfolgen" .
+    mo:hasA9Tag mog:Zahlenfolgen ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-530945
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 530945" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-530946
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 530946" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
+    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-531011
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531011" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Zahlenfolgen" .
+    mo:hasA9Tag mog:Zahlenfolgen ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-531012
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531012" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-531013
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531013" ;
-    mo:hatSchwierigkeit "1-2" ;
-    mo:zumGebiet "Gleichungen" .
+    mo:hasA9Tag mog:Gleichungen ;
+    mo:hatSchwierigkeit "1-2" .
 
 :MO-531014
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531014" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Algebra", "Geometrie" .
+    mo:hasA9Tag mog:Algebra, mog:Geometrie ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-531015
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531015" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-531016
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531016" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie", "Stochastik" .
+    mo:hasA9Tag mog:Geometrie, mog:Stochastik ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-531021
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531021" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Geometrie", "Ungleichungen" .
+    mo:hasA9Tag mog:Geometrie, mog:Ungleichungen ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-531022
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531022" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlenfolgen" .
+    mo:hasA9Tag mog:Zahlenfolgen ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-531023
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531023" ;
-    mo:hatSchwierigkeit "2", "4" ;
-    mo:zumGebiet "Kombinatorik", "Stochastik" .
+    mo:hasA9Tag mog:Kombinatorik, mog:Stochastik ;
+    mo:hatSchwierigkeit "2", "4" .
 
 :MO-531024
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531024" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-531031
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531031" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlenfolgen" .
+    mo:hasA9Tag mog:Zahlenfolgen ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-531033
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531033" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-531034
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531034" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Stereometrie", "Ungleichungen" .
+    mo:hasA9Tag mog:Stereometrie, mog:Ungleichungen ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-531035
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531035" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-531036
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531036" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Geometrie", "Kombinatorik" .
+    mo:hasA9Tag mog:Geometrie, mog:Kombinatorik ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-531041
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531041" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Stochastik" .
+    mo:hasA9Tag mog:Stochastik ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-531042
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531042" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-531043
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531043" ;
-    mo:hatSchwierigkeit "3-4" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3-4" .
 
 :MO-531044
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531044" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Zahlenfolgen" .
+    mo:hasA9Tag mog:Zahlenfolgen ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-531045
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531045" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-531046
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 531046" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
+    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-540921
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 540921" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-540922
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 540922" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Arithmetik" .
+    mo:hasA9Tag mog:Arithmetik ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-540923
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 540923" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-540924
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 540924" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
+    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-540931
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 540931" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Gleichungen" .
+    mo:hasA9Tag mog:Gleichungen ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-540932
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 540932" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-540933
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 540933" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-540934
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 540934" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Ungleichungen" .
+    mo:hasA9Tag mog:Ungleichungen ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-540935
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 540935" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-540936
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 540936" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
+    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-540941
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 540941" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Gleichungen" .
+    mo:hasA9Tag mog:Gleichungen ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-540942
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 540942" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Algebra", "Geometrie" .
+    mo:hasA9Tag mog:Algebra, mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-540943
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 540943" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-540944
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 540944" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-540945
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 540945" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-540946
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 540946" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Ungleichungen" .
+    mo:hasA9Tag mog:Ungleichungen ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-541011
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541011" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-541012
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541012" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-541013
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541013" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Ungleichungen" .
+    mo:hasA9Tag mog:Ungleichungen ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-541014
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541014" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-541015
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541015" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
+    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-541016
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541016" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-541021
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541021" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-541022
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541022" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Arithmetik" .
+    mo:hasA9Tag mog:Arithmetik ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-541023
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541023" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-541024
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541024" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
+    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-541031
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541031" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Gleichungen" .
+    mo:hasA9Tag mog:Gleichungen ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-541032
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541032" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-541033
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541033" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Zahlenfolgen" .
+    mo:hasA9Tag mog:Zahlenfolgen ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-541034
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541034" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-541035
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541035" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-541036
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541036" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
+    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-541041
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541041" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Gleichungen" .
+    mo:hasA9Tag mog:Gleichungen ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-541042
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541042" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Algebra", "Geometrie" .
+    mo:hasA9Tag mog:Algebra, mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-541043
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541043" ;
-    mo:hatSchwierigkeit "5" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "5" .
 
 :MO-541044
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541044" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-541045
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541045" ;
-    mo:hatSchwierigkeit "5" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "5" .
 
 :MO-541046
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 541046" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Ungleichungen" .
+    mo:hasA9Tag mog:Ungleichungen ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-550921
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 550921" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Knobelaufgabe" .
+    mo:hasA9Tag mog:Knobelaufgabe ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-550922
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 550922" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-550923
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 550923" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Gleichungen" .
+    mo:hasA9Tag mog:Gleichungen ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-550924
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 550924" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-550931
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 550931" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Gleichungen", "Kombinatorik" .
+    mo:hasA9Tag mog:Gleichungen, mog:Kombinatorik ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-550932
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 550932" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-550933
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 550933" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-550934
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 550934" .
 
 :MO-550935
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 550935" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-550936
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 550936" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-550941
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 550941" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
+    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-550942
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 550942" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Gleichungen" .
+    mo:hasA9Tag mog:Gleichungen ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-550943
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 550943" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-550944
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 550944" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-550945
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 550945" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Analysis" .
+    mo:hasA9Tag mog:Analysis ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-550946
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 550946" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-551011
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551011" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-551012
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551012" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-551013
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551013" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-551014
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551014" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Polynome" .
+    mo:hasA9Tag mog:Polynome ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-551015
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551015" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-551016
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551016" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-551021
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551021" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Knobelaufgabe" .
+    mo:hasA9Tag mog:Knobelaufgabe ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-551022
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551022" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Gleichungen" .
+    mo:hasA9Tag mog:Gleichungen ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-551024
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551024" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-551031
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551031" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Gleichungen", "Kombinatorik" .
+    mo:hasA9Tag mog:Gleichungen, mog:Kombinatorik ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-551032
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551032" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Wahrscheinlichkeitstheorie", "Zahlentheorie" .
+    mo:hasA9Tag mog:Wahrscheinlichkeitstheorie, mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-551033
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551033" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-551034
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551034" .
 
 :MO-551035
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551035" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-551036
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551036" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Gleichungen", "Ungleichungen" .
+    mo:hasA9Tag mog:Gleichungen, mog:Ungleichungen ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-551041
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551041" ;
-    mo:hatSchwierigkeit "1" ;
-    mo:zumGebiet "Arithmetik" .
+    mo:hasA9Tag mog:Arithmetik ;
+    mo:hatSchwierigkeit "1" .
 
 :MO-551042
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551042" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-551043
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551043" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Kombinatorik" .
+    mo:hasA9Tag mog:Kombinatorik ;
+    mo:hatSchwierigkeit "4" .
 
 :MO-551044
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551044" ;
-    mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Zahlentheorie" .
+    mo:hasA9Tag mog:Zahlentheorie ;
+    mo:hatSchwierigkeit "2" .
 
 :MO-551045
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551045" ;
-    mo:hatSchwierigkeit "3" ;
-    mo:zumGebiet "Geometrie" .
+    mo:hasA9Tag mog:Geometrie ;
+    mo:hatSchwierigkeit "3" .
 
 :MO-551046
-    a mo:MO-Aufgabe ;
+    a mo:Aufgabe ;
     rdfs:label "Aufgabe 551046" ;
-    mo:hatSchwierigkeit "4" ;
-    mo:zumGebiet "Algebra" .
+    mo:hasA9Tag mog:Algebra ;
+    mo:hatSchwierigkeit "4" .
+
+mog:Algebra
+    a mo:Kategorie ;
+    rdfs:label "Algebra" .
+
+mog:Analysis
+    a mo:Kategorie ;
+    rdfs:label "Analysis" .
+
+mog:Arithmetik
+    a mo:Kategorie ;
+    rdfs:label "Arithmetik" .
+
+mog:Geometrie
+    a mo:Kategorie ;
+    rdfs:label "Geometrie" .
+
+mog:Gleichungen
+    a mo:Kategorie ;
+    rdfs:label "Gleichungen" .
+
+mog:Graphen
+    a mo:Kategorie ;
+    rdfs:label "Graphen" .
+
+mog:Graphentheorie
+    a mo:Kategorie ;
+    rdfs:label "Graphentheorie" .
+
+mog:Knobelaufgabe
+    a mo:Kategorie ;
+    rdfs:label "Knobelaufgabe" .
+
+mog:Kombinatorik
+    a mo:Kategorie ;
+    rdfs:label "Kombinatorik" .
+
+mog:Logik
+    a mo:Kategorie ;
+    rdfs:label "Logik" .
+
+mog:Polynome
+    a mo:Kategorie ;
+    rdfs:label "Polynome" .
+
+mog:Spiel
+    a mo:Kategorie ;
+    rdfs:label "Spiel" .
+
+mog:Spieleaufgabe
+    a mo:Kategorie ;
+    rdfs:label "Spieleaufgabe" .
+
+mog:Stereometrie
+    a mo:Kategorie ;
+    rdfs:label "Stereometrie" .
+
+mog:Stochastik
+    a mo:Kategorie ;
+    rdfs:label "Stochastik" .
+
+mog:Ungleichung
+    a mo:Kategorie ;
+    rdfs:label "Ungleichung" .
+
+mog:Ungleichungen
+    a mo:Kategorie ;
+    rdfs:label "Ungleichungen" .
+
+mog:Wahrscheinlichkeitstheorie
+    a mo:Kategorie ;
+    rdfs:label "Wahrscheinlichkeitstheorie" .
+
+mog:Wurzelgleichung
+    a mo:Kategorie ;
+    rdfs:label "Wurzelgleichung" .
+
+mog:Zahlenfolgen
+    a mo:Kategorie ;
+    rdfs:label "Zahlenfolgen" .
+
+mog:Zahlentheorie
+    a mo:Kategorie ;
+    rdfs:label "Zahlentheorie" .
 
