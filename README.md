@@ -1,6 +1,6 @@
 # Zweck dieses Projekts
 
-In diesem Projekt sind erste Versuche zusammengetragen, Metadaten von Aufgben
+In diesem Projekt sind erste Versuche zusammengetragen, Metadaten von Aufagben
 aus der Mathematikolympiade öffentlich verfügbar zu machen.
 
 ## Ontologie 
