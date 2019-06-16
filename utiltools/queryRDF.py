@@ -71,12 +71,15 @@ if __name__ == '__main__':
             queryRes = rdfGraph.query(queryStr)
             print(len(queryRes))
 
+            olyLabel = rdfGraph.label(mo.oly)
+            rndLabel = rdfGraph.label(mo.rnd)
+            oklLabel = rdfGraph.label(mo.okl)
             for res in queryRes:
                 resStr = '{:s}\t{:s}\t{:s}\n'.format(res.nr, rdfGraph.label(mo.pdfA), res.pdfA)
                 resStr += '\t{:s}:'.format(rdfGraph.label(mo.anw))
-                resStr += '\t{:s} {:s}'.format(rdfGraph.label(mo.oly)[3:], res.oly)
-                resStr += ', {:s} {:s}'.format(rdfGraph.label(mo.rnd)[3:], res.rnd)
-                resStr += ', {:s} {:s}'.format(rdfGraph.label(mo.okl)[3:], res.okl)
+                resStr += '\t{:s} {:s}'.format(olyLabel[3:], res.oly)
+                resStr += ', {:s} {:s}'.format(rndLabel[3:], res.rnd)
+                resStr += ', {:s} {:s}'.format(oklLabel[3:], res.okl)
                 print(resStr)
 
 
