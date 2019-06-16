@@ -1,4 +1,4 @@
-@prefix	mo:	<https://www.mathematik-olympiaden.de/aufgaben/rdf/moModelle/mo#> .
+@prefix	mo:	<https://www.mathematik-olympiaden.de/aufgaben/rdf/Modelle/mo#> .
 
 _:MO-440511 a mo:Problem ;
 	mo:nr	"440511" ;
