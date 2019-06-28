@@ -13,7 +13,7 @@ Inhaber dieser Domäne die Art der Präsentation und der Verwendung der Daten
 weitgehend kontrollieren kann.
 
 So lange eine solche Webpräsenz noch nicht aufgebaut ist, ist die verwendete
-Basisdomäne weitgehend egal; sie kann durch einefaches Copy-Paste später
+Basisdomäne weitgehend egal; sie kann durch einfaches Copy-Paste später
 abgeändert werden.  In Weiteren wird deshalb mit der Basisdomäne 
 
 <https://www.mathe-wettbewerbe.de/mo/rdf/>
