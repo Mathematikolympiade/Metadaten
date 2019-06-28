@@ -1,0 +1,67 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix mo: <https://www.mathe-wettbewerbe.de/mo/rdf/Model#> .
+
+<https://www.mathe-wettbewerbe.de/mo/rdf/Modell/>
+    a owl:Ontology ;
+    rdfs:comment "Zuarbeit von Roger Labahn, 2019-06-16, angepasst von HGG, 2019-06-27. " ; 
+    rdfs:label "RDF-Modell zu den MO-Aufgaben" .
+
+mo:Kategorie
+    a rdfs:Class ;
+    rdfs:comment "Aktuell sind dies genau die in der AAG 9/10 seit langem verwendeten Kategorisierungen der Aufgabenvorschläge" ; 
+    rdfs:label "Kategorie" .
+
+mo:Problem
+    a rdfs:Class ;
+    rdfs:comment "Basis-Klasse für MO-Probleme" ;
+    rdfs:label "MO-Problem" .
+
+mo:Verwendung
+    a rdfs:Class ;
+    rdfs:comment "Basis-Klasse für MO-Verwendungen" ;
+    rdfs:label "MO-Verwendung" .
+
+mo:anw
+    a rdf:Property ;
+    rdfs:comment "Verwendung des Problems" ;
+    rdfs:domain mo:Problem ;
+    rdfs:label "wurde verwendet" ;
+    rdfs:range mo:Verwendung .
+
+mo:nr
+    a rdf:Property ;
+    rdfs:comment "MO-Nummer" ;
+    rdfs:domain mo:Problem ;
+    rdfs:label "hat die MO-Nummer" ;
+    rdfs:range xsd:string .
+
+mo:okl
+    a rdf:Property ;
+    rdfs:comment "Olympiadeklasse" ;
+    rdfs:domain mo:Verwendung ;
+    rdfs:label "in Olympiadeklasse" ;
+    rdfs:range xsd:string .
+
+mo:oly
+    a rdf:Property ;
+    rdfs:comment "Olympiade-Jahrgang" ;
+    rdfs:domain mo:Verwendung ;
+    rdfs:label "im Olympiade-Jahrgang" ;
+    rdfs:range xsd:positiveInteger .
+
+mo:pdfA
+    a rdf:Property ;
+    rdfs:comment "Link zum PDF der Aufgabe" ;
+    rdfs:domain mo:Problem ;
+    rdfs:label "findet man in" ;
+    rdfs:range xsd:anyURI .
+
+mo:rnd
+    a rdf:Property ;
+    rdfs:comment "MO-Runde" ;
+    rdfs:domain mo:Verwendung ;
+    rdfs:label "in Runde" ;
+    rdfs:range xsd:positiveInteger .

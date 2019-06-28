@@ -3,9 +3,26 @@
 In diesem Projekt sind erste Versuche zusammengetragen, Metadaten von Aufagben
 aus der Mathematikolympiade öffentlich verfügbar zu machen.
 
+## Namensräume
+
+Die Wahl des Namensraumspräfixes hängt stark davon ab, wer final die
+Oberhoheit über die Weiterentwicklung der Daten in den Händen halten soll, da
+auf die Daten über HTTP zugegriffen wird. Entsprechende Anfragen schlagen also
+auf dem Server auf, welcher der Basisdomäne zugeordnet ist, so dass der
+Inhaber dieser Domäne die Art der Präsentation und der Verwendung der Daten
+weitgehend kontrollieren kann.
+
+So lange eine solche Webpräsenz noch nicht aufgebaut ist, ist die verwendete
+Basisdomäne weitgehend egal; sie kann durch einefaches Copy-Paste später
+abgeändert werden.  In Weiteren wird deshalb mit der Basisdomäne 
+
+<https://www.mathe-wettbewerbe.de/mo/rdf/>
+
+gearbeitet. 
+
 ## Ontologie 
 
-Das Projekt ist darauf ausgelegt, im Namensraum
+Das Projekt ist (im aktuellen Setting) darauf ausgelegt, im Namensraum
 <https://www.mathe-wettbewerbe.de/mo/rdf/> alle relevanten Daten als [Linked
 Open Data](https://de.wikipedia.org/wiki/Linked_Open_Data) zu sammeln und nach
 [allgemein verwendeten RDF-Standards](https://www.w3.org/RDF/) verfügbar zu
@@ -21,7 +38,8 @@ wird im Namensraum
 
 eine Ontologie zur Beschreibung der relationalen und prozessualen Aspekte rund
 um die MO-Aufgaben erstellt, die zu einem späteren Zeitpunkt genauer zu
-beschreiben sein wird.
+beschreiben sein wird. Ein erster Beschreibungsansatz ist in der Datei
+Modell.ttl enthalten (Zuarbeit von Roger), der weiter auszubauen ist. 
 
 Änderungen an der Ontologie sind ohne weitere Vorwarnung möglich,
 Rückwärtskompatibilität kann zum gegenwärtige Zeitpunkt nicht garantiert
