@@ -18,7 +18,7 @@ abgeändert werden.  In Weiteren wird deshalb mit der Basisdomäne
 
 <https://www.mathe-wettbewerbe.de/mo/rdf/>
 
-gearbeitet. 
+gearbeitet.  -- HGG, 2019-06-28
 
 ## Ontologie 
 
@@ -58,6 +58,13 @@ einzelnen Aufgaben verwendet.
 Aus den Aufgabenvorschlägen der AAG 9/10 wurden weiter Kategorien und
 Schwierigkeitsgrade extrahiert, die dort bei der Vorsortierung der Aufgaben
 seit Längerem verwendet werden.
+
+Roger hat in `moProbleme.ttl` eine Reihe von Aufgabeninformationen
+zusammengetragen. Hier ist eine Trennung zwischen den Informationen zu
+konkreten Aufgaben und der Zuordnung zu Olympiaden (die im Prinzip auch aus
+den Aufgabennummern inferiert werden kann) sinnvoll, wobei die relationalen
+Informationen in einen RDF-Cube ausgelagert werden sollten, wie dies
+prototypisch in `Cube.ttl` geschehen ist. -- HGG, 2019-06-28
 
 # Web
 
