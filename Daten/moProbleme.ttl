@@ -1,7 +1,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix : <https://www.mathe-wettbewerbe.de/mo/rdf/Aufgabe/> .
-@prefix mo: <https://www.mathe-wettbewerbe.de/mo/rdf/Model#> .
-@prefix mog: <https://www.mathe-wettbewerbe.de/mo/rdf/Gebiet/> .
+@prefix : <https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/> .
+@prefix mo: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#> .
+@prefix mog: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Gebiet/> .
 
 :MO-440511 a mo:Problem ;
 	mo:nr	"440511" ;

@@ -1,9 +1,9 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix : <https://www.mathe-wettbewerbe.de/mo/rdf/Aufgabe/> .
-@prefix mo: <https://www.mathe-wettbewerbe.de/mo/rdf/Model#> .
-@prefix mog: <https://www.mathe-wettbewerbe.de/mo/rdf/Gebiet/> .
+@prefix : <https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/> .
+@prefix mo: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#> .
+@prefix mog: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Gebiet/> .
 
 :MO-350511 mo:hatAufgabentext """a) Eine Mauer aus farbigen Steinen soll nach dem Muster der Abbildung A 350511 a aufgebaut werden. Die Farben sollen so angeordnet sein, dass niemals zwei gleichfarbige Flächen aneinanderstoßen. Auch sollen möglichst wenige Farben vorkommen. Mache einen Vorschlag für eine solche Färbung!
 

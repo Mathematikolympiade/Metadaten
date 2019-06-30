@@ -1,10 +1,10 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix : <https://www.mathe-wettbewerbe.de/mo/rdf/Observation/> .
-@prefix mop: <https://www.mathe-wettbewerbe.de/mo/rdf/Aufgabe/> .
-@prefix mo: <https://www.mathe-wettbewerbe.de/mo/rdf/Model#> .
-@prefix mog: <https://www.mathe-wettbewerbe.de/mo/rdf/Gebiet/> .
+@prefix : <https://www.mathematik-olympiaden.de/aufgaben/rdf/Observation/> .
+@prefix mop: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/> .
+@prefix mo: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#> .
+@prefix mog: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Gebiet/> .
 @prefix qb:       <http://purl.org/linked-data/cube#> .
 
 :o236 a qb:Observation;

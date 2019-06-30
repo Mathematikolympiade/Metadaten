@@ -2,9 +2,9 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix mo: <https://www.mathe-wettbewerbe.de/mo/rdf/Model#> .
+@prefix mo: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#> .
 
-<https://www.mathe-wettbewerbe.de/mo/rdf/Modell/>
+<https://www.mathematik-olympiaden.de/aufgaben/rdf/Modell/>
     a owl:Ontology ;
     rdfs:comment "Zuarbeit von Roger Labahn, 2019-06-16, angepasst von HGG, 2019-06-27. " ; 
     rdfs:label "RDF-Modell zu den MO-Aufgaben" .

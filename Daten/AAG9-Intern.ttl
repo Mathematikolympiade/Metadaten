@@ -1,10 +1,10 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix : <https://www.mathe-wettbewerbe.de/mo/rdf/AufgabenVorschlag/> .
-@prefix mo: <https://www.mathe-wettbewerbe.de/mo/rdf/Model#> .
+@prefix : <https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/> .
+@prefix mo: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-<http://https://www.mathe-wettbewerbe.de/mo/rdf/AAG9-Intern/>
+<http://https://www.mathematik-olympiaden.de/aufgaben/rdf/AAG9-Intern/>
     a owl:Ontology ;
     rdfs:label "MO-Aufgabenvorschläge Klasse 9 und 10" .
 

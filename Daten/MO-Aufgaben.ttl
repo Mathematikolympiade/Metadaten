@@ -1,11 +1,11 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix : <https://www.mathe-wettbewerbe.de/mo/rdf/Aufgabe/> .
-@prefix mo: <https://www.mathe-wettbewerbe.de/mo/rdf/Model#> .
-@prefix mog: <https://www.mathe-wettbewerbe.de/mo/rdf/Gebiet/> .
+@prefix : <https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/> .
+@prefix mo: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#> .
+@prefix mog: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Gebiet/> .
 
-<https://www.mathe-wettbewerbe.de/mo/rdf/MO-Aufgaben/>
+<https://www.mathematik-olympiaden.de/aufgaben/rdf/MO-Aufgaben/>
     a owl:Ontology ;
     rdfs:comment "Die Aufstellung enthält aktuell (08.01.2019) nur die aus den Aufgabenvorschlägen der AAG 9/10 für die MO 41-55 extrahierten Metainformationen. " ; 
     rdfs:label "Metadaten zu den MO-Aufgaben" .
