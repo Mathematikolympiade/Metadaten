@@ -2,54 +2,40 @@
 /**
  * User: Hans-Gert Gräbe
  * Date: 2017-09-04 
- * Last Update: 2018-12-12
+ * Last Update: 2019-11-16
  *
  */
 
-function listeAufgaben($store) {
-    $query='
-PREFIX ksn: <http://kosemnet.de/Data/Model#> 
-select ?u ?g ?s
-from <http://kosemnet.de/Data/MO-Aufgaben/>
-where {
- ?a a ksn:AufgabenVorschlag; owl:sameAs ?u . 
- optional { ?a ksn:zumGebiet ?g . }
- optional { ?a ksn:hatSchwierigkeit ?s . }
-} order by ?u
-';
-    $r=queryStore($store,$query);
-    $a=array();
-    foreach ($r['results']['bindings'] as $k => $v) {
-        $nr=str_replace("http://kosemnet.de/Data/Aufgabe/","",$v['u']['value']);
-        $a[]='<tr><td>'.$nr.'</td> <td>'.$v['g']['value']
-            .'</td> <td>'.$v['s']['value'].'</td> </tr>';
+require_once('lib/EasyRdf.php');
+require_once('layout.php');
+
+function Aufgaben() {
+  EasyRdf_Namespace::set('mo', 'https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#');
+  $graph = new EasyRdf_Graph("http://example.org/Graph/");
+  $graph->parseFile("rdf/MO-Aufgaben.rdf");
+  $res=$graph->allOfType('mo:Problem');
+  $a=array();
+  foreach ($res as $v) {
+      $id=$v->get('mo:nr');
+      $gebiet=str_replace('https://www.mathematik-olympiaden.de/aufgaben/rdf/Gebiet/','mog:',join(", ",$v->all('mo:hasA9Tag')));
+      $schwierigkeit=join(", ",$v->all('mo:hatSchwierigkeit'));
+      $a[]='<tr><td>'.$id.'</td> <td align="center">'.$schwierigkeit
+          .'</td> <td>'.$gebiet.'</td> </tr>';
     }
     return '
-<table align="center" width="80%"> 
-<tr> <th> Aufgabe </th> <th> Gebiet </th> <th> Schwierigkeit </th> </tr>'.
-    join("\n",$a).'</table>';
+<div class="container">
+<table align="center" border="1"> 
+<tr> <th> Aufgabe </th> <th> Schwierigkeit </th> <th> Gebiet </th> </tr>'.
+    join("\n",$a).'</table></div>';
 }
 
-function queryStore($store,$query) {
-    $get_parameters =
-        '?query=' . urlencode ($query) .
-        '&format=application%2Fsparql-results%2Bjson' ; 
-    $req = $store . $get_parameters;
-    $result = file_get_contents($req);
-    //print_r($result);
-    $r = json_decode($result,true);
-    //print_r($r);
-    return $r;
-}
+$content='
+<div class="container">
+<h2 align="center"> Klassifizierung von Aufgaben </h2>
 
+<p>Diese Übersicht wurde aus den Metadaten der Aufgaben der AAG 9/10
+extrahiert.</p>
+</div>
+';
 
-function wrap($u) {
-    if ($u['type']=="uri") return '<'.$u['value'].'>';
-    else return '"'.$u['value'].'"';
-}
-
-function prettyprint($u) {
-    return "<pre>".htmlspecialchars($u)."</pre>";
-}
-
-echo listeAufgaben('http://pcai003.informatik.uni-leipzig.de:8893/sparql');
+echo showPage($content.Aufgaben());

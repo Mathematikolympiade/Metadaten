@@ -1,11 +1,36 @@
 # Zweck dieses Projekts
 
-In diesem Projekt sind erste Versuche zusammengetragen, Metadaten von Aufagben
-aus der Mathematikolympiade öffentlich verfügbar zu machen.
+In diesem Projekt sind erste Versuche zusammengetragen, Metadaten von Aufgaben
+der Mathematikolympiade öffentlich in einem RDF-Format verfügbar zu machen.
 
-## Namensräume
+## Allgemeine Bedingungen
 
-Die Wahl des Namensraumspräfixes hängt stark davon ab, wer final die
+Dieses Projekt ist auf github als Projekt *Metadaten* im
+**github Organisationsaccount Mathematikolympiade** gehostet und damit
+**öffentlich sichtbar**.
+
+Dies ist einerseits intentional, da wir diese Metadaten der Allgemeinheit zur
+weiteren Verwendung zur Verfügung stellen wollen.
+
+Dies ist andererseits durch die am Projekt Beteiligten bei der Auswahl der zur
+Verfügung gestellten Informationen zu berücksichtigen.
+
+## Grundsätzliches
+
+Für ein RDF-Projekt sind zwei grundsätzliche Fragen zu klären:
+* Welche Namensräume sollen belegt werden?
+* In welcher Weise sollen die Daten verfügbar gemacht werden?
+
+### Namensraum
+
+Namensräume sind vergleichbar den Verzeichnisnamen im Dateisystem hierarchisch
+angeordnet und erlauben eine inhaltliche Strukturierung der zur Verfügung
+gestellten Daten.  Über Namensraumpräfixe können hier weitere baumartige
+Gruppierungen vorgenommen werden, wobei insbesondere der Namensraum der Wurzel
+dieses Baumes, also das globale Namensraumpräfix, mit Bedacht gewählt werden
+muss.
+
+Die Wahl des globalen Namensraumspräfixes hängt stark davon ab, wer final die
 Oberhoheit über die Weiterentwicklung der Daten in den Händen halten soll, da
 auf die Daten über HTTP zugegriffen wird. Entsprechende Anfragen schlagen also
 auf dem Server auf, welcher der Basisdomäne zugeordnet ist, so dass der
@@ -19,66 +44,46 @@ bleiben soll, wurde als Basisadresse
 
 gewählt. 
 
-## Ontologie 
+### Datenhaltung
 
-Das Projekt ist (im aktuellen Setting) darauf ausgelegt, im Namensraum
-<https://www.mathe-wettbewerbe.de/mo/rdf/> alle relevanten Daten als [Linked
-Open Data](https://de.wikipedia.org/wiki/Linked_Open_Data) zu sammeln und nach
-[allgemein verwendeten RDF-Standards](https://www.w3.org/RDF/) verfügbar zu
-machen.
+Ein RDF-Projekt kann seine Daten als **Dateien im Netz** zur Verfügung stellen
+oder einen **RDF-Store** betreiben, welcher die Daten ausliefert.  Letzteres
+hat den Vorteil, dass dieser in der Regel zugleich einen SPARQL-Endpunkt zur
+Verfügung stellt, über den flexible Anfragen an den Datenbestand ausgeführt
+werden können.  Dies ist vergleichbar zu einem klassischen SQL-Datenbankserver
+und der Anfragesprache SQL.
 
-Neben gebräuchlichen allgemeinen Ontologien
-* rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
-* rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
-* owl: <http://www.w3.org/2002/07/owl#> 
+Mischformen zwischen beiden Formen sind möglich, es sollte allerdings ein
+klares Datenmanagement (was sind Primärdaten, was Sekundärdaten, wie
+funktioniert ein Update der Datenbestände, wie deren Synchronisierung)
+vereinbart sein.
 
-wird im Namensraum
-* mo: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#>
+Wie bei Datenbankservern auch können sich Webserver (Präsentationsmanagement)
+und RDF-Store (Datenmanagement) auf unterschiedlichen Rechnern befinden, was
+aber zusätzlichen technischen Aufwand mit sich bringt.
 
-eine Ontologie zur Beschreibung der relationalen und prozessualen Aspekte rund
-um die MO-Aufgaben erstellt, die zu einem späteren Zeitpunkt genauer zu
-beschreiben sein wird. Ein erster Beschreibungsansatz ist in der Datei
-Modell.ttl enthalten (Zuarbeit von Roger), der weiter auszubauen ist. 
+* [Mehr dazu](https://symbolicdata.github.io/LocalSparqlEndpoint)
 
-Änderungen an der Ontologie sind ohne weitere Vorwarnung möglich,
-Rückwärtskompatibilität kann zum gegenwärtige Zeitpunkt nicht garantiert
-werden.
+Im aktuellen Ausbauzustand sind die Primärdaten im Turtle-Format in
+verschiedenen Dateien im Verzeichnis `Daten` abgelegt.  
 
-## Daten
+Näheres hierzu ist unter `Daten/README.md` zu finden.
 
-Basis für einen ersten Pitch sind die Metadaten der AAG 9/10 der MO 41 bis 55,
-die in der Datei `MO-Aufgaben.ttl` zusammengetragen sind und weiter
-angereichert werden sollen.
+Weiterhin wurde ein RDF-Store aufgesetzt, in dem einige Datenbestände einer
+früheren Version eingespielt sind.  
+* [SPARQL Endpunkt](http://pcai003.informatik.uni-leipzig.de:8893/sparql)
 
-Dabei wird der Namensraum
-<https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/> sowie ein aus der
-Aufgabennummer abgeleiteter Bezeichner als URI für die einzelnen Aufgaben
-verwendet.
+## Dieses Verzeichnis
 
-Aus den Aufgabenvorschlägen der AAG 9/10 wurden weiter Kategorien und
-Schwierigkeitsgrade extrahiert, die dort bei der Vorsortierung der Aufgaben
-seit Längerem verwendet werden.
-
-Roger hat in `moProbleme.ttl` eine Reihe von Aufgabeninformationen
-zusammengetragen. Hier ist eine Trennung zwischen den Informationen zu
-konkreten Aufgaben und der Zuordnung zu Olympiaden (die im Prinzip auch aus
-den Aufgabennummern inferiert werden kann) sinnvoll, wobei die relationalen
-Informationen in einen RDF-Cube ausgelagert werden sollten, wie dies
-prototypisch in `Cube.ttl` geschehen ist. -- HGG, 2019-06-28
-
-# Web
-
-Dieser Abschnitt muss überarbeitet werden. 
-
-Im Verzeichnis `web` ist der Code eines ersten Pitches enthalten, wie diese
-Daten ausgewertet werden können. Der Code verwendet die EasyRDF PHP-Bibliothek
-und greift aktuell auf den RDF Triple Store des KoSemNet-Projekts
-https://lsgm.uni-leipzig.de/KoSemNet/MetaInformations.php zu.
-
-# Auswertungen
-
-Im Verzeichnis `Auswertungen` sind die pdf-Dateien zusammengetragen, die auf
-der Seite <https://hg-graebe.de/MO-Auswertung/index.html> verlinkt sind.
-
-Vernetzungen mit weiteren Aufgabengruppen sowie eine Erweiterung der
-verfügbaren Metadaten ist geplant.
+* Auswertungen - enthält die pdf-Dateien der Auswertungen der einzelnen
+  Olympiaden, die unter [https://hg-graebe.de/MO-Auswertung/index.html] zum
+  Download angeboten werden.
+* Daten - enthält die aktuell zusammengetragenen Daten in mehreren
+  Turtle-Dateien. Siehe dazu `Daten/README.md`.
+* Queries.txt - Einige Beispiele für SPARQL-Anfragen an den RDF-Store. Zu
+  überarbeiten.
+* README.md - Diese Datei.
+* utiltools - Python-Werkzeuge von Roger Labahn.
+* web - Code einer Webpräsenz zur prototypischen Präsentation von
+  Möglichkeiten.
+* workbench - Werkbank von Hans-Gert Gräbe.

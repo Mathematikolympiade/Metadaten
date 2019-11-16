@@ -31,13 +31,18 @@ function pageNavbar() {
 
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default" role="navigation">
-      <div class="container">
-        <div id="navbar" class="collapse navbar-collapse">
+      <div class="container">        
+        <button class="navbar-toggle hidden-sm-up pull-right" type="button"
+                data-toggle="collapse" data-target="#navbar"> ☰
+        </button>
+        <div id="navbar" class="collapse navbar-collapse">  
           <ul class="nav navbar-nav">
             <li><a href="index.php">Startseite</a></li> 
-            <li><a href="aufgaben.php">Aufgabenübersicht</a></li> 
+            <li><a href="aufgabenvorschlaege.php">Aufgabenvorschläge</a></li>
+            <li><a href="aufgaben.php">Aufgaben</a></li>
+            <li><a href="aufgabentexte.php">Aufgabentexte</a></li> 
           </ul>
-        </div><!-- navbar end -->
+        </div><!-- collapse end -->
       </div><!-- container end -->
     </nav>';
 }
@@ -55,7 +60,7 @@ function pageFooter() {
 
       <div class="container">
     <div class="footer">
-        <p class="text-muted">&copy; MO-Projekt 2018 </p>
+        <p class="text-muted">&copy; MO-Projekt seit 2018 </p>
       </div>
     </div>
     <!-- jQuery (necessary for Bootstrap JavaScript plugins) -->

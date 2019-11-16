@@ -3,7 +3,6 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix : <https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/> .
 @prefix mo: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#> .
-@prefix mog: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Gebiet/> .
 
 :MO-350511 mo:hatAufgabentext """a) Eine Mauer aus farbigen Steinen soll nach dem Muster der Abbildung A 350511 a aufgebaut werden. Die Farben sollen so angeordnet sein, dass niemals zwei gleichfarbige Flächen aneinanderstoßen. Auch sollen möglichst wenige Farben vorkommen. Mache einen Vorschlag für eine solche Färbung!
 

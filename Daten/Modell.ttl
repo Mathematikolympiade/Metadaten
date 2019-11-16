@@ -2,7 +2,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix	mo:	<https://www.mathematik-olympiaden.de/aufgaben/rdf/Modelle/mo#> .
+@prefix	mo: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#> .
 
 <https://www.mathematik-olympiaden.de/aufgaben/rdf/Modell/>
     a owl:Ontology ;
