@@ -138,7 +138,7 @@ Nicht alle Prädikate wurden über die ganze Zeit vergeben.
 In diesem RDF-Graphen sollen subjektive Informationen zu den einzelnen
 Aufgaben zusammengetragen werden. Dazu soll das Format des RDF Data Cube
 verwendet werden, das mit dem Datentyp qb:Observation gut geeignet ist,
-derartige Informationen systeatisch zu erfassen.
+derartige Informationen systematisch zu erfassen.
 
 Datentyp qb:Observation;
 * qb:dataSet qb:DataSetDefinition - diese enthält die Metainformationen über
@@ -155,7 +155,7 @@ Datentyp qb:Observation;
 * mo:oly Literal - Olympiade
 * mo:rnd Literal - Runde 
 
-Die letzten drei Properties sind qb:dimensionProperty und hier nur zur
+Die letzten drei Properties sind vom Typ qb:dimensionProperty und hier nur zur
 Erläuterung des Konzepts extrahiert, da diese Information zu den "objektiven"
 Informationen gehört, die einem mo:Problem zugeordnet werden sollten und
 keiner Observation.
@@ -187,6 +187,22 @@ Datentyp mo:Problem
 
 Datentyp mo:Kategorie
 * rdfs:label Literal - Bezeichnung des Themengebiets
+
+Hier sollten die Grunddaten zu den einzelnen Aufgaben zusammengetragen werden,
+also insbesondere auch noch die Einträge 
+* mo:okl Literal - Olympiadeklasse
+* mo:oly Literal - Olympiade
+* mo:rnd Literal - Runde
+
+Unklar ist, wie modelliert werden kann, dass eine gleiche Aufgabe in
+verschiedenen Klassenstufen gestellt wurde, denn diese Information geht vom
+mo:Aufgabenvorschlag zum mo:Problem verloren. 
+
+Offen ist weiterhin, ob diese Grundinformationen und das angestrebte Tagging
+in einer RDF-Datei zusammengeführt werden sollen oder hierfür eine eigene
+RDF-Datei angelegt wird wie für die Aufgabentexte. Das kann aber später
+entschieden werden, da das Auftrennen nach verschiedenen Prädikaten kein
+großes Problem ist.
 
 ### Modell.ttl
 
