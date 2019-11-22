@@ -185,15 +185,14 @@ In diesem RDF-Graphen sollen die relevanten "objektiven" Informationen über
 einzelne Aufgaben zusammengetragen werden.
 
 Datentyp mo:Problem
+* mo:klasse Literal - Olympiadeklasse, Beispiel: "09"
 * mo:nr Literal - die Aufgabennummer. Beispiel: "441035" 
+* mo:oly Literal - Olympiade, Beispiel: "54"
+* mo:pdfA URL - Link, unter dem die Aufgabenstellung als PDF heruntergeladen
+  werden kann.
+* mo:stufe Literal - letzte zwei Ziffern der Aufgabennummer, geben Runde und
+  Aufgabennummer an. Diese Zahlen kodieren die Schwierigkeit der Aufgabe.
 * mo:zumGebiet Literal - Beispiel: "Algebra"
-* mo:hatSchwierigkeit Literal - verschiedene Schemata, zuletzt 1..5
-
-Hier sollten die Grunddaten zu den einzelnen Aufgaben zusammengetragen werden,
-also insbesondere auch noch die Einträge 
-* mo:okl Literal - Olympiadeklasse
-* mo:oly Literal - Olympiade
-* mo:rnd Literal - Runde
 
 Unklar ist, wie modelliert werden kann, dass eine gleiche Aufgabe in
 verschiedenen Klassenstufen gestellt wurde, denn diese Information geht vom
@@ -207,10 +206,10 @@ großes Problem ist.
 
 ### Modell.ttl
 
-In dieser Datei sind perspektivisch die im Datenmodell definierten Klassen
-genauer zu beschreiben. Aktuell ist diese Datei die Referenzdatei für
-derartige Beschreibungen. 
+In dieser Datei sind die im Datenmodell definierten Klassen als RDF genauer
+beschrieben. Aktuell ist diese README-Datei die Referenzdatei für derartige
+Beschreibungen.
 
 ### moProbleme.ttl
 
-Von Roger Labahn extrahierte Daten.
+Von Roger Labahn extrahierte Daten. Obsolet.

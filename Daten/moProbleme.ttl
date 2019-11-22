@@ -1,6 +1,6 @@
-@prefix	mo:	<https://www.mathematik-olympiaden.de/aufgaben/rdf/Modelle/mo#> .
+@prefix	mo:	<https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#> .
 @prefix anw: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Verwendung#> .
-@prefix : <https://www.mathematik-olympiaden.de/aufgaben/rdf/Problem#> .
+@prefix : <https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/> .
 
 ####################
 anw:MO-44-1-05 a mo:Verwendung ;

@@ -6,62 +6,47 @@
 
 <https://www.mathematik-olympiaden.de/aufgaben/rdf/Modell/>
     a owl:Ontology ;
-    rdfs:comment "Zuarbeit von Roger Labahn, 2019-06-16, angepasst von HGG, 2019-06-27. " ; 
     rdfs:label "RDF-Modell zu den MO-Aufgaben" .
-
-mo:Kategorie
-    a rdfs:Class ;
-    rdfs:comment "Aktuell sind dies genau die in der AAG 9/10 seit langem verwendeten Kategorisierungen der Aufgabenvorschläge" ; 
-    rdfs:label "Kategorie" .
 
 mo:Problem
     a rdfs:Class ;
-    rdfs:comment "Basis-Klasse für MO-Probleme" ;
+    rdfs:comment "Basis-Klasse für MO-Aufgaben" ;
     rdfs:label "MO-Problem" .
-
-mo:Verwendung
-    a rdfs:Class ;
-    rdfs:comment "Basis-Klasse für MO-Verwendungen" ;
-    rdfs:label "MO-Verwendung" .
-
-mo:anw
-    a rdf:Property ;
-    rdfs:comment "Verwendung des Problems" ;
-    rdfs:domain mo:Problem ;
-    rdfs:label "wurde verwendet" ;
-    rdfs:range mo:Verwendung .
 
 mo:nr
     a rdf:Property ;
-    rdfs:comment "MO-Nummer" ;
     rdfs:domain mo:Problem ;
-    rdfs:label "hat die MO-Nummer" ;
+    rdfs:label "Aufgabennummer" ;
     rdfs:range xsd:string .
 
-mo:okl
+mo:klasse
     a rdf:Property ;
-    rdfs:comment "Olympiadeklasse" ;
-    rdfs:domain mo:Verwendung ;
-    rdfs:label "in Olympiadeklasse" ;
+    rdfs:domain mo:Problem ;
+    rdfs:label "Olympiadeklasse" ;
     rdfs:range xsd:string .
 
 mo:oly
     a rdf:Property ;
-    rdfs:comment "Olympiade-Jahrgang" ;
-    rdfs:domain mo:Verwendung ;
-    rdfs:label "im Olympiade-Jahrgang" ;
+    rdfs:domain mo:Problem ;
+    rdfs:label "Olympiade-Jahrgang" ;
     rdfs:range xsd:positiveInteger .
 
 mo:pdfA
     a rdf:Property ;
-    rdfs:comment "Link zum PDF der Aufgabe" ;
     rdfs:domain mo:Problem ;
-    rdfs:label "findet man in" ;
+    rdfs:label "Link zum PDF der Aufgabe" ;
     rdfs:range xsd:anyURI .
 
-mo:rnd
+mo:stufe
     a rdf:Property ;
-    rdfs:comment "MO-Runde" ;
-    rdfs:domain mo:Verwendung ;
-    rdfs:label "in Runde" ;
+    rdfs:comment "Die letzten zwei Ziffern der Aufgabennummer" ;
+    rdfs:domain mo:Problem ;
+    rdfs:label "Einordnung Stufe/Nummer der Aufgabe" ;
     rdfs:range xsd:positiveInteger .
+
+mo:zumGebiet
+    a rdf:Property ;
+    rdfs:comment "Das sind zunächst beliebige Bezeichnungen, die im weiteren Verlauf zu konsolidieren sind" ; 
+    rdfs:domain mo:Problem ;
+    rdfs:label "Gebiet, dem die Aufgabe zugeordnet ist" .
+    rdfs:range xsd:string .
