@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:mo="https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#"
+<rdf:RDF
+   xmlns:mo="https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#"
    xmlns:mog="https://www.mathematik-olympiaden.de/aufgaben/rdf/Gebiet/"
    xmlns:mop="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/"
    xmlns:owl="http://www.w3.org/2002/07/owl#"

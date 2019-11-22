@@ -828,7 +828,6 @@
 
 :MO-460924
     a mo:Problem ;
-    mo:hatSchwierigkeit "Status & 460924, 461024" ;
     mo:nr "460924" ;
     mo:zumGebiet "Knobelaufgabe" .
 
@@ -953,7 +952,6 @@
 
 :MO-461024
     a mo:Problem ;
-    mo:hatSchwierigkeit "Status & 460924, 461024" ;
     mo:nr "461024" ;
     mo:zumGebiet "Knobelaufgabe" .
 

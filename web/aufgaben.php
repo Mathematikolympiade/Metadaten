@@ -17,7 +17,7 @@ function Aufgaben() {
   $a=array();
   foreach ($res as $v) {
       $id=$v->get('mo:nr');
-      $gebiet=str_replace('https://www.mathematik-olympiaden.de/aufgaben/rdf/Gebiet/','mog:',join(", ",$v->all('mo:hasA9Tag')));
+      $gebiet=join(", ",$v->all('mo:zumGebiet'));
       $schwierigkeit=join(", ",$v->all('mo:hatSchwierigkeit'));
       $a[]='<tr><td>'.$id.'</td> <td align="center">'.$schwierigkeit
           .'</td> <td>'.$gebiet.'</td> </tr>';
