@@ -12,16 +12,18 @@ require_once('layout.php');
 function Gebiete() {
   EasyRdf_Namespace::set('mo', 'https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#');
   $graph = new EasyRdf_Graph("http://example.org/Graph/");
-  $graph->parseFile("rdf/MO-Aufgaben.rdf");
+  $graph->parseFile("rdf/MO-Basisdaten.rdf");
+  $graph->parseFile("rdf/MO-AufgabenNachGebieten.rdf");
   $res=$graph->allOfType('mo:Problem');
   $a=array();
   foreach ($res as $v) {
       $id=$v->get('mo:nr');
-      foreach ($v->all('mo:zumGebiet') as $g) { // unklar, wie das mit mehrdimensionalen Arrays geht
+      foreach ($v->all('mo:zumGebiet') as $g) { 
           if (!(is_array($a["$g"]))) { $a["$g"]=array(); }
           array_push($a["$g"],"$id");
       }
   }
+  // print_r($a);
   $b=array();
   foreach($a as $k => $v) {
       $b[]='<h3>Gebiet '.$k.'</h3> <p>'.join(", ",$v).'</p>';

@@ -11,7 +11,24 @@
 mo:Problem
     a rdfs:Class ;
     rdfs:comment "Basis-Klasse für MO-Aufgaben" ;
-    rdfs:label "MO-Problem" .
+    rdfs:label "MO Aufgabe" .
+
+mo:Verwendung
+    a rdfs:Class ;
+    rdfs:label "Ergänzende Information zu einer MO-Aufgabe" .
+
+mo:anw
+    a rdf:Property ;
+    rdfs:domain mo:Problem ;
+    rdfs:label "Verwendung der Aufgabe" ;
+    rdfs:range mo:Verwendung .
+
+mo:hatSchwierigkeit
+    a rdf:Property ;
+    rdfs:comment "Die letzten zwei Ziffern der Aufgabennummer kodieren die Schwierigkeit der Aufgabe" ;
+    rdfs:domain mo:Problem ;
+    rdfs:label "Einordnung Stufe/Nummer der Aufgabe" ;
+    rdfs:range xsd:positiveInteger .
 
 mo:nr
     a rdf:Property ;
@@ -19,15 +36,15 @@ mo:nr
     rdfs:label "Aufgabennummer" ;
     rdfs:range xsd:string .
 
-mo:klasse
+mo:okl
     a rdf:Property ;
-    rdfs:domain mo:Problem ;
+    rdfs:domain mo:Verwendung ;
     rdfs:label "Olympiadeklasse" ;
     rdfs:range xsd:string .
 
 mo:oly
     a rdf:Property ;
-    rdfs:domain mo:Problem ;
+    rdfs:domain mo:Verwendung ;
     rdfs:label "Olympiade-Jahrgang" ;
     rdfs:range xsd:positiveInteger .
 
@@ -37,11 +54,10 @@ mo:pdfA
     rdfs:label "Link zum PDF der Aufgabe" ;
     rdfs:range xsd:anyURI .
 
-mo:stufe
+mo:rnd
     a rdf:Property ;
-    rdfs:comment "Die letzten zwei Ziffern der Aufgabennummer" ;
-    rdfs:domain mo:Problem ;
-    rdfs:label "Einordnung Stufe/Nummer der Aufgabe" ;
+    rdfs:domain mo:Verwendung ;
+    rdfs:label "Olympiade-Jahrgang" ;
     rdfs:range xsd:positiveInteger .
 
 mo:zumGebiet

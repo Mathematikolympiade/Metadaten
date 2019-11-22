@@ -3,27 +3,35 @@
 ## Inhalt dieses Verzeichnisses
 
 * AAG9-Intern.ttl - RDF-Datei mit Metadaten (u.a. Gebiete, Schwierigkeit) aus
-  dem Aufgabenschatz der AAG 9/10, wie er dort zur Klassifizierung von
-  Aufgaben seit vielen Jahren verwendet wird.  Die Daten sind aus den
-  AAG-internen Klassifizierungsdaten ("Aufgaben-Kopf") extrahiert, enthalten
-  aber auch weitere Informationen zur Geschichte und zum Verwendungsstand der
-  einzelnen Aufgaben, die früher in einer History-Datei der AAG
-  zusammengetragen wurden.
+  dem Aufgabenschatz der AAG 9/10, wie er dort zur Klassifizierung von Aufgaben
+  seit vielen Jahren verwendet wird.  Die Daten sind aus den AAG-internen
+  Klassifizierungsdaten ("Aufgaben-Kopf") extrahiert, enthalten aber auch
+  weitere Informationen zur Geschichte und zum Verwendungsstand der einzelnen
+  Aufgaben, die früher in einer History-Datei der AAG zusammengetragen
+  wurden. Diese Daten werden von Hans-Gert Gräbe verwaltet.
+  
 * Cube.ttl - Transformation einer Zuarbeit von Roger in das Format des [RDF
   Data Cube](https://www.w3.org/TR/vocab-data-cube/).  Noch sehr
   experimentell.
+
+* MO-AufgabenNachGebieten.ttl - konsolidierte Version der Dateiaus den
+  Zuarbeiten der AAG 9/10 und 11/13 extrahierte Informationen über die Gebiete
+  und Schwierigkeiten bereits publizierter MO-Aufgaben.  Diese Daten werden von
+  Hans-Gert Gräbe verwaltet.
+
 * MO-AufgabenTexte.ttl - Übernahme einer nicht konsolidierten Version der
   Aufgabentexte aus den Arbeiten von Manuela Kugel, die auf deren Seiten für
   eine Volltextsuche verwendet wurde.
-* MO-Aufgaben.ttl - konsolidierte Version der Datei `AAG-9-Intern.ttl` sowie
-  einer Zuarbeit der AAG 11/13, welche nur die Gebiete und Schwierigkeiten
-  bereits publizierter MO-Aufgaben enthält und diese konkreten Aufgabennummern
-  zuordnet.
+
+* MO-Basisdaten.ttl - Basisdaten zu den einzelnen Aufgaben. Diese Daten werden
+  von Roger Labahn verwaltet.
+
 * Modell.ttl - RDF-Datei, die eine Beschreibung des verwendeten Datenmodells
   enthält.
-* moProbleme.ttl - Ursprüngliche Daten von Roger, die in den RDF Cube
-  `Cube.ttl` verwandelt wurde.
 
+Die Dateien MO-* sind aufgetrennt nach den verschiedenen Verantwortlichkeiten
+für die Pflege der Datensätze.
+  
 ## Allgemeines
 
 ### Ontologie 
@@ -46,7 +54,7 @@ wird im Namensraum ($base = https://www.mathematik-olympiaden.de/aufgaben/rdf)
 eine Ontologie zur Beschreibung der relationalen und prozessualen Aspekte rund
 um die MO-Aufgaben erstellt, deren aktueller Stand weiter unten genauer
 beschrieben ist. Ein erster Beschreibungsansatz ist auch im RDF-Format in der
-Datei Modell.ttl enthalten (Zuarbeit von Roger), der weiter auszubauen ist.
+Datei Modell.ttl enthalten.
 
 Änderungen an der Ontologie sind ohne weitere Vorwarnung möglich,
 Rückwärtskompatibilität kann zum gegenwärtige Zeitpunkt nicht garantiert
@@ -79,30 +87,19 @@ mit Strings in einer Tagwolke zunächst aufgegeben.
 
 ## Daten. Allgemeines
 
-Basis für einen ersten Pitch sind die Metadaten der AAG 9/10 der MO 41 bis 55,
-die in der Datei `MO-Aufgaben.ttl` zusammengetragen sind und weiter
-angereichert werden sollen.  Dabei wird der Namensraumpräfix `$base/Aufgabe/`
-sowie ein aus der Aufgabennummer abgeleiteter Bezeichner als URI für die
-einzelnen Aufgaben verwendet.
-
-Aus den Aufgabenvorschlägen der AAG 9/10 wurden weiter **Gebiete** und
-Schwierigkeitsgrade extrahiert, die dort bei der Vorsortierung der Aufgaben
-seit Längerem verwendet werden.
+Basis für einen ersten Pitch sind die Stammdaten der Aufgaben (Zuarbeit und
+Aktualisierung durch Roger Labahn) sowie die Metadaten der AAG 9/10 uns 11/13
+zur Klassifizierung der Aufgaben bzw. Aufgabenvorschläge nach **Gebieten**.
+Dabei wird der Namensraumpräfix mop: = `$base/Aufgabe/` sowie ein aus der
+Aufgabennummer abgeleiteter Bezeichner als URI für die einzelnen Aufgaben
+verwendet.
 
 Die **Schwierigkeitsgrade** dienen der internen groben Vorsortierung der
 Aufgaben und haben keine deutliche Semantik. Die Schwierigkeit der
 veröffentlichten Aufgaben ergibt sich aus den zwei letzten Ziffern der
 Aufgabennummer, deshalb wurde auf die Übernahme der Schwierigkeiten verzichtet.
 
-Roger Labahn hat in `moProbleme.ttl` eine Reihe von Aufgabeninformationen
-zusammengetragen. Hier ist eine Trennung zwischen den Informationen zu
-konkreten Aufgaben und der Zuordnung zu Olympiaden (die im Prinzip auch aus
-den Aufgabennummern inferiert werden kann) sinnvoll, wobei die relationalen
-Informationen in einen RDF-Cube ausgelagert werden sollten, wie dies
-prototypisch in `Cube.ttl` geschehen ist. Das ist noch nicht ausdiskutiert,
-siehe unten.
-
-Schließlich wurden aus einem Projekt von Manuela Kugel Aufgabentexte
+Schließlich wurden aus einem Projekt von Manuela Kugel **Aufgabentexte**
 übernommen, die dort mit klassischen Werkzeugen aus den Aufgaben-pdf
 extrahiert und prototypisch zur Suche in den Aufgabentexten verwendet wurden.
 Die Aufgabentexte sind weiter zu konsolidieren, da die Extraktionswerkzeuge
@@ -179,37 +176,41 @@ aufgaben sinnvoll wären.
 Struktur der Datensätze: Ergänzt MO-Aufgaben
 * mo:hatAufgabentext Literal
 
-### MO-Aufgaben.ttl
+### MO-AufgabenNachGebieten.ttl
 
-In diesem RDF-Graphen sollen die relevanten "objektiven" Informationen über
-einzelne Aufgaben zusammengetragen werden.
+In diesem RDF-Graphen sind relevante Informationen zu Gebieten und
+Schwierigkeit der einzelnen Aufgaben zusammengetragen.
 
 Datentyp mo:Problem
-* mo:klasse Literal - Olympiadeklasse, Beispiel: "09"
-* mo:nr Literal - die Aufgabennummer. Beispiel: "441035" 
-* mo:oly Literal - Olympiade, Beispiel: "54"
-* mo:pdfA URL - Link, unter dem die Aufgabenstellung als PDF heruntergeladen
-  werden kann.
-* mo:stufe Literal - letzte zwei Ziffern der Aufgabennummer, geben Runde und
-  Aufgabennummer an. Diese Zahlen kodieren die Schwierigkeit der Aufgabe.
+* mo:hatSchwierigkeit Literal - letzte zwei Ziffern der Aufgabennummer, geben
+  Runde und Aufgabennummer an. Diese Zahlen kodieren die Schwierigkeit der
+  Aufgabe.
 * mo:zumGebiet Literal - Beispiel: "Algebra"
 
-Unklar ist, wie modelliert werden kann, dass eine gleiche Aufgabe in
-verschiedenen Klassenstufen gestellt wurde, denn diese Information geht vom
-mo:Aufgabenvorschlag zum mo:Problem verloren. 
 
-Offen ist weiterhin, ob diese Grundinformationen und das angestrebte Tagging
-in einer RDF-Datei zusammengeführt werden sollen oder hierfür eine eigene
-RDF-Datei angelegt wird wie für die Aufgabentexte. Das kann aber später
-entschieden werden, da das Auftrennen nach verschiedenen Prädikaten kein
-großes Problem ist.
+### MO-Basisdaten.ttl
+
+Basisdaten der einzelnen Aufgaben
+
+Datentyp mo:Problem
+* mo:anw mo:Verwendung - Verweis auf genauere Informationen zur Einordnung der
+  Aufgabe in die Strukturen der Olympiadejahrgänge
+* mo:nr Literal - die Aufgabennummer. Beispiel: "441035" 
+* mo:pdfA URL - Link, unter dem die Aufgabenstellung als PDF heruntergeladen
+  werden kann.
+
+Datentyp mo:Verwendung - genauere Informationen zur Einordnung der Aufgabe in
+  die Strukturen der Olympiadejahrgänge
+* mo:okl Literal - Olympiadeklasse, Beispiel: "09"
+* mo:oly Literal - Olympiade, Beispiel: "54"
+* mo:rnd Literal - Runde, Beispiel: "2"
+
+Offen ist, wie modelliert werden kann, dass eine gleiche Aufgabe in
+verschiedenen Klassenstufen gestellt wurde, denn diese Information geht vom
+mo:Aufgabenvorschlag zum mo:Problem verloren.
 
 ### Modell.ttl
 
 In dieser Datei sind die im Datenmodell definierten Klassen als RDF genauer
 beschrieben. Aktuell ist diese README-Datei die Referenzdatei für derartige
 Beschreibungen.
-
-### moProbleme.ttl
-
-Von Roger Labahn extrahierte Daten. Obsolet.

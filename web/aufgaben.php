@@ -11,14 +11,18 @@ require_once('layout.php');
 
 function Aufgaben() {
   EasyRdf_Namespace::set('mo', 'https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#');
+  EasyRdf_Namespace::set('mop', 'https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/');
   $graph = new EasyRdf_Graph("http://example.org/Graph/");
-  $graph->parseFile("rdf/MO-Aufgaben.rdf");
+  $graph->parseFile("rdf/MO-Basisdaten.rdf");
+  $graph->parseFile("rdf/MO-AufgabenNachGebieten.rdf");
   $res=$graph->allOfType('mo:Problem');
   $a=array();
   foreach ($res as $v) {
       $id=$v->get('mo:nr');
       $gebiet=join(", ",$v->all('mo:zumGebiet'));
-      $a[]='<tr align="center"><td>'.$id.'</td> <td>'.$gebiet.'</td> </tr>';
+      if ($gebiet) {
+          $a[]='<tr align="center"><td>'.$id.'</td> <td>'.$gebiet.'</td> </tr>';
+      }
     }
     return '
 <div class="container">
@@ -32,7 +36,8 @@ $content='
 <h2 align="center"> Klassifizierung von Aufgaben </h2>
 
 <p>Diese Übersicht wurde aus den Metadaten der Aufgaben der AAG 9/10 und 11/13
-extrahiert.</p> </div>
+extrahiert.  Es sind nur diejenigen Aufgabennummern gelistet, zu denen eine
+Gebietsinformation vorhanden ist. </p> </div>
 ';
 
 echo showPage($content.Aufgaben());

@@ -40,7 +40,7 @@ weitgehend kontrollieren kann.
 Da der MO e.V. die Oberhoheit über die Aufgaben hat und das auch so
 bleiben soll, wurde als Basisadresse 
 
-<https://www.mathematik-olympiaden.de/aufgaben/rdf/>
+$base = https://www.mathematik-olympiaden.de/aufgaben/rdf
 
 gewählt. 
 
@@ -73,7 +73,7 @@ Weiterhin wurde ein RDF-Store aufgesetzt, in dem einige Datenbestände einer
 früheren Version eingespielt sind.  
 * [SPARQL Endpunkt](http://pcai003.informatik.uni-leipzig.de:8893/sparql)
 
-## Dieses Verzeichnis
+## Inhalt dieses Verzeichnisses
 
 * Auswertungen - enthält die pdf-Dateien der Auswertungen der einzelnen
   Olympiaden, die unter [https://hg-graebe.de/MO-Auswertung/index.html] zum
