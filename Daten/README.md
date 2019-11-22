@@ -67,9 +67,9 @@ Für Aufgabengebiete
 
 Für Aufgabenvorschläge (nur `AAG9-Intern.ttl`)
 * RDF-Typ mo:Aufgabenvorschlag
-* Namensraumpräfix moa: $base/AufgabenVorschlag/
-* Namensgebungsregel: moa:MO-<InterneKennung>
-* Beispiel: moa:MO-bey-00-01
+* Namensraumpräfix mov: $base/AufgabenVorschlag/
+* Namensgebungsregel: mov:MO-<InterneKennung>
+* Beispiel: mov:MO-bey-00-01
 
 Für den RDF Data Cube (nur `Cube.ttl`)
 * RDF-Typ qb:Observation 

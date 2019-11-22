@@ -12,6 +12,7 @@ sub TurtleEnvelope {
 \@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 \@prefix mo: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#> .
 \@prefix : <https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/> .
+\@prefix mop: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/> .
 \@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 $out
@@ -28,18 +29,12 @@ sub getKopf { # Verarbeitung der Aufgabendateien selbst
   $nr=~s|\d+/||;
   /\\begin\{kopf\}(.*)\\end\{kopf\}/s;
   $_=$1;
-  my ($g,$s);
+  my ($o);
   s/\\//gs;
-  $g=$1 if /Gebiet\s*\&\s*(.*?)\s*\n/;
-  $s=$1 if /Schwierigkeit\s*\&\s*(.*?)\s*\n/;
-  my @l;
-  map { 
-    push(@l,"mo:zumGebiet \"$_\""); 
-  } split(/\s*,\s*/,$g); 
-  push(@l,"mo:hatSchwierigkeit \"$s\"") if $s;
-  my $out=join(" ;\n",@l);
-  return <<EOT;
-:MO-$nr a mo:AufgabenVorschlag ;
-$out .
+  $o=$1 if /Status\s*\&\s*(.*?)\s*\n/;
+  return unless $o;
+  $o=~s/(\d+)/mop:MO-$1/gs;
+  return <<EOT ;
+:MO-$nr owl:sameAs $o .
 EOT
 }
