@@ -11,8 +11,8 @@ sub TurtleEnvelope {
   my $out=shift;
   return <<EOT;
 \@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-\@prefix ksn: <http://kosemnet.de/Data/Model#> .
-\@prefix : <http://kosemnet.de/Data/Aufgabe/> .
+\@prefix mo: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#> .
+\@prefix : <https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/> .
 \@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 $out
@@ -36,16 +36,13 @@ sub getKopf { # Verarbeitung der Aufgabendateien selbst
   $o=$1 if /Status\s*\&\s*(.*?)\s*\n/;
   my @l;
   map { 
-    push(@l,"ksn:zumGebiet \"$_\""); 
+    push(@l,"mo:zumGebiet \"$_\""); 
   } split(/\s*,\s*/,$g); 
-  push(@l,"ksn:hatSchwierigkeit \"$s\"") if $s;
-  map { 
-    push(@l,"owl:sameAs :MO-$_"); 
-  } split(/\s*,\s*/,$o); 
+  push(@l,"mo:hatSchwierigkeit \"$s\"") if $s;
+  # map { push(@l,"owl:sameAs :MO-$_"); } split(/\s*,\s*/,$o); 
   my $out=join(" ;\n",@l);
   return <<EOT;
-<http://kosemnet.de/Data/Aufgabe/MO-$nr>
-    a ksn:AufgabenVorschlag ;
+:MO-$nr a mo:AufgabenVorschlag ;
 $out .
 EOT
 }
@@ -57,8 +54,7 @@ sub fixValue {
   /\\begin\{key\}\s*(\S*)\s*\\end\{key\}/s;
   my $nr=$1;
   return <<EOT;
-<http://kosemnet.de/Data/Aufgabe/MO-$nr>
-    a ksn:AufgabenVorschlag  .
+:MO-$nr a ksn:AufgabenVorschlag  .
 EOT
  
 }
