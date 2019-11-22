@@ -18,15 +18,15 @@ function Gebiete() {
   foreach ($res as $v) {
       $id=$v->get('mo:nr');
       foreach ($v->all('mo:zumGebiet') as $g) { // unklar, wie das mit mehrdimensionalen Arrays geht
-          array_push($a[$g][],$id);
+          if (!(is_array($a["$g"]))) { $a["$g"]=array(); }
+          array_push($a["$g"],"$id");
       }
   }
-  print_r($a);
   $b=array();
-  foreach($a as $v) {
-      $b[]='<h3>Gebiet '.key($v).'</h3> <p>'.join(", ",$v).'</p>';
+  foreach($a as $k => $v) {
+      $b[]='<h3>Gebiet '.$k.'</h3> <p>'.join(", ",$v).'</p>';
   }
-  return join("\n",$b);
+  return '<div class="container">'.join("\n",$b).'</div>';
 }
 
 $content='
