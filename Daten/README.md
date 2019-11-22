@@ -85,9 +85,14 @@ angereichert werden sollen.  Dabei wird der Namensraumpräfix `$base/Aufgabe/`
 sowie ein aus der Aufgabennummer abgeleiteter Bezeichner als URI für die
 einzelnen Aufgaben verwendet.
 
-Aus den Aufgabenvorschlägen der AAG 9/10 wurden weiter Kategorien und
+Aus den Aufgabenvorschlägen der AAG 9/10 wurden weiter **Gebiete** und
 Schwierigkeitsgrade extrahiert, die dort bei der Vorsortierung der Aufgaben
 seit Längerem verwendet werden.
+
+Die **Schwierigkeitsgrade** dienen der internen groben Vorsortierung der
+Aufgaben und haben keine deutliche Semantik. Die Schwierigkeit der
+veröffentlichten Aufgaben ergibt sich aus den zwei letzten Ziffern der
+Aufgabennummer, deshalb wurde auf die Übernahme der Schwierigkeiten verzichtet.
 
 Roger Labahn hat in `moProbleme.ttl` eine Reihe von Aufgabeninformationen
 zusammengetragen. Hier ist eine Trennung zwischen den Informationen zu

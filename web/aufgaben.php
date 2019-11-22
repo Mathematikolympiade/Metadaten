@@ -2,7 +2,7 @@
 /**
  * User: Hans-Gert Gräbe
  * Date: 2017-09-04 
- * Last Update: 2019-11-16
+ * Last Update: 2019-11-22
  *
  */
 
@@ -18,14 +18,12 @@ function Aufgaben() {
   foreach ($res as $v) {
       $id=$v->get('mo:nr');
       $gebiet=join(", ",$v->all('mo:zumGebiet'));
-      $schwierigkeit=join(", ",$v->all('mo:hatSchwierigkeit'));
-      $a[]='<tr><td>'.$id.'</td> <td align="center">'.$schwierigkeit
-          .'</td> <td>'.$gebiet.'</td> </tr>';
+      $a[]='<tr align="center"><td>'.$id.'</td> <td>'.$gebiet.'</td> </tr>';
     }
     return '
 <div class="container">
 <table align="center" border="1"> 
-<tr> <th> Aufgabe </th> <th> Schwierigkeit </th> <th> Gebiet </th> </tr>'.
+<tr align="center"> <th> Aufgabe </th> <th> Gebiet </th> </tr>'.
     join("\n",$a).'</table></div>';
 }
 
@@ -33,9 +31,8 @@ $content='
 <div class="container">
 <h2 align="center"> Klassifizierung von Aufgaben </h2>
 
-<p>Diese Übersicht wurde aus den Metadaten der Aufgaben der AAG 9/10
-extrahiert.</p>
-</div>
+<p>Diese Übersicht wurde aus den Metadaten der Aufgaben der AAG 9/10 und 11/13
+extrahiert.</p> </div>
 ';
 
 echo showPage($content.Aufgaben());
