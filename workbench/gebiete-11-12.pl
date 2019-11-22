@@ -1,3 +1,35 @@
+
+my $out;
+map $out.=createEntry($_), split(/\n/,getData());
+print TurtleEnvelope($out);
+
+## end main
+
+sub TurtleEnvelope {
+  my $out=shift;
+  return <<EOT;
+\@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+\@prefix mo: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#> .
+\@prefix : <https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/> .
+\@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+$out
+
+EOT
+}
+
+sub createEntry {
+  my($nr,$gebiet)=split(/\s+/,shift);
+  $gebiet=~s/\//", "/g;
+  return <<EOT;
+:MO-$nr a mo:Problem;
+  mo:nr "$nr"; 
+  mo:zumGebiet "$gebiet" . 
+EOT
+}
+
+sub getData {
+  return <<EOT;
 481311 EGEO
 481312 ALGS
 481313 NSTD
@@ -243,3 +275,5 @@
 581244 ZLTH
 581245 LOKO
 581246 ALGS
+EOT
+}

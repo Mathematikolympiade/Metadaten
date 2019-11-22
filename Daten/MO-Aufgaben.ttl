@@ -3,11 +3,10 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix : <https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/> .
 @prefix mo: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#> .
-@prefix mog: <https://www.mathematik-olympiaden.de/aufgaben/rdf/Gebiet/> .
 
 <https://www.mathematik-olympiaden.de/aufgaben/rdf/MO-Aufgaben/>
     a owl:Ontology ;
-    rdfs:comment "Die Aufstellung enthält aktuell (08.01.2019) nur die aus den Aufgabenvorschlägen der AAG 9/10 für die MO 41-55 extrahierten Metainformationen. " ; 
+    rdfs:comment "Die Aufstellung enthält aktuell (22.11.2019) aus den Aufgabenvorschlägen der AAG 9/10 sowie 11/13 extrahierte Metainformationen. " ;
     rdfs:label "Metadaten zu den MO-Aufgaben" .
 
 :MO-410921
@@ -165,351 +164,351 @@
 :MO-420911
     a mo:Problem ;
     mo:nr "420911" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-420912
     a mo:Problem ;
     mo:nr "420912" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-420913
     a mo:Problem ;
     mo:nr "420913" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-420914
     a mo:Problem ;
     mo:nr "420914" ;
-    mo:hasA9Tag mog:Zahlentheorie .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-420915
     a mo:Problem ;
     mo:nr "420915" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-420916
     a mo:Problem ;
     mo:nr "420916" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-420921
     a mo:Problem ;
     mo:nr "420921" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-420922
     a mo:Problem ;
     mo:nr "420922" ;
-    mo:hasA9Tag mog:Zahlentheorie .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-420923
     a mo:Problem ;
     mo:nr "420923" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-420924
     a mo:Problem ;
     mo:nr "420924" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-420931
     a mo:Problem ;
     mo:nr "420931" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-420932
     a mo:Problem ;
     mo:nr "420932" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-420933
     a mo:Problem ;
     mo:nr "420933" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-420934
     a mo:Problem ;
     mo:nr "420934" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-420935
     a mo:Problem ;
     mo:nr "420935" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-420936
     a mo:Problem ;
     mo:nr "420936" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-420941
     a mo:Problem ;
     mo:nr "420941" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-420942
     a mo:Problem ;
     mo:nr "420942" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-420943
     a mo:Problem ;
     mo:nr "420943" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-420944
     a mo:Problem ;
     mo:nr "420944" ;
-    mo:hasA9Tag mog:Zahlentheorie .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-420945
     a mo:Problem ;
     mo:nr "420945" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-420946
     a mo:Problem ;
     mo:nr "420946" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-421011
     a mo:Problem ;
     mo:nr "421011" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-421012
     a mo:Problem ;
     mo:nr "421012" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-421013
     a mo:Problem ;
     mo:nr "421013" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-421014
     a mo:Problem ;
     mo:nr "421014" ;
-    mo:hasA9Tag mog:Zahlentheorie .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-421015
     a mo:Problem ;
     mo:nr "421015" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-421016
     a mo:Problem ;
     mo:nr "421016" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-421021
     a mo:Problem ;
     mo:nr "421021" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-421022
     a mo:Problem ;
     mo:nr "421022" ;
-    mo:hasA9Tag mog:Zahlentheorie .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-421023
     a mo:Problem ;
     mo:nr "421023" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-421024
     a mo:Problem ;
     mo:nr "421024" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-421031
     a mo:Problem ;
     mo:nr "421031" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-421032
     a mo:Problem ;
     mo:nr "421032" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-421033
     a mo:Problem ;
     mo:nr "421033" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-421034
     a mo:Problem ;
     mo:nr "421034" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-421035
     a mo:Problem ;
     mo:nr "421035" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-421036
     a mo:Problem ;
     mo:nr "421036" ;
-    mo:hasA9Tag mog:Ungleichungen .
+    mo:zumGebiet "Ungleichungen" .
 
 :MO-421041
     a mo:Problem ;
     mo:nr "421041" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-421042
     a mo:Problem ;
     mo:nr "421042" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-421043
     a mo:Problem ;
     mo:nr "421043" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-421044
     a mo:Problem ;
     mo:nr "421044" ;
-    mo:hasA9Tag mog:Zahlentheorie .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-421045
     a mo:Problem ;
     mo:nr "421045" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-421046
     a mo:Problem ;
     mo:nr "421046" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-430921
     a mo:Problem ;
     mo:nr "430921" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-430923
     a mo:Problem ;
     mo:nr "430923" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-430924
     a mo:Problem ;
     mo:nr "430924" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-430931
     a mo:Problem ;
+    mo:hatSchwierigkeit "leicht" ;
     mo:nr "430931" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "leicht" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-430932
     a mo:Problem ;
     mo:nr "430932" ;
-    mo:hasA9Tag mog:Zahlentheorie .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-430933
     a mo:Problem ;
     mo:nr "430933" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-430934
     a mo:Problem ;
     mo:nr "430934" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-430936
     a mo:Problem ;
     mo:nr "430936" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-430941
     a mo:Problem ;
     mo:nr "430941" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-430943
     a mo:Problem ;
     mo:nr "430943" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-430944
     a mo:Problem ;
     mo:nr "430944" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-430945
     a mo:Problem ;
+    mo:hatSchwierigkeit "mittel" ;
     mo:nr "430945" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "mittel" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-430946
     a mo:Problem ;
     mo:nr "430946" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-431011
     a mo:Problem ;
     mo:nr "431011" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-431012
     a mo:Problem ;
     mo:nr "431012" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-431013
     a mo:Problem ;
     mo:nr "431013" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-431014
     a mo:Problem ;
+    mo:hatSchwierigkeit "leicht--mittel" ;
     mo:nr "431014" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "leicht--mittel" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-431015
     a mo:Problem ;
     mo:nr "431015" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-431016
     a mo:Problem ;
     mo:nr "431016" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-431022
     a mo:Problem ;
     mo:nr "431022" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-431023
     a mo:Problem ;
     mo:nr "431023" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-431024
     a mo:Problem ;
     mo:nr "431024" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-431031
     a mo:Problem ;
+    mo:hatSchwierigkeit "leicht" ;
     mo:nr "431031" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "leicht" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-431032
     a mo:Problem ;
     mo:nr "431032" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-431033
     a mo:Problem ;
     mo:nr "431033" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-431036
     a mo:Problem ;
@@ -518,1938 +517,2723 @@
 :MO-431041
     a mo:Problem ;
     mo:nr "431041" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-431042
     a mo:Problem ;
     mo:nr "431042" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-431043
     a mo:Problem ;
     mo:nr "431043" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-431044
     a mo:Problem ;
     mo:nr "431044" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-431046
     a mo:Problem ;
     mo:nr "431046" ;
-    mo:hasA9Tag mog:Zahlentheorie .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-440921
     a mo:Problem ;
     mo:nr "440921" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-440922
     a mo:Problem ;
+    mo:hatSchwierigkeit "leicht" ;
     mo:nr "440922" ;
-    mo:hasA9Tag mog:Ungleichungen ;
-    mo:hatSchwierigkeit "leicht" .
+    mo:zumGebiet "Ungleichungen" .
 
 :MO-440923
     a mo:Problem ;
     mo:nr "440923" ;
-    mo:hasA9Tag mog:Stereometrie .
+    mo:zumGebiet "Stereometrie" .
 
 :MO-440924
     a mo:Problem ;
+    mo:hatSchwierigkeit "leicht" ;
     mo:nr "440924" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "leicht" .
+    mo:zumGebiet "Algebra" .
 
 :MO-440931
     a mo:Problem ;
+    mo:hatSchwierigkeit "mittel" ;
     mo:nr "440931" ;
-    mo:hasA9Tag mog:Stereometrie ;
-    mo:hatSchwierigkeit "mittel" .
+    mo:zumGebiet "Stereometrie" .
 
 :MO-440932
     a mo:Problem ;
+    mo:hatSchwierigkeit "mittel" ;
     mo:nr "440932" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "mittel" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-440933
     a mo:Problem ;
     mo:nr "440933" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-440934
     a mo:Problem ;
+    mo:hatSchwierigkeit "mittel" ;
     mo:nr "440934" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "mittel" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-440935
     a mo:Problem ;
+    mo:hatSchwierigkeit "mittel" ;
     mo:nr "440935" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "mittel" .
+    mo:zumGebiet "Algebra" .
 
 :MO-440936
     a mo:Problem ;
     mo:nr "440936" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-440941
     a mo:Problem ;
+    mo:hatSchwierigkeit "leicht" ;
     mo:nr "440941" ;
-    mo:hasA9Tag mog:Ungleichungen ;
-    mo:hatSchwierigkeit "leicht" .
+    mo:zumGebiet "Ungleichungen" .
 
 :MO-440942
     a mo:Problem ;
     mo:nr "440942" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-440944
     a mo:Problem ;
+    mo:hatSchwierigkeit "leicht" ;
     mo:nr "440944" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "leicht" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-440945
     a mo:Problem ;
     mo:nr "440945" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-440946
     a mo:Problem ;
+    mo:hatSchwierigkeit "mittel" ;
     mo:nr "440946" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "mittel" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-441011
     a mo:Problem ;
     mo:nr "441011" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-441012
     a mo:Problem ;
     mo:nr "441012" ;
-    mo:hasA9Tag mog:Knobelaufgabe .
+    mo:zumGebiet "Knobelaufgabe" .
 
 :MO-441013
     a mo:Problem ;
     mo:nr "441013" ;
-    mo:hasA9Tag mog:Knobelaufgabe .
+    mo:zumGebiet "Knobelaufgabe" .
 
 :MO-441014
     a mo:Problem ;
     mo:nr "441014" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-441015
     a mo:Problem ;
     mo:nr "441015" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-441016
     a mo:Problem ;
+    mo:hatSchwierigkeit "leicht" ;
     mo:nr "441016" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "leicht" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-441021
     a mo:Problem ;
     mo:nr "441021" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-441022
     a mo:Problem ;
+    mo:hatSchwierigkeit "leicht" ;
     mo:nr "441022" ;
-    mo:hasA9Tag mog:Ungleichungen ;
-    mo:hatSchwierigkeit "leicht" .
+    mo:zumGebiet "Ungleichungen" .
 
 :MO-441023
     a mo:Problem ;
     mo:nr "441023" ;
-    mo:hasA9Tag mog:Stereometrie .
+    mo:zumGebiet "Stereometrie" .
 
 :MO-441024
     a mo:Problem ;
+    mo:hatSchwierigkeit "mittel" ;
     mo:nr "441024" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "mittel" .
+    mo:zumGebiet "Algebra" .
 
 :MO-441031
     a mo:Problem ;
+    mo:hatSchwierigkeit "mittel" ;
     mo:nr "441031" ;
-    mo:hasA9Tag mog:Stereometrie ;
-    mo:hatSchwierigkeit "mittel" .
+    mo:zumGebiet "Stereometrie" .
 
 :MO-441032
     a mo:Problem ;
     mo:nr "441032" ;
-    mo:hasA9Tag mog:Zahlentheorie .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-441033
     a mo:Problem ;
     mo:nr "441033" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-441034
     a mo:Problem ;
+    mo:hatSchwierigkeit "mittel" ;
     mo:nr "441034" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "mittel" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-441035
     a mo:Problem ;
+    mo:hatSchwierigkeit "mittel" ;
     mo:nr "441035" ;
-    mo:hasA9Tag mog:Algebra, mog:Wurzelgleichung ;
-    mo:hatSchwierigkeit "mittel" .
+    mo:zumGebiet "Algebra", "Wurzelgleichung" .
 
 :MO-441036
     a mo:Problem ;
     mo:nr "441036" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-441041
     a mo:Problem ;
+    mo:hatSchwierigkeit "leicht" ;
     mo:nr "441041" ;
-    mo:hasA9Tag mog:Ungleichungen ;
-    mo:hatSchwierigkeit "leicht" .
+    mo:zumGebiet "Ungleichungen" .
 
 :MO-441042
     a mo:Problem ;
     mo:nr "441042" ;
-    mo:hasA9Tag mog:Kombinatorik .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-441044
     a mo:Problem ;
+    mo:hatSchwierigkeit "schwer" ;
     mo:nr "441044" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "schwer" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-441045
     a mo:Problem ;
+    mo:hatSchwierigkeit "schwer" ;
     mo:nr "441045" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "schwer" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-441046
     a mo:Problem ;
+    mo:hatSchwierigkeit "mittel" ;
     mo:nr "441046" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "mittel" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-450922
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "450922" ;
-    mo:hasA9Tag mog:Ungleichungen ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Ungleichungen" .
 
 :MO-450936
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "450936" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-450946
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "450946" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-451011
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "451011" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-451012
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "451012" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-451013
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "451013" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-451014
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "451014" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-451015
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "451015" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-451016
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "451016" ;
-    mo:hasA9Tag mog:Ungleichungen ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Ungleichungen" .
 
 :MO-451022
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "451022" ;
-    mo:hasA9Tag mog:Ungleichungen ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Ungleichungen" .
 
 :MO-451036
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "451036" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-451045
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "451045" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-460921
     a mo:Problem ;
     mo:nr "460921" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-460922
     a mo:Problem ;
     mo:nr "460922" ;
-    mo:hasA9Tag mog:Arithmetik .
+    mo:zumGebiet "Arithmetik" .
 
 :MO-460923
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "460923" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-460924
     a mo:Problem ;
+    mo:hatSchwierigkeit "Status & 460924, 461024" ;
     mo:nr "460924" ;
-    mo:hasA9Tag mog:Knobelaufgabe ;
-    mo:hatSchwierigkeit "Status & 460924, 461024" .
+    mo:zumGebiet "Knobelaufgabe" .
 
 :MO-460931
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "460931" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Algebra" .
 
 :MO-460932
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "460932" ;
-    mo:hasA9Tag mog:Stereometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Stereometrie" .
 
 :MO-460933
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "460933" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-460934
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "460934" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-460935
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "460935" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Algebra" .
 
 :MO-460936
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "460936" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-460941
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "460941" ;
-    mo:hasA9Tag mog:Gleichungen ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Gleichungen" .
 
 :MO-460942
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "460942" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-460944
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "460944" ;
-    mo:hasA9Tag mog:Ungleichungen, mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Ungleichungen", "Zahlentheorie" .
 
 :MO-460945
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "460945" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-460946
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "460946" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Algebra" .
 
 :MO-461011
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "461011" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Algebra" .
 
 :MO-461012
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "461012" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-461013
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "461013" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-461014
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "461014" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Algebra" .
 
 :MO-461015
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "461015" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-461016
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "461016" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-461021
     a mo:Problem ;
     mo:nr "461021" ;
-    mo:hasA9Tag mog:Algebra .
+    mo:zumGebiet "Algebra" .
 
 :MO-461022
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "461022" ;
-    mo:hasA9Tag mog:Knobelaufgabe ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Knobelaufgabe" .
 
 :MO-461023
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "461023" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-461024
     a mo:Problem ;
+    mo:hatSchwierigkeit "Status & 460924, 461024" ;
     mo:nr "461024" ;
-    mo:hasA9Tag mog:Knobelaufgabe ;
-    mo:hatSchwierigkeit "Status & 460924, 461024" .
+    mo:zumGebiet "Knobelaufgabe" .
 
 :MO-461031
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "461031" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Algebra" .
 
 :MO-461032
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "461032" ;
-    mo:hasA9Tag mog:Arithmetik ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Arithmetik" .
 
 :MO-461033
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "461033" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-461034
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "461034" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-461035
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "461035" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Algebra" .
 
 :MO-461036
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "461036" ;
-    mo:hasA9Tag mog:Knobelaufgabe, mog:Stereometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Knobelaufgabe", "Stereometrie" .
 
 :MO-461041
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "461041" ;
-    mo:hasA9Tag mog:Gleichungen ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Gleichungen" .
 
 :MO-461042
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "461042" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-461043
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "461043" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-461044
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "461044" ;
-    mo:hasA9Tag mog:Ungleichungen, mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Ungleichungen", "Zahlentheorie" .
 
 :MO-461045
     a mo:Problem ;
+    mo:hatSchwierigkeit "5" ;
     mo:nr "461045" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "5" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-461046
     a mo:Problem ;
+    mo:hatSchwierigkeit "5" ;
     mo:nr "461046" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "5" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-470946
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "470946" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-471046
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "471046" ;
-    mo:hasA9Tag mog:Algebra, mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Algebra", "Zahlentheorie" .
 
 :MO-480934
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "480934" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-481034
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "481034" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
+
+:MO-481121
+    a mo:Problem ;
+    mo:nr "481121" ;
+    mo:zumGebiet "GLS" .
+
+:MO-481132
+    a mo:Problem ;
+    mo:nr "481132" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-481136
+    a mo:Problem ;
+    mo:nr "481136" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-481145
+    a mo:Problem ;
+    mo:nr "481145" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-481146
+    a mo:Problem ;
+    mo:nr "481146" ;
+    mo:zumGebiet "FOLG" .
+
+:MO-481311
+    a mo:Problem ;
+    mo:nr "481311" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-481312
+    a mo:Problem ;
+    mo:nr "481312" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-481313
+    a mo:Problem ;
+    mo:nr "481313" ;
+    mo:zumGebiet "NSTD" .
+
+:MO-481314
+    a mo:Problem ;
+    mo:nr "481314" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-481321
+    a mo:Problem ;
+    mo:nr "481321" ;
+    mo:zumGebiet "GLS" .
+
+:MO-481322
+    a mo:Problem ;
+    mo:nr "481322" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-481323
+    a mo:Problem ;
+    mo:nr "481323" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-481324
+    a mo:Problem ;
+    mo:nr "481324" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-481331
+    a mo:Problem ;
+    mo:nr "481331" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-481332
+    a mo:Problem ;
+    mo:nr "481332" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-481333
+    a mo:Problem ;
+    mo:nr "481333" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-481334
+    a mo:Problem ;
+    mo:nr "481334" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-481335
+    a mo:Problem ;
+    mo:nr "481335" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-481336
+    a mo:Problem ;
+    mo:nr "481336" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-481341
+    a mo:Problem ;
+    mo:nr "481341" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-481342
+    a mo:Problem ;
+    mo:nr "481342" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-481343
+    a mo:Problem ;
+    mo:nr "481343" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-481344
+    a mo:Problem ;
+    mo:nr "481344" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-481345
+    a mo:Problem ;
+    mo:nr "481345" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-481346
+    a mo:Problem ;
+    mo:nr "481346" ;
+    mo:zumGebiet "FOLG" .
 
 :MO-490921
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "490921" ;
-    mo:hasA9Tag mog:Gleichungen ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Gleichungen" .
 
 :MO-490922
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "490922" ;
-    mo:hasA9Tag mog:Logik ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Logik" .
 
 :MO-490923
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "490923" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Algebra" .
 
 :MO-490924
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "490924" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-490931
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "490931" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-490932
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "490932" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Algebra" .
 
 :MO-490933
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "490933" ;
-    mo:hasA9Tag mog:Stereometrie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Stereometrie" .
 
 :MO-490934
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "490934" ;
-    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
 
 :MO-490935
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "490935" ;
-    mo:hasA9Tag mog:Ungleichungen ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Ungleichungen" .
 
 :MO-490936
     a mo:Problem ;
     mo:nr "490936" ;
-    mo:hasA9Tag mog:Geometrie .
+    mo:zumGebiet "Geometrie" .
 
 :MO-490941
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "490941" ;
-    mo:hasA9Tag mog:Geometrie, mog:Kombinatorik ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie", "Kombinatorik" .
 
 :MO-490942
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "490942" ;
-    mo:hasA9Tag mog:Polynome, mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Polynome", "Zahlentheorie" .
 
 :MO-490943
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "490943" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-490944
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "490944" ;
-    mo:hasA9Tag mog:Knobelaufgabe ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Knobelaufgabe" .
 
 :MO-490945
     a mo:Problem ;
+    mo:hatSchwierigkeit "2-3" ;
     mo:nr "490945" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2-3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-490946
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "490946" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-491011
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "491011" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Algebra" .
 
 :MO-491012
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "491012" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-491013
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "491013" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-491014
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "491014" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-491015
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "491015" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-491016
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "491016" ;
-    mo:hasA9Tag mog:Gleichungen ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Gleichungen" .
 
 :MO-491021
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "491021" ;
-    mo:hasA9Tag mog:Gleichungen ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Gleichungen" .
 
 :MO-491022
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "491022" ;
-    mo:hasA9Tag mog:Logik ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Logik" .
 
 :MO-491023
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "491023" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-491024
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "491024" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-491031
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "491031" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-491032
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "491032" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Algebra" .
 
 :MO-491033
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "491033" ;
-    mo:hasA9Tag mog:Stereometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Stereometrie" .
 
 :MO-491034
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "491034" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-491035
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "491035" ;
-    mo:hasA9Tag mog:Ungleichungen ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Ungleichungen" .
 
 :MO-491036
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "491036" ;
-    mo:hasA9Tag mog:Geometrie, mog:Kombinatorik ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Geometrie", "Kombinatorik" .
 
 :MO-491041
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "491041" ;
-    mo:hasA9Tag mog:Geometrie, mog:Kombinatorik ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie", "Kombinatorik" .
 
 :MO-491042
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "491042" ;
-    mo:hasA9Tag mog:Algebra, mog:Gleichungen ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Algebra", "Gleichungen" .
 
 :MO-491043
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "491043" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-491044
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "491044" ;
-    mo:hasA9Tag mog:Knobelaufgabe ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Knobelaufgabe" .
 
 :MO-491045
     a mo:Problem ;
+    mo:hatSchwierigkeit "2-3" ;
     mo:nr "491045" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2-3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-491046
     a mo:Problem ;
+    mo:hatSchwierigkeit "5" ;
     mo:nr "491046" ;
-    mo:hasA9Tag mog:Ungleichungen, mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "5" .
+    mo:zumGebiet "Ungleichungen", "Zahlentheorie" .
+
+:MO-491133
+    a mo:Problem ;
+    mo:nr "491133" ;
+    mo:zumGebiet "RGEO" .
+
+:MO-491142
+    a mo:Problem ;
+    mo:nr "491142" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-491144
+    a mo:Problem ;
+    mo:nr "491144" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-491311
+    a mo:Problem ;
+    mo:nr "491311" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-491312
+    a mo:Problem ;
+    mo:nr "491312" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-491313
+    a mo:Problem ;
+    mo:nr "491313" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-491314
+    a mo:Problem ;
+    mo:nr "491314" ;
+    mo:zumGebiet "RGEO" .
+
+:MO-491321
+    a mo:Problem ;
+    mo:nr "491321" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-491322
+    a mo:Problem ;
+    mo:nr "491322" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-491323
+    a mo:Problem ;
+    mo:nr "491323" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-491324
+    a mo:Problem ;
+    mo:nr "491324" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-491331
+    a mo:Problem ;
+    mo:nr "491331" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-491332
+    a mo:Problem ;
+    mo:nr "491332" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-491333
+    a mo:Problem ;
+    mo:nr "491333" ;
+    mo:zumGebiet "RGEO" .
+
+:MO-491334
+    a mo:Problem ;
+    mo:nr "491334" ;
+    mo:zumGebiet "Ungleichung" .
+
+:MO-491335
+    a mo:Problem ;
+    mo:nr "491335" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-491336
+    a mo:Problem ;
+    mo:nr "491336" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-491341
+    a mo:Problem ;
+    mo:nr "491341" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-491342
+    a mo:Problem ;
+    mo:nr "491342" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-491343
+    a mo:Problem ;
+    mo:nr "491343" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-491344
+    a mo:Problem ;
+    mo:nr "491344" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-491345
+    a mo:Problem ;
+    mo:nr "491345" ;
+    mo:zumGebiet "FNKT" .
+
+:MO-491346
+    a mo:Problem ;
+    mo:nr "491346" ;
+    mo:zumGebiet "RGEO" .
 
 :MO-500921
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "500921" ;
-    mo:hasA9Tag mog:Knobelaufgabe ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Knobelaufgabe" .
 
 :MO-500922
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "500922" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-500923
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "500923" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-500924
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "500924" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-500931
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "500931" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Algebra" .
 
 :MO-500932
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "500932" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-500933
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "500933" ;
-    mo:hasA9Tag mog:Graphen, mog:Kombinatorik ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Graphen", "Kombinatorik" .
 
 :MO-500934
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "500934" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-500935
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "500935" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-500936
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "500936" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-500941
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "500941" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-500942
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "500942" ;
-    mo:hasA9Tag mog:Stereometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Stereometrie" .
 
 :MO-500943
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "500943" ;
-    mo:hasA9Tag mog:Ungleichung ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Ungleichung" .
 
 :MO-500944
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "500944" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-500945
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "500945" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-500946
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "500946" ;
-    mo:hasA9Tag mog:Graphen ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Graphen" .
 
 :MO-501011
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "501011" ;
-    mo:hasA9Tag mog:Knobelaufgabe ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Knobelaufgabe" .
 
 :MO-501012
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "501012" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-501013
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "501013" ;
-    mo:hasA9Tag mog:Arithmetik ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Arithmetik" .
 
 :MO-501014
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "501014" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-501015
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "501015" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-501016
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "501016" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-501021
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "501021" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Algebra" .
 
 :MO-501022
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "501022" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-501023
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "501023" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-501024
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "501024" ;
-    mo:hasA9Tag mog:Algebra, mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Algebra", "Geometrie" .
 
 :MO-501031
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "501031" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Algebra" .
 
 :MO-501032
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "501032" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-501033
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "501033" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-501034
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "501034" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-501035
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "501035" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-501036
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "501036" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-501041
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "501041" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-501042
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "501042" ;
-    mo:hasA9Tag mog:Stereometrie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Stereometrie" .
 
 :MO-501043
     a mo:Problem ;
+    mo:hatSchwierigkeit "5" ;
     mo:nr "501043" ;
-    mo:hasA9Tag mog:Polynome, mog:Stochastik, mog:Ungleichungen ;
-    mo:hatSchwierigkeit "5" .
+    mo:zumGebiet "Polynome", "Stochastik", "Ungleichungen" .
 
 :MO-501044
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "501044" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-501045
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "501045" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-501046
     a mo:Problem ;
+    mo:hatSchwierigkeit "5" ;
     mo:nr "501046" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "5" .
+    mo:zumGebiet "Kombinatorik" .
+
+:MO-501143
+    a mo:Problem ;
+    mo:nr "501143" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-501145
+    a mo:Problem ;
+    mo:nr "501145" ;
+    mo:zumGebiet "FNKT" .
+
+:MO-501146
+    a mo:Problem ;
+    mo:nr "501146" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-501311
+    a mo:Problem ;
+    mo:nr "501311" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-501312
+    a mo:Problem ;
+    mo:nr "501312" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-501313
+    a mo:Problem ;
+    mo:nr "501313" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-501314
+    a mo:Problem ;
+    mo:nr "501314" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-501321
+    a mo:Problem ;
+    mo:nr "501321" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-501322
+    a mo:Problem ;
+    mo:nr "501322" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-501323
+    a mo:Problem ;
+    mo:nr "501323" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-501324
+    a mo:Problem ;
+    mo:nr "501324" ;
+    mo:zumGebiet "FOLG" .
+
+:MO-501332
+    a mo:Problem ;
+    mo:nr "501332" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-501333
+    a mo:Problem ;
+    mo:nr "501333" ;
+    mo:zumGebiet "FOLG" .
+
+:MO-501334
+    a mo:Problem ;
+    mo:nr "501334" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-501335
+    a mo:Problem ;
+    mo:nr "501335" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-501336
+    a mo:Problem ;
+    mo:nr "501336" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-501341
+    a mo:Problem ;
+    mo:nr "501341" ;
+    mo:zumGebiet "FNKT" .
+
+:MO-501342
+    a mo:Problem ;
+    mo:nr "501342" ;
+    mo:zumGebiet "RGEO" .
+
+:MO-501343
+    a mo:Problem ;
+    mo:nr "501343" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-501344
+    a mo:Problem ;
+    mo:nr "501344" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-501346
+    a mo:Problem ;
+    mo:nr "501346" ;
+    mo:zumGebiet "ZLTH" .
 
 :MO-510921
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "510921" ;
-    mo:hasA9Tag mog:Gleichungen ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Gleichungen" .
 
 :MO-510922
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "510922" ;
-    mo:hasA9Tag mog:Logik ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Logik" .
 
 :MO-510923
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "510923" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-510924
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "510924" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-510931
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "510931" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-510932
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "510932" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-510933
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "510933" ;
-    mo:hasA9Tag mog:Algebra, mog:Stereometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Algebra", "Stereometrie" .
 
 :MO-510934
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "510934" ;
-    mo:hasA9Tag mog:Gleichungen ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Gleichungen" .
 
 :MO-510935
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "510935" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-510936
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "510936" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-510941
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "510941" ;
-    mo:hasA9Tag mog:Ungleichungen ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Ungleichungen" .
 
 :MO-510942
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "510942" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-510943
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "510943" ;
-    mo:hasA9Tag mog:Graphentheorie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Graphentheorie" .
 
 :MO-510944
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "510944" ;
-    mo:hasA9Tag mog:Spieleaufgabe ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Spieleaufgabe" .
 
 :MO-510945
     a mo:Problem ;
+    mo:hatSchwierigkeit "5" ;
     mo:nr "510945" ;
-    mo:hasA9Tag mog:Stereometrie ;
-    mo:hatSchwierigkeit "5" .
+    mo:zumGebiet "Stereometrie" .
 
 :MO-510946
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "510946" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-511011
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "511011" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-511012
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "511012" ;
-    mo:hasA9Tag mog:Algebra, mog:Ungleichungen ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Algebra", "Ungleichungen" .
 
 :MO-511013
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "511013" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-511014
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "511014" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-511015
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "511015" ;
-    mo:hasA9Tag mog:Stereometrie, mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Stereometrie", "Zahlentheorie" .
 
 :MO-511016
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "511016" ;
-    mo:hasA9Tag mog:Algebra, mog:Geometrie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Algebra", "Geometrie" .
 
 :MO-511021
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "511021" ;
-    mo:hasA9Tag mog:Logik ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Logik" .
 
 :MO-511022
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "511022" ;
-    mo:hasA9Tag mog:Ungleichungen ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Ungleichungen" .
 
 :MO-511023
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "511023" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-511024
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "511024" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-511031
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "511031" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-511032
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "511032" ;
-    mo:hasA9Tag mog:Stochastik ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Stochastik" .
 
 :MO-511033
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "511033" ;
-    mo:hasA9Tag mog:Algebra, mog:Stereometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Algebra", "Stereometrie" .
 
 :MO-511034
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "511034" ;
-    mo:hasA9Tag mog:Gleichungen ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Gleichungen" .
 
 :MO-511035
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "511035" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-511036
     a mo:Problem ;
+    mo:hatSchwierigkeit "5" ;
     mo:nr "511036" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "5" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-511041
     a mo:Problem ;
+    mo:hatSchwierigkeit "1-2" ;
     mo:nr "511041" ;
-    mo:hasA9Tag mog:Gleichungen ;
-    mo:hatSchwierigkeit "1-2" .
+    mo:zumGebiet "Gleichungen" .
 
 :MO-511042
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "511042" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-511043
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "511043" ;
-    mo:hasA9Tag mog:Algebra, mog:Kombinatorik ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Algebra", "Kombinatorik" .
 
 :MO-511044
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "511044" ;
-    mo:hasA9Tag mog:Spieleaufgabe ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Spieleaufgabe" .
 
 :MO-511045
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "511045" ;
-    mo:hasA9Tag mog:Stereometrie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Stereometrie" .
 
 :MO-511046
     a mo:Problem ;
+    mo:hatSchwierigkeit "4-5" ;
     mo:nr "511046" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "4-5" .
+    mo:zumGebiet "Zahlentheorie" .
+
+:MO-511143
+    a mo:Problem ;
+    mo:nr "511143" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-511146
+    a mo:Problem ;
+    mo:nr "511146" ;
+    mo:zumGebiet "FOLG" .
+
+:MO-511311
+    a mo:Problem ;
+    mo:nr "511311" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-511312
+    a mo:Problem ;
+    mo:nr "511312" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-511313
+    a mo:Problem ;
+    mo:nr "511313" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-511314
+    a mo:Problem ;
+    mo:nr "511314" ;
+    mo:zumGebiet "WSCH" .
+
+:MO-511321
+    a mo:Problem ;
+    mo:nr "511321" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-511322
+    a mo:Problem ;
+    mo:nr "511322" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-511323
+    a mo:Problem ;
+    mo:nr "511323" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-511324
+    a mo:Problem ;
+    mo:nr "511324" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-511331
+    a mo:Problem ;
+    mo:nr "511331" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-511332
+    a mo:Problem ;
+    mo:nr "511332" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-511333
+    a mo:Problem ;
+    mo:nr "511333" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-511334
+    a mo:Problem ;
+    mo:nr "511334" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-511335
+    a mo:Problem ;
+    mo:nr "511335" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-511336
+    a mo:Problem ;
+    mo:nr "511336" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-511341
+    a mo:Problem ;
+    mo:nr "511341" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-511342
+    a mo:Problem ;
+    mo:nr "511342" ;
+    mo:zumGebiet "NSTD" .
+
+:MO-511343
+    a mo:Problem ;
+    mo:nr "511343" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-511344
+    a mo:Problem ;
+    mo:nr "511344" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-511345
+    a mo:Problem ;
+    mo:nr "511345" ;
+    mo:zumGebiet "RGEO" .
+
+:MO-511346
+    a mo:Problem ;
+    mo:nr "511346" ;
+    mo:zumGebiet "FOLG" .
 
 :MO-520921
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "520921" ;
-    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
 
 :MO-520922
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "520922" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Algebra" .
 
 :MO-520923
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "520923" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-520924
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "520924" ;
-    mo:hasA9Tag mog:Spiel ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Spiel" .
 
 :MO-520931
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "520931" ;
-    mo:hasA9Tag mog:Kombinatorik, mog:Logik ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Kombinatorik", "Logik" .
 
 :MO-520932
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "520932" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-520933
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "520933" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-520934
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "520934" ;
-    mo:hasA9Tag mog:Ungleichungen ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Ungleichungen" .
 
 :MO-520935
     a mo:Problem ;
+    mo:hatSchwierigkeit "5" ;
     mo:nr "520935" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "5" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-520936
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "520936" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-520941
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "520941" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-520942
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "520942" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-520943
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "520943" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Algebra" .
 
 :MO-520944
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "520944" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-520945
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "520945" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-520946
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "520946" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-521011
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "521011" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Algebra" .
 
 :MO-521012
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "521012" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-521013
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "521013" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-521014
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "521014" ;
-    mo:hasA9Tag mog:Knobelaufgabe ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Knobelaufgabe" .
 
 :MO-521015
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "521015" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Algebra" .
 
 :MO-521016
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "521016" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-521021
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "521021" ;
-    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
 
 :MO-521022
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "521022" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Algebra" .
 
 :MO-521023
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "521023" ;
-    mo:hasA9Tag mog:Spiel ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Spiel" .
 
 :MO-521024
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "521024" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-521031
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "521031" ;
-    mo:hasA9Tag mog:Kombinatorik, mog:Logik ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Kombinatorik", "Logik" .
 
 :MO-521032
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "521032" ;
-    mo:hasA9Tag mog:Analysis, mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Analysis", "Geometrie" .
 
 :MO-521033
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "521033" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-521034
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "521034" ;
-    mo:hasA9Tag mog:Ungleichungen ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Ungleichungen" .
 
 :MO-521035
     a mo:Problem ;
+    mo:hatSchwierigkeit "5" ;
     mo:nr "521035" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "5" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-521036
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "521036" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-521041
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "521041" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-521042
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "521042" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-521043
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "521043" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Algebra" .
 
 :MO-521044
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "521044" ;
-    mo:hasA9Tag mog:Ungleichungen ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Ungleichungen" .
 
 :MO-521045
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "521045" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-521046
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "521046" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
+
+:MO-521142
+    a mo:Problem ;
+    mo:nr "521142" ;
+    mo:zumGebiet "FOLG" .
+
+:MO-521146
+    a mo:Problem ;
+    mo:nr "521146" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-521311
+    a mo:Problem ;
+    mo:nr "521311" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-521312
+    a mo:Problem ;
+    mo:nr "521312" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-521313
+    a mo:Problem ;
+    mo:nr "521313" ;
+    mo:zumGebiet "WSCH" .
+
+:MO-521314
+    a mo:Problem ;
+    mo:nr "521314" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-521321
+    a mo:Problem ;
+    mo:nr "521321" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-521322
+    a mo:Problem ;
+    mo:nr "521322" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-521323
+    a mo:Problem ;
+    mo:nr "521323" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-521324
+    a mo:Problem ;
+    mo:nr "521324" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-521331
+    a mo:Problem ;
+    mo:nr "521331" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-521332
+    a mo:Problem ;
+    mo:nr "521332" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-521333
+    a mo:Problem ;
+    mo:nr "521333" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-521334
+    a mo:Problem ;
+    mo:nr "521334" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-521335
+    a mo:Problem ;
+    mo:nr "521335" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-521336
+    a mo:Problem ;
+    mo:nr "521336" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-521341
+    a mo:Problem ;
+    mo:nr "521341" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-521342
+    a mo:Problem ;
+    mo:nr "521342" ;
+    mo:zumGebiet "FOLG" .
+
+:MO-521343
+    a mo:Problem ;
+    mo:nr "521343" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-521344
+    a mo:Problem ;
+    mo:nr "521344" ;
+    mo:zumGebiet "RGEO" .
+
+:MO-521345
+    a mo:Problem ;
+    mo:nr "521345" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-521346
+    a mo:Problem ;
+    mo:nr "521346" ;
+    mo:zumGebiet "ZLTH" .
 
 :MO-530921
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "530921" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-530922
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "530922" ;
-    mo:hasA9Tag mog:Zahlenfolgen ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlenfolgen" .
 
 :MO-530923
     a mo:Problem ;
+    mo:hatSchwierigkeit "2", "4" ;
     mo:nr "530923" ;
-    mo:hasA9Tag mog:Kombinatorik, mog:Stochastik ;
-    mo:hatSchwierigkeit "2", "4" .
+    mo:zumGebiet "Kombinatorik", "Stochastik" .
 
 :MO-530924
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "530924" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-530931
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "530931" ;
-    mo:hasA9Tag mog:Zahlenfolgen ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlenfolgen" .
 
 :MO-530933
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "530933" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-530934
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "530934" ;
-    mo:hasA9Tag mog:Geometrie, mog:Ungleichung ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie", "Ungleichung" .
 
 :MO-530935
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "530935" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-530936
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "530936" ;
-    mo:hasA9Tag mog:Geometrie, mog:Kombinatorik ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Geometrie", "Kombinatorik" .
 
 :MO-530941
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "530941" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-530942
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "530942" ;
-    mo:hasA9Tag mog:Ungleichung, mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Ungleichung", "Zahlentheorie" .
 
 :MO-530943
     a mo:Problem ;
+    mo:hatSchwierigkeit "3-4" ;
     mo:nr "530943" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3-4" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-530944
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "530944" ;
-    mo:hasA9Tag mog:Zahlenfolgen ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Zahlenfolgen" .
 
 :MO-530945
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "530945" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-530946
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "530946" ;
-    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
 
 :MO-531011
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "531011" ;
-    mo:hasA9Tag mog:Zahlenfolgen ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Zahlenfolgen" .
 
 :MO-531012
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "531012" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Algebra" .
 
 :MO-531013
     a mo:Problem ;
+    mo:hatSchwierigkeit "1-2" ;
     mo:nr "531013" ;
-    mo:hasA9Tag mog:Gleichungen ;
-    mo:hatSchwierigkeit "1-2" .
+    mo:zumGebiet "Gleichungen" .
 
 :MO-531014
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "531014" ;
-    mo:hasA9Tag mog:Algebra, mog:Geometrie ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Algebra", "Geometrie" .
 
 :MO-531015
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "531015" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-531016
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "531016" ;
-    mo:hasA9Tag mog:Geometrie, mog:Stochastik ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie", "Stochastik" .
 
 :MO-531021
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "531021" ;
-    mo:hasA9Tag mog:Geometrie, mog:Ungleichungen ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Geometrie", "Ungleichungen" .
 
 :MO-531022
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "531022" ;
-    mo:hasA9Tag mog:Zahlenfolgen ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlenfolgen" .
 
 :MO-531023
     a mo:Problem ;
+    mo:hatSchwierigkeit "2", "4" ;
     mo:nr "531023" ;
-    mo:hasA9Tag mog:Kombinatorik, mog:Stochastik ;
-    mo:hatSchwierigkeit "2", "4" .
+    mo:zumGebiet "Kombinatorik", "Stochastik" .
 
 :MO-531024
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "531024" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-531031
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "531031" ;
-    mo:hasA9Tag mog:Zahlenfolgen ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlenfolgen" .
 
 :MO-531033
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "531033" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-531034
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "531034" ;
-    mo:hasA9Tag mog:Stereometrie, mog:Ungleichungen ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Stereometrie", "Ungleichungen" .
 
 :MO-531035
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "531035" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-531036
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "531036" ;
-    mo:hasA9Tag mog:Geometrie, mog:Kombinatorik ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Geometrie", "Kombinatorik" .
 
 :MO-531041
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "531041" ;
-    mo:hasA9Tag mog:Stochastik ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Stochastik" .
 
 :MO-531042
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "531042" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-531043
     a mo:Problem ;
+    mo:hatSchwierigkeit "3-4" ;
     mo:nr "531043" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3-4" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-531044
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "531044" ;
-    mo:hasA9Tag mog:Zahlenfolgen ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Zahlenfolgen" .
 
 :MO-531045
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "531045" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-531046
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "531046" ;
-    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
+
+:MO-531143
+    a mo:Problem ;
+    mo:nr "531143" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-531145
+    a mo:Problem ;
+    mo:nr "531145" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-531211
+    a mo:Problem ;
+    mo:nr "531211" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-531212
+    a mo:Problem ;
+    mo:nr "531212" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-531213
+    a mo:Problem ;
+    mo:nr "531213" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-531214
+    a mo:Problem ;
+    mo:nr "531214" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-531221
+    a mo:Problem ;
+    mo:nr "531221" ;
+    mo:zumGebiet "GLS" .
+
+:MO-531222
+    a mo:Problem ;
+    mo:nr "531222" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-531223
+    a mo:Problem ;
+    mo:nr "531223" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-531224
+    a mo:Problem ;
+    mo:nr "531224" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-531231
+    a mo:Problem ;
+    mo:nr "531231" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-531232
+    a mo:Problem ;
+    mo:nr "531232" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-531233
+    a mo:Problem ;
+    mo:nr "531233" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-531234
+    a mo:Problem ;
+    mo:nr "531234" ;
+    mo:zumGebiet "GLS" .
+
+:MO-531235
+    a mo:Problem ;
+    mo:nr "531235" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-531236
+    a mo:Problem ;
+    mo:nr "531236" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-531241
+    a mo:Problem ;
+    mo:nr "531241" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-531242
+    a mo:Problem ;
+    mo:nr "531242" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-531243
+    a mo:Problem ;
+    mo:nr "531243" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-531244
+    a mo:Problem ;
+    mo:nr "531244" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-531245
+    a mo:Problem ;
+    mo:nr "531245" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-531246
+    a mo:Problem ;
+    mo:nr "531246" ;
+    mo:zumGebiet "EGEO" .
 
 :MO-540921
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "540921" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Algebra" .
 
 :MO-540922
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "540922" ;
-    mo:hasA9Tag mog:Arithmetik ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Arithmetik" .
 
 :MO-540923
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "540923" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-540924
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "540924" ;
-    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
 
 :MO-540931
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "540931" ;
-    mo:hasA9Tag mog:Gleichungen ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Gleichungen" .
 
 :MO-540932
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "540932" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-540933
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "540933" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-540934
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "540934" ;
-    mo:hasA9Tag mog:Ungleichungen ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Ungleichungen" .
 
 :MO-540935
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "540935" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-540936
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "540936" ;
-    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
 
 :MO-540941
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "540941" ;
-    mo:hasA9Tag mog:Gleichungen ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Gleichungen" .
 
 :MO-540942
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "540942" ;
-    mo:hasA9Tag mog:Algebra, mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Algebra", "Geometrie" .
 
 :MO-540943
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "540943" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-540944
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "540944" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-540945
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "540945" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-540946
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "540946" ;
-    mo:hasA9Tag mog:Ungleichungen ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Ungleichungen" .
 
 :MO-541011
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "541011" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-541012
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "541012" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-541013
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "541013" ;
-    mo:hasA9Tag mog:Ungleichungen ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Ungleichungen" .
 
 :MO-541014
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "541014" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-541015
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "541015" ;
-    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
 
 :MO-541016
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "541016" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-541021
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "541021" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Algebra" .
 
 :MO-541022
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "541022" ;
-    mo:hasA9Tag mog:Arithmetik ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Arithmetik" .
 
 :MO-541023
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "541023" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-541024
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "541024" ;
-    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
 
 :MO-541031
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "541031" ;
-    mo:hasA9Tag mog:Gleichungen ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Gleichungen" .
 
 :MO-541032
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "541032" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-541033
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "541033" ;
-    mo:hasA9Tag mog:Zahlenfolgen ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Zahlenfolgen" .
 
 :MO-541034
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "541034" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-541035
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "541035" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Algebra" .
 
 :MO-541036
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "541036" ;
-    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
 
 :MO-541041
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "541041" ;
-    mo:hasA9Tag mog:Gleichungen ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Gleichungen" .
 
 :MO-541042
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "541042" ;
-    mo:hasA9Tag mog:Algebra, mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Algebra", "Geometrie" .
 
 :MO-541043
     a mo:Problem ;
+    mo:hatSchwierigkeit "5" ;
     mo:nr "541043" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "5" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-541044
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "541044" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-541045
     a mo:Problem ;
+    mo:hatSchwierigkeit "5" ;
     mo:nr "541045" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "5" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-541046
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "541046" ;
-    mo:hasA9Tag mog:Ungleichungen ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Ungleichungen" .
+
+:MO-541142
+    a mo:Problem ;
+    mo:nr "541142" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-541146
+    a mo:Problem ;
+    mo:nr "541146" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-541211
+    a mo:Problem ;
+    mo:nr "541211" ;
+    mo:zumGebiet "MOAA" .
+
+:MO-541212
+    a mo:Problem ;
+    mo:nr "541212" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-541213
+    a mo:Problem ;
+    mo:nr "541213" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-541214
+    a mo:Problem ;
+    mo:nr "541214" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-541221
+    a mo:Problem ;
+    mo:nr "541221" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-541222
+    a mo:Problem ;
+    mo:nr "541222" ;
+    mo:zumGebiet "NSTD" .
+
+:MO-541223
+    a mo:Problem ;
+    mo:nr "541223" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-541224
+    a mo:Problem ;
+    mo:nr "541224" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-541231
+    a mo:Problem ;
+    mo:nr "541231" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-541232
+    a mo:Problem ;
+    mo:nr "541232" ;
+    mo:zumGebiet "FOLG" .
+
+:MO-541233
+    a mo:Problem ;
+    mo:nr "541233" ;
+    mo:zumGebiet "NSTD" .
+
+:MO-541234
+    a mo:Problem ;
+    mo:nr "541234" ;
+    mo:zumGebiet "NSTD" .
+
+:MO-541235
+    a mo:Problem ;
+    mo:nr "541235" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-541236
+    a mo:Problem ;
+    mo:nr "541236" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-541241
+    a mo:Problem ;
+    mo:nr "541241" ;
+    mo:zumGebiet "GLS" .
+
+:MO-541242
+    a mo:Problem ;
+    mo:nr "541242" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-541243
+    a mo:Problem ;
+    mo:nr "541243" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-541244
+    a mo:Problem ;
+    mo:nr "541244" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-541245
+    a mo:Problem ;
+    mo:nr "541245" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-541246
+    a mo:Problem ;
+    mo:nr "541246" ;
+    mo:zumGebiet "UNGL" .
 
 :MO-550921
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "550921" ;
-    mo:hasA9Tag mog:Knobelaufgabe ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Knobelaufgabe" .
 
 :MO-550922
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "550922" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-550923
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "550923" ;
-    mo:hasA9Tag mog:Gleichungen ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Gleichungen" .
 
 :MO-550924
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "550924" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-550931
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "550931" ;
-    mo:hasA9Tag mog:Gleichungen, mog:Kombinatorik ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Gleichungen", "Kombinatorik" .
 
 :MO-550932
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "550932" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-550933
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "550933" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-550934
     a mo:Problem ;
@@ -2457,123 +3241,123 @@
 
 :MO-550935
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "550935" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-550936
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "550936" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-550941
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "550941" ;
-    mo:hasA9Tag mog:Kombinatorik, mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
 
 :MO-550942
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "550942" ;
-    mo:hasA9Tag mog:Gleichungen ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Gleichungen" .
 
 :MO-550943
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "550943" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-550944
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "550944" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-550945
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "550945" ;
-    mo:hasA9Tag mog:Analysis ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Analysis" .
 
 :MO-550946
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "550946" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-551011
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "551011" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-551012
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "551012" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-551013
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "551013" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-551014
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "551014" ;
-    mo:hasA9Tag mog:Polynome ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Polynome" .
 
 :MO-551015
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "551015" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-551016
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "551016" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-551021
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "551021" ;
-    mo:hasA9Tag mog:Knobelaufgabe ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Knobelaufgabe" .
 
 :MO-551022
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "551022" ;
-    mo:hasA9Tag mog:Gleichungen ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Gleichungen" .
 
 :MO-551024
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "551024" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-551031
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "551031" ;
-    mo:hasA9Tag mog:Gleichungen, mog:Kombinatorik ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Gleichungen", "Kombinatorik" .
 
 :MO-551032
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "551032" ;
-    mo:hasA9Tag mog:Wahrscheinlichkeitstheorie, mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Wahrscheinlichkeitstheorie", "Zahlentheorie" .
 
 :MO-551033
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "551033" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-551034
     a mo:Problem ;
@@ -2581,133 +3365,489 @@
 
 :MO-551035
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "551035" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-551036
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "551036" ;
-    mo:hasA9Tag mog:Gleichungen, mog:Ungleichungen ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Gleichungen", "Ungleichungen" .
 
 :MO-551041
     a mo:Problem ;
+    mo:hatSchwierigkeit "1" ;
     mo:nr "551041" ;
-    mo:hasA9Tag mog:Arithmetik ;
-    mo:hatSchwierigkeit "1" .
+    mo:zumGebiet "Arithmetik" .
 
 :MO-551042
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "551042" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-551043
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "551043" ;
-    mo:hasA9Tag mog:Kombinatorik ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Kombinatorik" .
 
 :MO-551044
     a mo:Problem ;
+    mo:hatSchwierigkeit "2" ;
     mo:nr "551044" ;
-    mo:hasA9Tag mog:Zahlentheorie ;
-    mo:hatSchwierigkeit "2" .
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-551045
     a mo:Problem ;
+    mo:hatSchwierigkeit "3" ;
     mo:nr "551045" ;
-    mo:hasA9Tag mog:Geometrie ;
-    mo:hatSchwierigkeit "3" .
+    mo:zumGebiet "Geometrie" .
 
 :MO-551046
     a mo:Problem ;
+    mo:hatSchwierigkeit "4" ;
     mo:nr "551046" ;
-    mo:hasA9Tag mog:Algebra ;
-    mo:hatSchwierigkeit "4" .
+    mo:zumGebiet "Algebra" .
 
-mog:Algebra
-    a mo:Kategorie ;
-    rdfs:label "Algebra" .
+:MO-551142
+    a mo:Problem ;
+    mo:nr "551142" ;
+    mo:zumGebiet "LOKO" .
 
-mog:Analysis
-    a mo:Kategorie ;
-    rdfs:label "Analysis" .
+:MO-551146
+    a mo:Problem ;
+    mo:nr "551146" ;
+    mo:zumGebiet "UNGL" .
 
-mog:Arithmetik
-    a mo:Kategorie ;
-    rdfs:label "Arithmetik" .
+:MO-551211
+    a mo:Problem ;
+    mo:nr "551211" ;
+    mo:zumGebiet "ALGS" .
 
-mog:Geometrie
-    a mo:Kategorie ;
-    rdfs:label "Geometrie" .
+:MO-551212
+    a mo:Problem ;
+    mo:nr "551212" ;
+    mo:zumGebiet "ZLTH" .
 
-mog:Gleichungen
-    a mo:Kategorie ;
-    rdfs:label "Gleichungen" .
+:MO-551213
+    a mo:Problem ;
+    mo:nr "551213" ;
+    mo:zumGebiet "ZLTH" .
 
-mog:Graphen
-    a mo:Kategorie ;
-    rdfs:label "Graphen" .
+:MO-551214
+    a mo:Problem ;
+    mo:nr "551214" ;
+    mo:zumGebiet "EGEO" .
 
-mog:Graphentheorie
-    a mo:Kategorie ;
-    rdfs:label "Graphentheorie" .
+:MO-551221
+    a mo:Problem ;
+    mo:nr "551221" ;
+    mo:zumGebiet "ALGS" .
 
-mog:Knobelaufgabe
-    a mo:Kategorie ;
-    rdfs:label "Knobelaufgabe" .
+:MO-551222
+    a mo:Problem ;
+    mo:nr "551222" ;
+    mo:zumGebiet "EGEO" .
 
-mog:Kombinatorik
-    a mo:Kategorie ;
-    rdfs:label "Kombinatorik" .
+:MO-551223
+    a mo:Problem ;
+    mo:nr "551223" ;
+    mo:zumGebiet "LOKO" .
 
-mog:Logik
-    a mo:Kategorie ;
-    rdfs:label "Logik" .
+:MO-551224
+    a mo:Problem ;
+    mo:nr "551224" ;
+    mo:zumGebiet "FOLG" .
 
-mog:Polynome
-    a mo:Kategorie ;
-    rdfs:label "Polynome" .
+:MO-551231
+    a mo:Problem ;
+    mo:nr "551231" ;
+    mo:zumGebiet "ZLTH" .
 
-mog:Spiel
-    a mo:Kategorie ;
-    rdfs:label "Spiel" .
+:MO-551232
+    a mo:Problem ;
+    mo:nr "551232" ;
+    mo:zumGebiet "EGEO" .
 
-mog:Spieleaufgabe
-    a mo:Kategorie ;
-    rdfs:label "Spieleaufgabe" .
+:MO-551233
+    a mo:Problem ;
+    mo:nr "551233" ;
+    mo:zumGebiet "LOKO" .
 
-mog:Stereometrie
-    a mo:Kategorie ;
-    rdfs:label "Stereometrie" .
+:MO-551234
+    a mo:Problem ;
+    mo:nr "551234" ;
+    mo:zumGebiet "ZLTH" .
 
-mog:Stochastik
-    a mo:Kategorie ;
-    rdfs:label "Stochastik" .
+:MO-551235
+    a mo:Problem ;
+    mo:nr "551235" ;
+    mo:zumGebiet "UNGL" .
 
-mog:Ungleichung
-    a mo:Kategorie ;
-    rdfs:label "Ungleichung" .
+:MO-551236
+    a mo:Problem ;
+    mo:nr "551236" ;
+    mo:zumGebiet "EGEO" .
 
-mog:Ungleichungen
-    a mo:Kategorie ;
-    rdfs:label "Ungleichungen" .
+:MO-551241
+    a mo:Problem ;
+    mo:nr "551241" ;
+    mo:zumGebiet "ALGS" .
 
-mog:Wahrscheinlichkeitstheorie
-    a mo:Kategorie ;
-    rdfs:label "Wahrscheinlichkeitstheorie" .
+:MO-551242
+    a mo:Problem ;
+    mo:nr "551242" ;
+    mo:zumGebiet "LOKO" .
 
-mog:Wurzelgleichung
-    a mo:Kategorie ;
-    rdfs:label "Wurzelgleichung" .
+:MO-551243
+    a mo:Problem ;
+    mo:nr "551243" ;
+    mo:zumGebiet "EGEO" .
 
-mog:Zahlenfolgen
-    a mo:Kategorie ;
-    rdfs:label "Zahlenfolgen" .
+:MO-551244
+    a mo:Problem ;
+    mo:nr "551244" ;
+    mo:zumGebiet "ZLTH" .
 
-mog:Zahlentheorie
-    a mo:Kategorie ;
-    rdfs:label "Zahlentheorie" .
+:MO-551245
+    a mo:Problem ;
+    mo:nr "551245" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-551246
+    a mo:Problem ;
+    mo:nr "551246" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-561142
+    a mo:Problem ;
+    mo:nr "561142" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-561145
+    a mo:Problem ;
+    mo:nr "561145" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-561211
+    a mo:Problem ;
+    mo:nr "561211" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-561212
+    a mo:Problem ;
+    mo:nr "561212" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-561213
+    a mo:Problem ;
+    mo:nr "561213" ;
+    mo:zumGebiet "FNKT" .
+
+:MO-561214
+    a mo:Problem ;
+    mo:nr "561214" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-561221
+    a mo:Problem ;
+    mo:nr "561221" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-561222
+    a mo:Problem ;
+    mo:nr "561222" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-561223
+    a mo:Problem ;
+    mo:nr "561223" ;
+    mo:zumGebiet "FOLG" .
+
+:MO-561224
+    a mo:Problem ;
+    mo:nr "561224" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-561231
+    a mo:Problem ;
+    mo:nr "561231" ;
+    mo:zumGebiet "ALG" .
+
+:MO-561232
+    a mo:Problem ;
+    mo:nr "561232" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-561233
+    a mo:Problem ;
+    mo:nr "561233" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-561234
+    a mo:Problem ;
+    mo:nr "561234" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-561235
+    a mo:Problem ;
+    mo:nr "561235" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-561236
+    a mo:Problem ;
+    mo:nr "561236" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-561241
+    a mo:Problem ;
+    mo:nr "561241" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-561242
+    a mo:Problem ;
+    mo:nr "561242" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-561243
+    a mo:Problem ;
+    mo:nr "561243" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-561244
+    a mo:Problem ;
+    mo:nr "561244" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-561245
+    a mo:Problem ;
+    mo:nr "561245" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-561246
+    a mo:Problem ;
+    mo:nr "561246" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-571141
+    a mo:Problem ;
+    mo:nr "571141" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-571145
+    a mo:Problem ;
+    mo:nr "571145" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-571211
+    a mo:Problem ;
+    mo:nr "571211" ;
+    mo:zumGebiet "GLS" .
+
+:MO-571212
+    a mo:Problem ;
+    mo:nr "571212" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-571213
+    a mo:Problem ;
+    mo:nr "571213" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-571214
+    a mo:Problem ;
+    mo:nr "571214" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-571221
+    a mo:Problem ;
+    mo:nr "571221" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-571222
+    a mo:Problem ;
+    mo:nr "571222" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-571223
+    a mo:Problem ;
+    mo:nr "571223" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-571224
+    a mo:Problem ;
+    mo:nr "571224" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-571231
+    a mo:Problem ;
+    mo:nr "571231" ;
+    mo:zumGebiet "ALG", "ZTH" .
+
+:MO-571232
+    a mo:Problem ;
+    mo:nr "571232" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-571233
+    a mo:Problem ;
+    mo:nr "571233" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-571234
+    a mo:Problem ;
+    mo:nr "571234" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-571235
+    a mo:Problem ;
+    mo:nr "571235" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-571236
+    a mo:Problem ;
+    mo:nr "571236" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-571241
+    a mo:Problem ;
+    mo:nr "571241" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-571242
+    a mo:Problem ;
+    mo:nr "571242" ;
+    mo:zumGebiet "RGEO" .
+
+:MO-571243
+    a mo:Problem ;
+    mo:nr "571243" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-571244
+    a mo:Problem ;
+    mo:nr "571244" ;
+    mo:zumGebiet "UNGL" .
+
+:MO-571245
+    a mo:Problem ;
+    mo:nr "571245" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-571246
+    a mo:Problem ;
+    mo:nr "571246" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-581142
+    a mo:Problem ;
+    mo:nr "581142" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-581145
+    a mo:Problem ;
+    mo:nr "581145" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-581211
+    a mo:Problem ;
+    mo:nr "581211" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-581212
+    a mo:Problem ;
+    mo:nr "581212" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-581213
+    a mo:Problem ;
+    mo:nr "581213" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-581214
+    a mo:Problem ;
+    mo:nr "581214" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-581221
+    a mo:Problem ;
+    mo:nr "581221" ;
+    mo:zumGebiet "LOKO", "ZLTH" .
+
+:MO-581222
+    a mo:Problem ;
+    mo:nr "581222" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-581223
+    a mo:Problem ;
+    mo:nr "581223" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-581224
+    a mo:Problem ;
+    mo:nr "581224" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-581231
+    a mo:Problem ;
+    mo:nr "581231" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-581232
+    a mo:Problem ;
+    mo:nr "581232" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-581233
+    a mo:Problem ;
+    mo:nr "581233" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-581234
+    a mo:Problem ;
+    mo:nr "581234" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-581235
+    a mo:Problem ;
+    mo:nr "581235" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-581236
+    a mo:Problem ;
+    mo:nr "581236" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-581241
+    a mo:Problem ;
+    mo:nr "581241" ;
+    mo:zumGebiet "ALGS" .
+
+:MO-581242
+    a mo:Problem ;
+    mo:nr "581242" ;
+    mo:zumGebiet "EGEO" .
+
+:MO-581243
+    a mo:Problem ;
+    mo:nr "581243" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-581244
+    a mo:Problem ;
+    mo:nr "581244" ;
+    mo:zumGebiet "ZLTH" .
+
+:MO-581245
+    a mo:Problem ;
+    mo:nr "581245" ;
+    mo:zumGebiet "LOKO" .
+
+:MO-581246
+    a mo:Problem ;
+    mo:nr "581246" ;
+    mo:zumGebiet "ALGS" .
 

@@ -15,9 +15,10 @@
 * MO-AufgabenTexte.ttl - Übernahme einer nicht konsolidierten Version der
   Aufgabentexte aus den Arbeiten von Manuela Kugel, die auf deren Seiten für
   eine Volltextsuche verwendet wurde.
-* MO-Aufgaben.ttl - konsolidierte Version der Datei `AAG-9-Intern.ttl`, welche
-  nur die Gebiete und Schwierigkeiten bereits publizierter MO-Aufgaben enthält
-  und diese konkreten Aufgabennummern zuordnet.
+* MO-Aufgaben.ttl - konsolidierte Version der Datei `AAG-9-Intern.ttl` sowie
+  einer Zuarbeit der AAG 11/13, welche nur die Gebiete und Schwierigkeiten
+  bereits publizierter MO-Aufgaben enthält und diese konkreten Aufgabennummern
+  zuordnet.
 * Modell.ttl - RDF-Datei, die eine Beschreibung des verwendeten Datenmodells
   enthält.
 * moProbleme.ttl - Ursprüngliche Daten von Roger, die in den RDF Cube
@@ -59,12 +60,6 @@ Für Aufgaben
 * Namensgebungsregel: mop:MO-<Aufgabennummer>
 * Beispiel: mop:MO-450731
 
-Für Aufgabengebiete
-* RDF-Type mo:Kategorie
-* Namensraumpräfix mog: $base/Gebiet/
-* Namensgebungsregel: mog:<String>
-* Beispiel: mog:Kombinatorik
-
 Für Aufgabenvorschläge (nur `AAG9-Intern.ttl`)
 * RDF-Typ mo:Aufgabenvorschlag
 * Namensraumpräfix mov: $base/AufgabenVorschlag/
@@ -77,6 +72,10 @@ Für den RDF Data Cube (nur `Cube.ttl`)
 * Namensgebungsregel: moo:o<Laufendenummer> (Einige Werkzeuge haben Probleme
   mit Kennungen, die mit einem numerischen Zeichen beginnen)
 * Beispiel: moo:o236
+
+Das Konzept der Aufgabengebiete wurde nach der Besprechung während des
+Aufgabenausschusses 2019 in Barleben zugunsten einer einfachen Verschlagwortung
+mit Strings in einer Tagwolke zunächst aufgegeben.
 
 ## Daten. Allgemeines
 
@@ -182,11 +181,8 @@ einzelne Aufgaben zusammengetragen werden.
 
 Datentyp mo:Problem
 * mo:nr Literal - die Aufgabennummer. Beispiel: "441035" 
-* mo:hasA9Tag mo:Kategorie - Beispiel: mog:Algebra
+* mo:zumGebiet Literal - Beispiel: "Algebra"
 * mo:hatSchwierigkeit Literal - verschiedene Schemata, zuletzt 1..5
-
-Datentyp mo:Kategorie
-* rdfs:label Literal - Bezeichnung des Themengebiets
 
 Hier sollten die Grunddaten zu den einzelnen Aufgaben zusammengetragen werden,
 also insbesondere auch noch die Einträge 
