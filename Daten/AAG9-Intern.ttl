@@ -1354,7 +1354,7 @@ mo:AufgabenVorschlag
 :MO-fuc-16-03
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "AA 2019 aussortiert" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-16-04
@@ -1396,7 +1396,7 @@ mo:AufgabenVorschlag
 :MO-fuc-17-03
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "AA 2019 aussortiert" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-17-04
@@ -1567,6 +1567,7 @@ mo:AufgabenVorschlag
 :MO-fuc-19-04
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
+    mo:hatStatus "AA 2019 aussortiert" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-19-05
@@ -1596,6 +1597,7 @@ mo:AufgabenVorschlag
 
 :MO-fuc-19-10
     a mo:AufgabenVorschlag ;
+    mo:hatStatus "AA 2019 aussortiert" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-fuc-19-11
