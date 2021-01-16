@@ -2,7 +2,7 @@
 /**
  * User: Hans-Gert Gräbe
  * Date: 2017-09-04 
- * Last Update: 2019-11-16
+ * Last Update: 2019-11-22
  *
  */
 
@@ -11,21 +11,23 @@ require_once('layout.php');
 
 function Aufgaben() {
   EasyRdf_Namespace::set('mo', 'https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#');
+  EasyRdf_Namespace::set('mop', 'https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/');
   $graph = new EasyRdf_Graph("http://example.org/Graph/");
-  $graph->parseFile("rdf/MO-Aufgaben.rdf");
+  $graph->parseFile("rdf/MO-Basisdaten.rdf");
+  $graph->parseFile("rdf/MO-AufgabenNachGebieten.rdf");
   $res=$graph->allOfType('mo:Problem');
   $a=array();
   foreach ($res as $v) {
       $id=$v->get('mo:nr');
-      $gebiet=str_replace('https://www.mathematik-olympiaden.de/aufgaben/rdf/Gebiet/','mog:',join(", ",$v->all('mo:hasA9Tag')));
-      $schwierigkeit=join(", ",$v->all('mo:hatSchwierigkeit'));
-      $a[]='<tr><td>'.$id.'</td> <td align="center">'.$schwierigkeit
-          .'</td> <td>'.$gebiet.'</td> </tr>';
+      $gebiet=join(", ",$v->all('mo:zumGebiet'));
+      if ($gebiet) {
+          $a[]='<tr align="center"><td>'.$id.'</td> <td>'.$gebiet.'</td> </tr>';
+      }
     }
     return '
 <div class="container">
 <table align="center" border="1"> 
-<tr> <th> Aufgabe </th> <th> Schwierigkeit </th> <th> Gebiet </th> </tr>'.
+<tr align="center"> <th> Aufgabe </th> <th> Gebiet </th> </tr>'.
     join("\n",$a).'</table></div>';
 }
 
@@ -33,9 +35,9 @@ $content='
 <div class="container">
 <h2 align="center"> Klassifizierung von Aufgaben </h2>
 
-<p>Diese Übersicht wurde aus den Metadaten der Aufgaben der AAG 9/10
-extrahiert.</p>
-</div>
+<p>Diese Übersicht wurde aus den Metadaten der Aufgaben der AAG 9/10 und 11/13
+extrahiert.  Es sind nur diejenigen Aufgabennummern gelistet, zu denen eine
+Gebietsinformation vorhanden ist. </p> </div>
 ';
 
 echo showPage($content.Aufgaben());

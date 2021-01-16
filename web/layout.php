@@ -40,6 +40,7 @@ function pageNavbar() {
             <li><a href="index.php">Startseite</a></li> 
             <li><a href="aufgabenvorschlaege.php">Aufgabenvorschläge</a></li>
             <li><a href="aufgaben.php">Aufgaben</a></li>
+            <li><a href="gebiete.php">Gebiete</a></li>
             <li><a href="aufgabentexte.php">Aufgabentexte</a></li> 
           </ul>
         </div><!-- collapse end -->
@@ -50,7 +51,7 @@ function pageNavbar() {
 function generalContent() {
   return '
 <div class="container">
-  <h1 align="center">Demonstations-Site des MO-Projekts</h1>
+  <h1 align="center">Demonstrations-Site des MO-Projekts</h1>
 </div>
 ';
 }
