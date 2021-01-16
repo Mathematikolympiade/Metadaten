@@ -76,7 +76,7 @@ früheren Version eingespielt sind.
 ## Dieses Verzeichnis
 
 * Auswertungen - enthält die pdf-Dateien der Auswertungen der einzelnen
-  Olympiaden, die unter [https://hg-graebe.de/MO-Auswertung/index.html] zum
+  Olympiaden, die unter <https://hg-graebe.de/MO-Auswertung/index.html> zum
   Download angeboten werden.
 * Daten - enthält die aktuell zusammengetragenen Daten in mehreren
   Turtle-Dateien. Siehe dazu `Daten/README.md`.
