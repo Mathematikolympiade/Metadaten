@@ -9,10 +9,6 @@
     a owl:Ontology ;
     rdfs:label "MO-Aufgabenvorschläge Klasse 9 und 10" .
 
-mo:AufgabenVorschlag
-    a rdfs:Class ;
-    rdfs:label "Aufgaben-Vorschlag" .
-
 :MO-bey-00-01
     a mo:AufgabenVorschlag ;
     owl:sameAs mop:MO-420944 ;
@@ -498,8 +494,9 @@ mo:AufgabenVorschlag
 
 :MO-bre-19-01
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-621012 ;
     mo:hatSchwierigkeit "2" ;
-    mo:zumGebiet "Algebra" .
+    mo:zumGebiet "Algebra", "Algebra/Zahlentheorie" .
 
 :MO-bre-19-02
     a mo:AufgabenVorschlag ;
@@ -513,8 +510,35 @@ mo:AufgabenVorschlag
 
 :MO-bre-19-04
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-611012 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Zahlentheorie" .
+
+:MO-bre-20-01
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Algebra" .
+
+:MO-bre-20-02
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-621024 ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-bre-20-03
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "4" ;
+    mo:zumGebiet "Zahlentheorie" .
+
+:MO-bre-20-04
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-bre-20-05
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Geometrie" .
 
 :MO-fuc-00-01
     a mo:AufgabenVorschlag ;
@@ -1556,11 +1580,13 @@ mo:AufgabenVorschlag
 
 :MO-fuc-19-03
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-611042 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-19-03b
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-610943 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Geometrie" .
 
@@ -1572,11 +1598,19 @@ mo:AufgabenVorschlag
 
 :MO-fuc-19-05
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-620932 ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Zahlentheorie" .
+
+:MO-fuc-19-05a
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-621032 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-fuc-19-06
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-621014 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Geometrie" .
 
@@ -1602,12 +1636,49 @@ mo:AufgabenVorschlag
 
 :MO-fuc-19-11
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-610936, mop:MO-611035 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-fuc-19-12
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-fuc-20-01
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-620945, mop:MO-621045 ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-fuc-20-03
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Zahlentheorie" .
+
+:MO-fuc-20-04
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-fuc-20-05
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-fuc-20-06
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Zahlentheorie" .
+
+:MO-fuc-20-07
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-fuc-20-08
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-gir-00-01
@@ -2224,11 +2295,13 @@ mo:AufgabenVorschlag
 
 :MO-goe-19-01
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-611033 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-goe-19-02
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-620942, mop:MO-621042 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Kombinatorik" .
 
@@ -2239,6 +2312,7 @@ mo:AufgabenVorschlag
 
 :MO-goe-19-04
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-611015 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Geometrie", "Kombinatorik" .
 
@@ -3081,6 +3155,28 @@ mo:AufgabenVorschlag
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Algebra" .
+
+:MO-her-20-01
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-620935, mop:MO-621035 ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-her-20-02
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Funktionalgleichung" .
+
+:MO-her-20-03
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Wahrscheinlichkeit" .
+
+:MO-her-20-04
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-621046 ;
+    mo:hatSchwierigkeit "4" ;
+    mo:zumGebiet "Zahlentheorie" .
 
 :MO-heu-00-01
     a mo:AufgabenVorschlag ;
@@ -4278,23 +4374,93 @@ mo:AufgabenVorschlag
 
 :MO-lan-19-02
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-611046 ;
     mo:hatSchwierigkeit "5" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-lan-19-02b
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-610946 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-lan-19-03
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-610941, mop:MO-611041 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Algebra" .
 
 :MO-lan-19-04
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-610944, mop:MO-611044 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Kombinatorik" .
+
+:MO-lan-19-05
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-611011 ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
+
+:MO-lan-19-06
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-611021 ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Knobeln", "Kombinatorik" .
+
+:MO-lan-19-06b
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-610922 ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Knobeln", "Kombinatorik" .
+
+:MO-lan-19-07
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-610921 ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Arithmetik" .
+
+:MO-lan-19-08
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-611013 ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Ungleichungen" .
+
+:MO-lan-20-01
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-620921, mop:MO-621021 ;
+    mo:hatSchwierigkeit "1" ;
+    mo:zumGebiet "Knobelaufgabe" .
+
+:MO-lan-20-02
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-620936 ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Knobelaufgabe", "Kombinatorik" .
+
+:MO-lan-20-03
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-621036 ;
+    mo:hatSchwierigkeit "4" ;
+    mo:zumGebiet "Zahlentheorie" .
+
+:MO-lan-20-04
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-620941, mop:MO-621041 ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Zahlentheorie" .
+
+:MO-lan-20-05a
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-620944 ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Arithmetik" .
+
+:MO-lan-20-05b
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-621044 ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Arithmetik" .
 
 :MO-met-00-01
     a mo:AufgabenVorschlag ;
@@ -4652,6 +4818,7 @@ mo:AufgabenVorschlag
 
 :MO-olb-19-01
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-610931, mop:MO-611031 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Kombinatorik" .
 
@@ -4660,8 +4827,21 @@ mo:AufgabenVorschlag
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Geometrie", "Ungleichungen" .
 
+:MO-olb-19-02a
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-620924 ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Geometrie", "Ungleichungen" .
+
+:MO-olb-19-02b
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-621033 ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Geometrie", "Ungleichungen" .
+
 :MO-olb-19-03
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-620943 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Geometrie", "Kombinatorik" .
 
@@ -5468,6 +5648,38 @@ mo:AufgabenVorschlag
     mo:hatStatus "im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
+:MO-poe-19-01
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-poe-19-02
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-poe-20-01
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-poe-20-02
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Zahlentheorie" .
+
+:MO-poe-20-03
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-620922 ;
+    mo:hatSchwierigkeit "1" ;
+    mo:zumGebiet "Gleichungen" .
+
+:MO-poe-20-03b
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-621022 ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Gleichungen" .
+
 :MO-sch-02-01
     a mo:AufgabenVorschlag ;
     mo:hatStatus "2003 aussortiert" .
@@ -5591,6 +5803,7 @@ mo:AufgabenVorschlag
 
 :MO-tok-19-01
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-610945 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Geometrie" .
 

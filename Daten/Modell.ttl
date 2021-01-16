@@ -8,6 +8,11 @@
     a owl:Ontology ;
     rdfs:label "RDF-Modell zu den MO-Aufgaben" .
 
+mo:AufgabenVorschlag
+    a rdfs:Class ;
+    rdfs:comment "Aktuell nur in AAG 9/10 verwendet" ; 
+    rdfs:label "Aufgaben-Vorschlag" .
+
 mo:Problem
     a rdfs:Class ;
     rdfs:comment "Basis-Klasse für MO-Aufgaben" ;

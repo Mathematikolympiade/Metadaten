@@ -1,4 +1,4 @@
-# Hansis Werkbank
+# HGG's Werkbank
 
 Hier sind verschiedene Codeschnipsel zu finden, mit denen einzelne
 Transformationstasks ausgeführt wurden.
