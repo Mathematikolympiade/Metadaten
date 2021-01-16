@@ -33,14 +33,10 @@ sub getKopf { # Verarbeitung der Aufgabendateien selbst
   s/\\//gs;
   $g=$1 if /Gebiet\s*\&\s*(.*?)\s*\n/;
   $s=$1 if /Schwierigkeit\s*\&\s*(.*?)\s*\n/;
-  $m=$1 if /Status\s*\&\s*(.*?)\s*\n/;
   my @l;
   map { 
     push(@l,"mo:zumGebiet \"$_\""); 
   } split(/\s*,\s*/,$g); 
-  map { ;
-    # push(@l,"owl:sameAs mop:MO-$_"); 
-  } split(/\s*,\s*/,$m); 
   push(@l,"mo:hatSchwierigkeit \"$s\"") if $s;
   my $out=join(" ;\n",@l);
   return <<EOT;

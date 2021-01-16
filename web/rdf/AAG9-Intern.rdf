@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-   xmlns:mo="https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#"
+<rdf:RDF xmlns:mo="https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#"
    xmlns:mop="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/"
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -427,8 +426,10 @@
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-19-01">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-621012"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
+    <mo:zumGebiet>Algebra/Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-19-02">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
@@ -439,8 +440,30 @@
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-19-04">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-611012"/>
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-20-01">
+    <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Algebra</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-20-02">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-621024"/>
+    <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Geometrie</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-20-03">
+    <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-20-04">
+    <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Geometrie</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-20-05">
+    <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-00-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-420922"/>
@@ -1180,7 +1203,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-16-03">
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>AA 2019 aussortiert</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-16-04">
@@ -1217,7 +1240,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-17-03">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>AA 2019 aussortiert</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-17-04">
@@ -1354,22 +1377,32 @@
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-19-03">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-611042"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-19-03b">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-610943"/>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-19-04">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
+    <mo:hatStatus>AA 2019 aussortiert</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-19-05">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-620932"/>
+    <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-19-05a">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-621032"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-19-06">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-621014"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1386,14 +1419,47 @@
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-19-10">
+    <mo:hatStatus>AA 2019 aussortiert</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-19-11">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-610936"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-611035"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-19-12">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Geometrie</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-20-01">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-620945"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-621045"/>
+    <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Geometrie</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-20-03">
+    <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-20-04">
+    <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Geometrie</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-20-05">
+    <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Geometrie</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-20-06">
+    <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-20-07">
+    <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Geometrie</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-20-08">
+    <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-gir-00-01">
@@ -1957,10 +2023,13 @@
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-19-01">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-611033"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-19-02">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-620942"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-621042"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1969,6 +2038,7 @@
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-19-04">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-611015"/>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
@@ -2715,6 +2785,25 @@
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-19-01">
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-20-01">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-620935"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-621035"/>
+    <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Geometrie</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-20-02">
+    <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Funktionalgleichung</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-20-03">
+    <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Wahrscheinlichkeit</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-20-04">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-621046"/>
+    <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-heu-00-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-420913"/>
@@ -3777,20 +3866,87 @@
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-19-02">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-611046"/>
     <mo:hatSchwierigkeit>5</mo:hatSchwierigkeit>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-19-02b">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-610946"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-19-03">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-610941"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-611041"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-19-04">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-610944"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-611044"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-19-05">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-611011"/>
+    <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
+    <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-19-06">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-611021"/>
+    <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Knobeln</mo:zumGebiet>
+    <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-19-06b">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-610922"/>
+    <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Knobeln</mo:zumGebiet>
+    <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-19-07">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-610921"/>
+    <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Arithmetik</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-19-08">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-611013"/>
+    <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-20-01">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-620921"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-621021"/>
+    <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Knobelaufgabe</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-20-02">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-620936"/>
+    <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Knobelaufgabe</mo:zumGebiet>
+    <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-20-03">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-621036"/>
+    <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-20-04">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-620941"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-621041"/>
+    <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-20-05a">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-620944"/>
+    <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Arithmetik</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-20-05b">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-621044"/>
+    <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Arithmetik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-met-00-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-420932"/>
@@ -4098,6 +4254,8 @@
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-olb-19-01">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-610931"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-611031"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -4106,7 +4264,20 @@
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-olb-19-02a">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-620924"/>
+    <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Geometrie</mo:zumGebiet>
+    <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-olb-19-02b">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-621033"/>
+    <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Geometrie</mo:zumGebiet>
+    <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-olb-19-03">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-620943"/>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
@@ -4823,6 +4994,32 @@
     <mo:hatStatus>im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-19-01">
+    <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Geometrie</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-19-02">
+    <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Geometrie</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-20-01">
+    <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Geometrie</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-20-02">
+    <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-20-03">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-620922"/>
+    <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Gleichungen</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
+  <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-20-03b">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-621022"/>
+    <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
+    <mo:zumGebiet>Gleichungen</mo:zumGebiet>
+  </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-sch-02-01">
     <mo:hatStatus>2003 aussortiert</mo:hatStatus>
   </mo:AufgabenVorschlag>
@@ -4928,10 +5125,8 @@
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-411011"/>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-tok-19-01">
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-610945"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
-  <rdfs:Class rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#AufgabenVorschlag">
-    <rdfs:label>Aufgaben-Vorschlag</rdfs:label>
-  </rdfs:Class>
 </rdf:RDF>

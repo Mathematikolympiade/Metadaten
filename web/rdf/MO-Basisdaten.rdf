@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-   xmlns:anw="https://www.mathematik-olympiaden.de/aufgaben/rdf/Verwendung/"
+<rdf:RDF xmlns:anw="https://www.mathematik-olympiaden.de/aufgaben/rdf/Verwendung/"
    xmlns:mo="https://www.mathematik-olympiaden.de/aufgaben/rdf/Model#"
    xmlns:mop="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/"
    xmlns:owl="http://www.w3.org/2002/07/owl#"

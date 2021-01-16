@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * last update: 2018-04-13
+ * last update: 2021-01-16
  */
 
 function pageHeader() {
@@ -41,7 +41,7 @@ function pageNavbar() {
             <li><a href="aufgabenvorschlaege.php">Aufgabenvorschläge</a></li>
             <li><a href="aufgaben.php">Aufgaben</a></li>
             <li><a href="gebiete.php">Gebiete</a></li>
-            <li><a href="aufgabentexte.php">Aufgabentexte</a></li> 
+            <!-- <li><a href="aufgabentexte.php">Aufgabentexte</a></li> --> 
           </ul>
         </div><!-- collapse end -->
       </div><!-- container end -->

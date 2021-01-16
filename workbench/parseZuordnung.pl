@@ -35,6 +35,6 @@ sub getKopf { # Verarbeitung der Aufgabendateien selbst
   return unless $o;
   $o=~s/(\d+)/mop:MO-$1/gs;
   return <<EOT ;
-:MO-$nr owl:sameAs $o .
+:MO-$nr owl:sameAs $o ; mo:nr "$nr" .
 EOT
 }
