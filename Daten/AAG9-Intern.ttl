@@ -69,7 +69,7 @@
 
 :MO-bey-01-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-430933, :MO-431032 ;
+    owl:sameAs mop:MO-430933,mop:MO-431032 ;
     mo:zumGebiet "Algebra" .
 
 :MO-bey-01-04
@@ -93,13 +93,13 @@
 
 :MO-bey-03-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-460931, :MO-461031 ;
+    owl:sameAs mop:MO-460931,mop:MO-461031 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Algebra" .
 
 :MO-bey-03-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-450921, :MO-451021 ;
+    owl:sameAs mop:MO-450921,mop:MO-451021 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Kombinatorik" .
 
@@ -129,12 +129,12 @@
 
 :MO-boc-00-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420924, :MO-421024 ;
+    owl:sameAs mop:MO-420924,mop:MO-421024 ;
     mo:zumGebiet "Geometrie" .
 
 :MO-boc-00-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420935, :MO-421035 ;
+    owl:sameAs mop:MO-420935,mop:MO-421035 ;
     mo:zumGebiet "Geometrie" .
 
 :MO-boc-00-03
@@ -149,7 +149,7 @@
 
 :MO-boc-01-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-430944, :MO-431044 ;
+    owl:sameAs mop:MO-430944,mop:MO-431044 ;
     mo:zumGebiet "Geometrie" .
 
 :MO-boc-01-03
@@ -159,7 +159,7 @@
 
 :MO-boc-01-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-430941, :MO-431041 ;
+    owl:sameAs mop:MO-430941,mop:MO-431041 ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-bre-03-01
@@ -248,7 +248,7 @@
 
 :MO-bre-08-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-520942, :MO-521042 ;
+    owl:sameAs mop:MO-520942, mop:MO-521042 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Geometrie" .
 
@@ -301,7 +301,7 @@
     mo:hasSubtype "An sich nur Additionstheorem Sinus" ;
     mo:hasType "Ungleichungen" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Ungleichungen" .
 
 :MO-bre-13-01
@@ -310,7 +310,7 @@
     mo:hasSubtype "Pythagoreische Tripel" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-bre-14-01
@@ -334,7 +334,7 @@
     mo:hasSubtype "Aufgabe spielt sich im Koordinatensystem ab" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
     mo:hatSchwierigkeit "1" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Analysis", "Analytische Geometrie", "Geometrie" .
 
 :MO-bre-14-04
@@ -346,7 +346,7 @@
 :MO-bre-15-01
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-bre-15-02
@@ -364,13 +364,13 @@
 :MO-bre-16-01
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-bre-16-02
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-bre-16-03
@@ -399,30 +399,30 @@
 :MO-bre-17-01
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-bre-17-02
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "1" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Gleichungen" .
 
 :MO-bre-17-03
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-bre-17-04
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-bre-17-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-590941, :MO-591041 ;
+    owl:sameAs mop:MO-590941,mop:MO-591041 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Algebra" .
 
@@ -435,13 +435,13 @@
 :MO-bre-18-01
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-bre-18-02
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie", "Zahlentheorie" .
 
 :MO-bre-18-03
@@ -465,31 +465,31 @@
 :MO-bre-18-06
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Stereometrie" .
 
 :MO-bre-18-07
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Ungleichungen" .
 
 :MO-bre-18-08
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Gleichung in ganzen Zahlen" .
 
 :MO-bre-18-09
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Ungleichungen" .
 
 :MO-bre-18-10
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-bre-19-01
@@ -547,7 +547,7 @@
 
 :MO-fuc-00-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420914, :MO-421014 ;
+    owl:sameAs mop:MO-420914,mop:MO-421014 ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-fuc-00-03
@@ -572,12 +572,12 @@
 
 :MO-fuc-01-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-440942, :MO-441042 ;
+    owl:sameAs mop:MO-440942,mop:MO-441042 ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-fuc-01-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-440933, :MO-441033 ;
+    owl:sameAs mop:MO-440933,mop:MO-441033 ;
     mo:zumGebiet "Algebra" .
 
 :MO-fuc-01-05
@@ -613,7 +613,7 @@
 
 :MO-fuc-03-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-460924, :MO-461024 ;
+    owl:sameAs mop:MO-460924,mop:MO-461024 ;
     mo:zumGebiet "Knobelaufgabe" .
 
 :MO-fuc-03-03
@@ -646,7 +646,7 @@
 
 :MO-fuc-04-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-460934, :MO-461034 ;
+    owl:sameAs mop:MO-460934,mop:MO-461034 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Zahlentheorie" .
 
@@ -704,7 +704,7 @@
 
 :MO-fuc-05-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-500934, :MO-501034 ;
+    owl:sameAs mop:MO-500934,mop:MO-501034 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Kombinatorik" .
 
@@ -734,13 +734,13 @@
 
 :MO-fuc-05-09
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-470932, :MO-471032 ;
+    owl:sameAs mop:MO-470932,mop:MO-471032 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Ungleichungen" .
 
 :MO-fuc-06-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-500944, :MO-501044 ;
+    owl:sameAs mop:MO-500944,mop:MO-501044 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Zahlentheorie" .
 
@@ -792,7 +792,7 @@
 
 :MO-fuc-07-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-490944, :MO-491044 ;
+    owl:sameAs mop:MO-490944,mop:MO-491044 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Knobelaufgabe" .
 
@@ -814,7 +814,7 @@
     mo:hasSubtype "benötigt Voraufgabe" ;
     mo:hasType "sonstige Geometrieaufgaben" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-07-09
@@ -834,7 +834,7 @@
 
 :MO-fuc-08-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-500924, :MO-501023 ;
+    owl:sameAs mop:MO-500924,mop:MO-501023 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Geometrie" .
 
@@ -844,7 +844,7 @@
     mo:hasSubtype "Pythagoras bei sich berührenden Dingen" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-08-04
@@ -892,7 +892,7 @@
     mo:hasSubtype "Flächenformeln draufhauen und dann Algebra" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-10-01
@@ -905,7 +905,7 @@
     mo:hasSubtype "Rekursion" ;
     mo:hasType "Folgen & Reihen" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Algebra" .
 
 :MO-fuc-10-03
@@ -913,7 +913,7 @@
     rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasType "sonstige Aufgaben" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Kombinatorik", "Sonstiges" .
 
 :MO-fuc-10-04
@@ -971,7 +971,7 @@
     mo:hasSubtype "mit Apollonius trivial, anderenfalls am besten rechnen" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-11-04
@@ -1004,13 +1004,13 @@
     mo:hasSubtype "Unendlicher Abstieg / Teilerfremdheit voraussetzen" ;
     mo:hasType "Zahlentheorie" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-fuc-11-10
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2", "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Polynome" .
 
 :MO-fuc-11-11
@@ -1030,7 +1030,7 @@
     rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasType "sonstige Aufgaben" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Kombinatorik", "Sonstiges" .
 
 :MO-fuc-12-03
@@ -1053,7 +1053,7 @@
     mo:hasSubtype "periodische Funktion" ;
     mo:hasType "Funktionalgleichungen" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Funktionen", "Sonstiges" .
 
 :MO-fuc-12-07
@@ -1083,7 +1083,7 @@
     mo:hasSubtype "Quadratische Reste" ;
     mo:hasType "Zahlentheorie" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Funktionalgleichung", "Zahlentheorie" .
 
 :MO-fuc-12-11
@@ -1108,7 +1108,7 @@
     mo:hasSubtype "Quadratische Reste" ;
     mo:hasType "Zahlentheorie" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-fuc-12-15
@@ -1128,7 +1128,7 @@
 :MO-fuc-12-18
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-12-19
@@ -1137,7 +1137,7 @@
     mo:hasSubtype "Unendlicher Abstieg / Teilerfremdheit voraussetzen" ;
     mo:hasType "Zahlentheorie" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Polynome", "Zahlentheorie" .
 
 :MO-fuc-13-01
@@ -1152,7 +1152,7 @@
     mo:hasSubtype "Faktorisierung mittels 3. binomischer Formel" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-fuc-13-03
@@ -1160,7 +1160,7 @@
     rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasType "Abzählende Kombinatorik" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie", "Kombinatorik" .
 
 :MO-fuc-13-04
@@ -1184,7 +1184,7 @@
     mo:hasSubtype "komb. Geometrie" ;
     mo:hasType "sonstige Geometrieaufgaben" ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-13-07
@@ -1198,7 +1198,7 @@
     rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-fuc-13-09
@@ -1211,7 +1211,7 @@
     mo:hasSubtype "Ecken zählen" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-13-12
@@ -1232,7 +1232,7 @@
     mo:hasSubtype "Anzahl Teiler abschätzen" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-fuc-14-01
@@ -1241,7 +1241,7 @@
     mo:hasSubtype "Unendlicher Abstieg / Teilerfremdheit voraussetzen" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Polynome", "Zahlentheorie" .
 
 :MO-fuc-14-02
@@ -1259,49 +1259,49 @@
     mo:hasSubtype "Dreiecksungleichung" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-14-04
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "5" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-14-05
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "1" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-15-01
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-15-02
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-15-03
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie", "Ungleichung", "Ungleichungen" .
 
 :MO-fuc-15-04
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2", "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Teilbarkeit", "Zahlentheorie" .
 
 :MO-fuc-15-05
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-15-06
@@ -1312,7 +1312,7 @@
 :MO-fuc-15-07
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-15-08
@@ -1336,7 +1336,7 @@
 :MO-fuc-15-10
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Teilbarkeit", "Zahlentheorie" .
 
 :MO-fuc-15-10b
@@ -1348,25 +1348,25 @@
 :MO-fuc-15-11
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-15-12
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-15-13
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Funktionen" .
 
 :MO-fuc-16-01
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie", "Zahlentheorie" .
 
 :MO-fuc-16-02
@@ -1396,19 +1396,19 @@
 :MO-fuc-16-06
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-16-07
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-590944, :MO-591044 ;
+    owl:sameAs mop:MO-590944,mop:MO-591044 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Polynome" .
 
 :MO-fuc-17-01
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-17-02
@@ -1426,25 +1426,25 @@
 :MO-fuc-17-04
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-17-05
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-17-06
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-17-07
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-17-08
@@ -1468,13 +1468,13 @@
 :MO-fuc-17-10
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Kombinatorik", "Stereometrie" .
 
 :MO-fuc-18-01
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-fuc-18-02
@@ -1487,36 +1487,36 @@
 :MO-fuc-18-03
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-18-04
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-18-05
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
 
 :MO-fuc-18-06
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-18-07
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-18-08
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-600934, :MO-601034 ;
+    owl:sameAs mop:MO-600934,mop:MO-601034 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Analysis" .
 
@@ -1535,19 +1535,19 @@
 :MO-fuc-18-10
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Polynome" .
 
 :MO-fuc-18-11
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "1" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-18-12
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "1" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-fuc-18-13
@@ -1559,12 +1559,12 @@
 :MO-fuc-18-14
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "1" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-18-15
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-600922, :MO-601022 ;
+    owl:sameAs mop:MO-600922,mop:MO-601022 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Zahlentheorie" .
 
@@ -1688,7 +1688,7 @@
 
 :MO-gir-00-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420915, :MO-421015 ;
+    owl:sameAs mop:MO-420915,mop:MO-421015 ;
     mo:zumGebiet "Algebra" .
 
 :MO-gir-00-04
@@ -1778,13 +1778,13 @@
 
 :MO-goe-02-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-480933, :MO-481033 ;
+    owl:sameAs mop:MO-480933,mop:MO-481033 ;
     mo:hatSchwierigkeit "5" ;
     mo:zumGebiet "Stereometrie" .
 
 :MO-goe-03-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-450946, :MO-451045 ;
+    owl:sameAs mop:MO-450946,mop:MO-451045 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Geometrie" .
 
@@ -1796,7 +1796,7 @@
 
 :MO-goe-03-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-450933, :MO-451033 ;
+    owl:sameAs mop:MO-450933,mop:MO-451033 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Ungleichungen" .
 
@@ -1806,7 +1806,7 @@
 
 :MO-goe-03-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-450941, :MO-451041 ;
+    owl:sameAs mop:MO-450941,mop:MO-451041 ;
     mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
 
 :MO-goe-03-06
@@ -1849,7 +1849,7 @@
     mo:hasSubtype "Strahlensatz/Streckungen/ähnliche Dreiecke" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-goe-05-02
@@ -1881,7 +1881,7 @@
 
 :MO-goe-05-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-490935, :MO-491035 ;
+    owl:sameAs mop:MO-490935,mop:MO-491035 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Ungleichungen" .
 
@@ -1951,7 +1951,7 @@
 
 :MO-goe-07-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-500941, :MO-501041 ;
+    owl:sameAs mop:MO-500941,mop:MO-501041 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Kombinatorik" .
 
@@ -1969,7 +1969,7 @@
 
 :MO-goe-08-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-500932, :MO-501032 ;
+    owl:sameAs mop:MO-500932,mop:MO-501032 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Geometrie" .
 
@@ -1979,7 +1979,7 @@
     mo:hasSubtype "Pythagoras" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "5" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie", "Stereometrie" .
 
 :MO-goe-08-04
@@ -1990,7 +1990,7 @@
 
 :MO-goe-08-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-540941, :MO-541041 ;
+    owl:sameAs mop:MO-540941,mop:MO-541041 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Gleichungen" .
 
@@ -2024,7 +2024,7 @@
     mo:hasSubtype "Bernoulli" ;
     mo:hasType "Ungleichungen" ;
     mo:hatSchwierigkeit "1", "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Algebra", "Ungleichungen" .
 
 :MO-goe-10-01
@@ -2047,7 +2047,7 @@
 
 :MO-goe-11-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-530923, :MO-531023 ;
+    owl:sameAs mop:MO-530923,mop:MO-531023 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Stochastik" .
 
@@ -2057,7 +2057,7 @@
     mo:hasSubtype "Zahlensysteme" ;
     mo:hasType "Unausgegoren" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Sonstiges", "Zahlentheorie" .
 
 :MO-goe-11-03
@@ -2066,7 +2066,7 @@
     mo:hasSubtype "Mehr Ungleichung als Zahlentheorie" ;
     mo:hasType "Ungleichungen" ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Ungleichungen", "Zahlentheorie" .
 
 :MO-goe-11-04
@@ -2084,7 +2084,7 @@
 :MO-goe-11-05
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-goe-12-01
@@ -2099,7 +2099,7 @@
     mo:hasSubtype "Würfel beschriften" ;
     mo:hasType "Knobelaufgaben" ;
     mo:hatSchwierigkeit "5" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Kombinatorik", "Sonstiges" .
 
 :MO-goe-12-03
@@ -2110,7 +2110,7 @@
 
 :MO-goe-12-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-540924, :MO-541024 ;
+    owl:sameAs mop:MO-540924,mop:MO-541024 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
 
@@ -2126,7 +2126,7 @@
 
 :MO-goe-13-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-550935, :MO-551035 ;
+    owl:sameAs mop:MO-550935,mop:MO-551035 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Geometrie" .
 
@@ -2139,13 +2139,13 @@
 :MO-goe-14-01
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-goe-14-02
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-goe-14-03
@@ -2160,7 +2160,7 @@
 
 :MO-goe-14-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-570933, :MO-571033 ;
+    owl:sameAs mop:MO-570933,mop:MO-571033 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Zahlentheorie" .
 
@@ -2178,7 +2178,7 @@
 
 :MO-goe-15-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-570941, :MO-571041 ;
+    owl:sameAs mop:MO-570941,mop:MO-571041 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Geometrie", "Zahlentheorie" .
 
@@ -2196,19 +2196,19 @@
 
 :MO-goe-15-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-580933, :MO-581033 .
+    owl:sameAs mop:MO-580933,mop:MO-581033 .
 
 :MO-goe-16-01
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-goe-16-02
     a mo:AufgabenVorschlag ;
     owl:sameAs mop:MO-581016 ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Stereometrie" .
 
 :MO-goe-16-04
@@ -2224,55 +2224,55 @@
 :MO-goe-17-01
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Gleichungen", "Ungleichungen" .
 
 :MO-goe-17-02
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Gleichungen", "Ungleichungen" .
 
 :MO-goe-17-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-590921, :MO-591021 ;
+    owl:sameAs mop:MO-590921,mop:MO-591021 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Algebra", "Zahlentheorie" .
 
 :MO-goe-18-01
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-goe-18-02
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
 
 :MO-goe-18-03
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Ungleichungen", "Zahlentheorie" .
 
 :MO-goe-18-04
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-goe-18-05
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie", "Ungleichungen" .
 
 :MO-goe-18-06
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie", "Ungleichungen" .
 
 :MO-goe-18-07
@@ -2290,7 +2290,7 @@
 :MO-goe-18-09
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie", "Ungleichungen" .
 
 :MO-goe-19-01
@@ -2364,7 +2364,7 @@
 
 :MO-gra-01-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-430924, :MO-431024 ;
+    owl:sameAs mop:MO-430924,mop:MO-431024 ;
     mo:zumGebiet "Geometrie" .
 
 :MO-gra-01-04
@@ -2428,7 +2428,7 @@
 :MO-gra-12-02
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "5" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-gra-12-03
@@ -2437,7 +2437,7 @@
     mo:hasSubtype "Pythagoreische Tripel" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-gra-14-01
@@ -2445,7 +2445,7 @@
     rdfs:comment "Type, Subtype, Anmerkung langer AA 2014", "Vorschlag Hercher Aug. 2013" ;
     mo:hasType "sonstige Aufgaben" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie", "Sonstiges" .
 
 :MO-gra-14-02
@@ -2454,7 +2454,7 @@
     mo:hasSubtype "Unendlicher Abstieg / Teilerfremdheit voraussetzen" ;
     mo:hasType "Zahlentheorie" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-gra-14-03
@@ -2467,7 +2467,7 @@
     mo:hasSubtype "Zwei Kreise mit Rechtecken, Lösung etwas unausgegoren" ;
     mo:hasType "sonstige Geometrieaufgaben" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-gra-14-05
@@ -2482,7 +2482,7 @@
     mo:hasSubtype "Erwartungswerte" ;
     mo:hasType "Unausgegoren" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Sonstiges", "Stochastik", "Wahrscheinlichkeit" .
 
 :MO-gra-14-07
@@ -2505,7 +2505,7 @@
 :MO-gra-15-01
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "5" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-gra-15-02
@@ -2517,7 +2517,7 @@
 :MO-gra-15-03
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-gra-15-04
@@ -2532,11 +2532,11 @@
 
 :MO-gra-99-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-410936, :MO-411036 .
+    owl:sameAs mop:MO-410936,mop:MO-411036 .
 
 :MO-gra-99-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-410941, :MO-411041 .
+    owl:sameAs mop:MO-410941,mop:MO-411041 .
 
 :MO-gra-99-05
     a mo:AufgabenVorschlag ;
@@ -2544,7 +2544,7 @@
 
 :MO-hel-00-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420912, :MO-421012 ;
+    owl:sameAs mop:MO-420912,mop:MO-421012 ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-hel-00-02
@@ -2589,7 +2589,7 @@
 
 :MO-hel-03-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-450931, :MO-451031 ;
+    owl:sameAs mop:MO-450931,mop:MO-451031 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Kombinatorik" .
 
@@ -2635,7 +2635,7 @@
 
 :MO-hel-99-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-410921, :MO-411021 .
+    owl:sameAs mop:MO-410921,mop:MO-411021 .
 
 :MO-hel-99-02
     a mo:AufgabenVorschlag ;
@@ -2643,15 +2643,15 @@
 
 :MO-hel-99-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-410935, :MO-411035 .
+    owl:sameAs mop:MO-410935,mop:MO-411035 .
 
 :MO-hel-99-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-410931, :MO-411031 .
+    owl:sameAs mop:MO-410931,mop:MO-411031 .
 
 :MO-her-02-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-480923, :MO-481023 ;
+    owl:sameAs mop:MO-480923,mop:MO-481023 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Ungleichungen" .
 
@@ -2669,7 +2669,7 @@
 
 :MO-her-02-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-480944, :MO-481044 ;
+    owl:sameAs mop:MO-480944,mop:MO-481044 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Geometrie" .
 
@@ -2679,12 +2679,12 @@
     mo:hasSubtype "Strahlensatz/Streckungen/ähnliche Dreiecke" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "2015 im Schatz", "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-her-02-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-560935, :MO-561035 ;
+    owl:sameAs mop:MO-560935,mop:MO-561035 ;
     mo:hatSchwierigkeit "3" ;
     mo:hatStatus "2012 im Schatz" ;
     mo:zumGebiet "Geometrie" .
@@ -2697,7 +2697,7 @@
 
 :MO-her-03-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-460941, :MO-461041 ;
+    owl:sameAs mop:MO-460941,mop:MO-461041 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Gleichungen" .
 
@@ -2744,7 +2744,7 @@
 
 :MO-her-04-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-460942, :MO-461042 ;
+    owl:sameAs mop:MO-460942,mop:MO-461042 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Geometrie" .
 
@@ -2760,7 +2760,7 @@
     mo:hasSubtype "Dreiecksungleichung" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "2015 im Schatz", "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-her-04-07
@@ -2769,7 +2769,7 @@
     mo:hasSubtype "rein algebraische Ungleichung" ;
     mo:hasType "Ungleichungen" ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "2015 im Schatz", "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Ungleichungen" .
 
 :MO-her-04-08
@@ -2849,7 +2849,7 @@
     mo:hasSubtype "" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Algebra", "Zahlentheorie" .
 
 :MO-her-06-03
@@ -2885,7 +2885,7 @@
     mo:hasSubtype "Abstandssumme minimieren" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-her-07-02
@@ -2894,7 +2894,7 @@
     mo:hasSubtype "Abstandssumme minimieren" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-her-07-03a
@@ -2903,7 +2903,7 @@
     mo:hasSubtype "Abstandssumme minimieren" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "4/5" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-her-07-03b
@@ -2912,7 +2912,7 @@
     mo:hasSubtype "Abstandssumme minimieren" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "6" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie", "Stereometrie" .
 
 :MO-her-07-04
@@ -2927,7 +2927,7 @@
     mo:hasSubtype "komb. Geometrie" ;
     mo:hasType "sonstige Geometrieaufgaben" ;
     mo:hatSchwierigkeit "5" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie", "Kombinatorik" .
 
 :MO-her-08-01
@@ -2938,13 +2938,13 @@
 
 :MO-her-09-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-510942, :MO-511042 ;
+    owl:sameAs mop:MO-510942,mop:MO-511042 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-her-09-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-530943, :MO-531043 ;
+    owl:sameAs mop:MO-530943,mop:MO-531043 ;
     mo:hatSchwierigkeit "3-4" ;
     mo:zumGebiet "Geometrie" .
 
@@ -2996,7 +2996,7 @@
     mo:hasSubtype "Kreis berührt Seiten und Umkreis" ;
     mo:hasType "sonstige Geometrieaufgaben" ;
     mo:hatSchwierigkeit "4/5" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-her-10-05
@@ -3037,7 +3037,7 @@
     mo:hasSubtype "Ganzzahlige Seitenlängen - evtl zu schwer?" ;
     mo:hasType "Knobelaufgaben" ;
     mo:hatSchwierigkeit "3/4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Kombinatorik", "Sonstiges" .
 
 :MO-her-12-05
@@ -3046,7 +3046,7 @@
     mo:hasSubtype "Ganzzahlige Seitenlängen - evtl zu schwer?" ;
     mo:hasType "Knobelaufgaben" ;
     mo:hatSchwierigkeit "5" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Kombinatorik", "Sonstiges" .
 
 :MO-her-12-06A
@@ -3063,20 +3063,20 @@
 
 :MO-her-15-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-580936, :MO-581036 ;
+    owl:sameAs mop:MO-580936,mop:MO-581036 ;
     mo:hatSchwierigkeit "3/4" ;
     mo:zumGebiet "Stochastik", "Wahrscheinlichkeit" .
 
 :MO-her-15-02
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Ungleichung", "Ungleichungen" .
 
 :MO-her-15-03
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3/4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
 
 :MO-her-16-01
@@ -3100,31 +3100,31 @@
 :MO-her-17-01
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3/4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Algebra", "Zahlentheorie" .
 
 :MO-her-17-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-590933, :MO-591033 ;
+    owl:sameAs mop:MO-590933,mop:MO-591033 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Algebra", "Zahlentheorie" .
 
 :MO-her-17-03
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "4/5" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-her-17-04
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-her-17-05
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "6" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-her-17-06
@@ -3142,13 +3142,13 @@
 :MO-her-18-01
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-her-18-02
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "6" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-her-19-01
@@ -3180,7 +3180,7 @@
 
 :MO-heu-00-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420913, :MO-421013 ;
+    owl:sameAs mop:MO-420913,mop:MO-421013 ;
     mo:zumGebiet "Geometrie" .
 
 :MO-heu-00-02
@@ -3191,7 +3191,7 @@
 
 :MO-heu-00-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420923, :MO-421023 ;
+    owl:sameAs mop:MO-420923,mop:MO-421023 ;
     mo:zumGebiet "Geometrie" .
 
 :MO-heu-00-04
@@ -3201,7 +3201,7 @@
 
 :MO-heu-00-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420934, :MO-421034 ;
+    owl:sameAs mop:MO-420934,mop:MO-421034 ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-heu-01-01
@@ -3210,7 +3210,7 @@
 
 :MO-heu-01-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-430936, :MO-431036 ;
+    owl:sameAs mop:MO-430936,mop:MO-431036 ;
     mo:zumGebiet "Geometrie" .
 
 :MO-heu-01-03a
@@ -3270,7 +3270,7 @@
 
 :MO-heu-03-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-450934, :MO-451034 ;
+    owl:sameAs mop:MO-450934,mop:MO-451034 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Zahlentheorie" .
 
@@ -3282,7 +3282,7 @@
 
 :MO-heu-03-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-450923, :MO-451023 ;
+    owl:sameAs mop:MO-450923,mop:MO-451023 ;
     mo:hatSchwierigkeit "mittel" ;
     mo:zumGebiet "Algebra" .
 
@@ -3292,7 +3292,7 @@
     mo:hasSubtype "Dreiecksungleichung" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie", "Ungleichungen" .
 
 :MO-heu-04-01
@@ -3302,7 +3302,7 @@
 
 :MO-heu-04-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-460921, :MO-461021 ;
+    owl:sameAs mop:MO-460921,mop:MO-461021 ;
     mo:zumGebiet "Algebra" .
 
 :MO-heu-04-03
@@ -3328,13 +3328,13 @@
 
 :MO-heu-06-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-480931, :MO-481031 ;
+    owl:sameAs mop:MO-480931,mop:MO-481031 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Knobelaufgabe" .
 
 :MO-heu-06-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-480941, :MO-481041 ;
+    owl:sameAs mop:MO-480941,mop:MO-481041 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Knobeln" .
 
@@ -3376,7 +3376,7 @@
 
 :MO-heu-08-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-590935, :MO-591035 ;
+    owl:sameAs mop:MO-590935,mop:MO-591035 ;
     mo:hasSubtype "Flächeninhalt maximieren" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "3" ;
@@ -3406,12 +3406,12 @@
     mo:hasSubtype "Termumformung" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Gleichungen", "Zahlentheorie" .
 
 :MO-heu-09-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-510934, :MO-511034 ;
+    owl:sameAs mop:MO-510934,mop:MO-511034 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Gleichungen" .
 
@@ -3429,7 +3429,7 @@
 
 :MO-heu-10-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-520931, :MO-521031 ;
+    owl:sameAs mop:MO-520931,mop:MO-521031 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Kombinatorik", "Logik" .
 
@@ -3440,7 +3440,7 @@
 :MO-heu-16-01
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "5" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Analysis" .
 
 :MO-heu-99-01
@@ -3554,7 +3554,7 @@
     mo:hasSubtype "Fläche als Produkt von Seiten" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "5" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-lan-03-07
@@ -3565,7 +3565,7 @@
 
 :MO-lan-03-08
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-450922, :MO-451022 ;
+    owl:sameAs mop:MO-450922,mop:MO-451022 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Ungleichungen" .
 
@@ -3603,7 +3603,7 @@
     mo:hasSubtype "geometrische Reihe" ;
     mo:hasType "Ungleichungen" ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Algebra", "Ungleichungen" .
 
 :MO-lan-05-02
@@ -3623,7 +3623,7 @@
     rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasType "Abzählende Kombinatorik" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-lan-05-04
@@ -3634,7 +3634,7 @@
 
 :MO-lan-05-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-470941, :MO-471041 ;
+    owl:sameAs mop:MO-470941,mop:MO-471041 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Algebra", "Zahlentheorie" .
 
@@ -3646,13 +3646,13 @@
 
 :MO-lan-05-07
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-490945, :MO-491045 ;
+    owl:sameAs mop:MO-490945,mop:MO-491045 ;
     mo:hatSchwierigkeit "2-3" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-lan-06-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-480922, :MO-481022 ;
+    owl:sameAs mop:MO-480922,mop:MO-481022 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Zahlentheorie" .
 
@@ -3662,7 +3662,7 @@
     mo:hasSubtype "Cavalieri" ;
     mo:hasType "sonstige Geometrieaufgaben" ;
     mo:hatSchwierigkeit "5" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie", "Stereometrie" .
 
 :MO-lan-06-03
@@ -3679,7 +3679,7 @@
 
 :MO-lan-06-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-500936, :MO-501035 ;
+    owl:sameAs mop:MO-500936,mop:MO-501035 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Zahlentheorie" .
 
@@ -3707,7 +3707,7 @@
     mo:hasSubtype "Simplexprinzip" ;
     mo:hasType "Ungleichungen" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Algebra", "Ungleichungen" .
 
 :MO-lan-07-02
@@ -3740,7 +3740,7 @@
     mo:hasSubtype "Flächeninhalt maximieren" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie", "Kombinatorik" .
 
 :MO-lan-07-05b
@@ -3749,7 +3749,7 @@
     mo:hasSubtype "Flächeninhalt maximieren" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie", "Kombinatorik" .
 
 :MO-lan-07-06
@@ -3802,7 +3802,7 @@
 
 :MO-lan-08-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-500931, :MO-501031 ;
+    owl:sameAs mop:MO-500931,mop:MO-501031 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Algebra" .
 
@@ -3830,7 +3830,7 @@
     mo:hasSubtype "Volumen von Tetraedern" ;
     mo:hasType "sonstige Geometrieaufgaben" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-lan-09-03
@@ -3883,7 +3883,7 @@
 
 :MO-lan-10-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-520945, :MO-521045 ;
+    owl:sameAs mop:MO-520945,mop:MO-521045 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Kombinatorik" .
 
@@ -3895,7 +3895,7 @@
 
 :MO-lan-11-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-530936, :MO-531036 ;
+    owl:sameAs mop:MO-530936,mop:MO-531036 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Geometrie", "Kombinatorik" .
 
@@ -3905,7 +3905,7 @@
     mo:hasSubtype "Fläche als Produkt von Seiten" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-lan-11-03
@@ -3926,7 +3926,7 @@
     mo:hasSubtype "Mischung Zahlentheorie & Kombinatorik" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
 
 :MO-lan-12-01
@@ -3959,7 +3959,7 @@
     mo:hasSubtype "Komb, W.Theorie, Spiel/Optimierung" ;
     mo:hasType "Spiele" ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Sonstiges", "Wahrscheinlichkeit", "Wahrscheinlichkeitstheorie" .
 
 :MO-lan-12-06
@@ -3992,7 +3992,7 @@
     mo:hasSubtype "Rekursion" ;
     mo:hasType "Folgen & Reihen" ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Algebra", "Zahlentheorie" .
 
 :MO-lan-13-02
@@ -4001,7 +4001,7 @@
     mo:hasSubtype "Rundungseffekte" ;
     mo:hasType "Ungleichungen" ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Ungleichungen" .
 
 :MO-lan-13-03A
@@ -4046,7 +4046,7 @@
     mo:hasSubtype "Multiplikation mit 8" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-lan-13-07
@@ -4081,7 +4081,7 @@
 
 :MO-lan-14-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-560931, :MO-561031 ;
+    owl:sameAs mop:MO-560931,mop:MO-561031 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Arithmetik", "Zahlentheorie" .
 
@@ -4093,7 +4093,7 @@
 
 :MO-lan-14-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-560941, :MO-561041 ;
+    owl:sameAs mop:MO-560941,mop:MO-561041 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Arithmetik" .
 
@@ -4159,7 +4159,7 @@
 
 :MO-lan-15-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-570924, :MO-571023 ;
+    owl:sameAs mop:MO-570924,mop:MO-571023 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Arithmetik" .
 
@@ -4189,25 +4189,25 @@
 
 :MO-lan-15-07
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-570934, :MO-571034 ;
+    owl:sameAs mop:MO-570934,mop:MO-571034 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-lan-15-08
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-570944, :MO-571044 ;
+    owl:sameAs mop:MO-570944,mop:MO-571044 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-lan-16-01a
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-580944, :MO-581044 ;
+    owl:sameAs mop:MO-580944,mop:MO-581044 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Ungleichung / Arithmetik" .
 
 :MO-lan-16-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-580942, :MO-581042 ;
+    owl:sameAs mop:MO-580942,mop:MO-581042 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Geometrie" .
 
@@ -4225,7 +4225,7 @@
 
 :MO-lan-16-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-580941, :MO-581041 ;
+    owl:sameAs mop:MO-580941,mop:MO-581041 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Algebra / Ungleichungen" .
 
@@ -4273,7 +4273,7 @@
 
 :MO-lan-17-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-590924, :MO-591024 ;
+    owl:sameAs mop:MO-590924,mop:MO-591024 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Kombinatorik/Arithmetik" .
 
@@ -4310,30 +4310,30 @@
 :MO-lan-18-01
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Ungleichungen", "Zahlentheorie" .
 
 :MO-lan-18-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-600944, :MO-601044 ;
+    owl:sameAs mop:MO-600944,mop:MO-601044 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Algebra" .
 
 :MO-lan-18-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-600943, :MO-601042 ;
+    owl:sameAs mop:MO-600943,mop:MO-601042 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Knobelaufgabe", "Ungleichungen" .
 
 :MO-lan-18-04
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-lan-18-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-600931, :MO-601031 ;
+    owl:sameAs mop:MO-600931,mop:MO-601031 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Arithmetik" .
 
@@ -4345,20 +4345,20 @@
 
 :MO-lan-18-07
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-600933, :MO-601032 ;
+    owl:sameAs mop:MO-600933,mop:MO-601032 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Algebra" .
 
 :MO-lan-18-08a
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-600921, :MO-601021 ;
+    owl:sameAs mop:MO-600921,mop:MO-601021 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Algebra" .
 
 :MO-lan-18-08b
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Algebra" .
 
 :MO-lan-18-09
@@ -4520,7 +4520,7 @@
 
 :MO-met-02-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-440934, :MO-441034 ;
+    owl:sameAs mop:MO-440934,mop:MO-441034 ;
     mo:hatSchwierigkeit "mittel" ;
     mo:zumGebiet "Kombinatorik" .
 
@@ -4572,7 +4572,7 @@
 
 :MO-met-03-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-450945, :MO-451046 ;
+    owl:sameAs mop:MO-450945,mop:MO-451046 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Gleichungen" .
 
@@ -4582,7 +4582,7 @@
     mo:hasSubtype "Pythagoras" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-met-03-07
@@ -4595,7 +4595,7 @@
 
 :MO-met-99-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-410946, :MO-411046 .
+    owl:sameAs mop:MO-410946,mop:MO-411046 .
 
 :MO-met-99-03
     a mo:AufgabenVorschlag ;
@@ -4639,7 +4639,7 @@
 
 :MO-mol-07-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-490941, :MO-491041 ;
+    owl:sameAs mop:MO-490941,mop:MO-491041 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Geometrie", "Kombinatorik" .
 
@@ -4681,7 +4681,7 @@
 
 :MO-olb-10-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-530946, :MO-531046 ;
+    owl:sameAs mop:MO-530946,mop:MO-531046 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
 
@@ -4691,7 +4691,7 @@
     mo:hasSubtype "Quadratische Reste" ;
     mo:hasType "Zahlentheorieaufgaben, bei der Modulo-Betrachtung von Vorteil" ;
     mo:hatSchwierigkeit "1" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-olb-11-02
@@ -4782,14 +4782,14 @@
 
 :MO-olb-15-02b
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-600941, :MO-601041 ;
+    owl:sameAs mop:MO-600941,mop:MO-601041 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-olb-16-01
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "1" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-olb-18-01
@@ -4807,13 +4807,13 @@
 :MO-olb-18-02
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "5" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Algebra" .
 
 :MO-olb-18-03
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "5" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-olb-19-01
@@ -4863,7 +4863,7 @@
     mo:hasSubtype "Aufgabe spielt sich im Koordinatensystem ab" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-poe-07-04
@@ -4892,7 +4892,7 @@
 
 :MO-poe-07-07
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-540942, :MO-541042 ;
+    owl:sameAs mop:MO-540942,mop:MO-541042 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Algebra", "Geometrie" .
 
@@ -4928,7 +4928,7 @@
 
 :MO-poe-07-13
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-550931, :MO-551031 ;
+    owl:sameAs mop:MO-550931,mop:MO-551031 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Gleichungen", "Kombinatorik" .
 
@@ -4944,7 +4944,7 @@
 
 :MO-poe-07-16
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-530944, :MO-531044 ;
+    owl:sameAs mop:MO-530944,mop:MO-531044 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Zahlenfolgen" .
 
@@ -4954,7 +4954,7 @@
     mo:hasSubtype "Pythagoras" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-poe-07-18
@@ -4969,7 +4969,7 @@
     mo:hasSubtype "Inkreisradius/Umfang/Flächeninhalt-Formel" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-poe-07-20
@@ -4994,7 +4994,7 @@
 
 :MO-poe-07-21
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-490922, :MO-491022 ;
+    owl:sameAs mop:MO-490922,mop:MO-491022 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Logik" .
 
@@ -5016,7 +5016,7 @@
 
 :MO-poe-07-25
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-510923, :MO-511023 ;
+    owl:sameAs mop:MO-510923,mop:MO-511023 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Zahlentheorie" .
 
@@ -5044,7 +5044,7 @@
     mo:hasSubtype "Strahlensatz/Streckungen/ähnliche Dreiecke" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "1" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-poe-07-30
@@ -5055,7 +5055,7 @@
 
 :MO-poe-08-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-540931, :MO-541031 ;
+    owl:sameAs mop:MO-540931,mop:MO-541031 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Gleichungen" .
 
@@ -5098,7 +5098,7 @@
     mo:hasSubtype "Kreisfläche" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "1" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-poe-08-08
@@ -5113,7 +5113,7 @@
     mo:hasSubtype "Kreisfläche" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie", "Gleichungen" .
 
 :MO-poe-08-10
@@ -5192,25 +5192,25 @@
 
 :MO-poe-09-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-530922, :MO-531022 ;
+    owl:sameAs mop:MO-530922,mop:MO-531022 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Zahlenfolgen" .
 
 :MO-poe-09-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-530931, :MO-531031 ;
+    owl:sameAs mop:MO-530931,mop:MO-531031 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Zahlenfolgen" .
 
 :MO-poe-09-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-510944, :MO-511044 ;
+    owl:sameAs mop:MO-510944,mop:MO-511044 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Spieleaufgabe" .
 
 :MO-poe-09-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-510931, :MO-511031 ;
+    owl:sameAs mop:MO-510931,mop:MO-511031 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Kombinatorik" .
 
@@ -5220,7 +5220,7 @@
     mo:hasSubtype "Kreisfläche" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-poe-10-01
@@ -5229,7 +5229,7 @@
     mo:hasSubtype "Aufgabe spielt sich im Koordinatensystem ab" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
     mo:hatSchwierigkeit "1" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie", "Zahlentheorie" .
 
 :MO-poe-10-02
@@ -5261,7 +5261,7 @@
 
 :MO-poe-10-06
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-520924, :MO-521023 ;
+    owl:sameAs mop:MO-520924,mop:MO-521023 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Spiel" .
 
@@ -5271,7 +5271,7 @@
     mo:hasSubtype "Termumformung" ;
     mo:hasType "Folgen und Reihen" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Algebra", "Zahlentheorie" .
 
 :MO-poe-10-08
@@ -5292,7 +5292,7 @@
     mo:hasSubtype "Mischung Zahlentheorie & Kombinatorik" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-poe-10-10
@@ -5348,7 +5348,7 @@
 
 :MO-poe-11-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-540932, :MO-541032 ;
+    owl:sameAs mop:MO-540932,mop:MO-541032 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Geometrie" .
 
@@ -5373,12 +5373,12 @@
     mo:hasSubtype "Pythagoras bei sich berührenden Dingen" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
     mo:hatSchwierigkeit "1" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-poe-11-08
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-530935, :MO-531035 ;
+    owl:sameAs mop:MO-530935,mop:MO-531035 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Zahlentheorie" .
 
@@ -5388,7 +5388,7 @@
     mo:hasSubtype "Quadratzahlen aneinanderhängen" ;
     mo:hasType "Unausgegoren" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Sonstiges", "Zahlentheorie" .
 
 :MO-poe-12-02
@@ -5397,7 +5397,7 @@
     mo:hasSubtype "Ansätze von chinesischem Restsatz" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-poe-13-01
@@ -5412,7 +5412,7 @@
     mo:hasSubtype "Aufgabe spielt sich im Koordinatensystem ab" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-poe-13-03
@@ -5456,7 +5456,7 @@
     mo:hasSubtype "Pythagoras bei sich berührenden Dingen" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-poe-14-01B
@@ -5465,7 +5465,7 @@
     mo:hasSubtype "Pythagoras bei sich berührenden Dingen" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-poe-14-02
@@ -5479,7 +5479,7 @@
 
 :MO-poe-14-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-560934, :MO-561034 ;
+    owl:sameAs mop:MO-560934,mop:MO-561034 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Arithmetik" .
 
@@ -5501,24 +5501,24 @@
 :MO-poe-15-02
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "1" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-poe-15-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-570921, :MO-571021 ;
+    owl:sameAs mop:MO-570921,mop:MO-571021 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Algebra" .
 
 :MO-poe-15-04
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-poe-15-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-570931, :MO-571031 ;
+    owl:sameAs mop:MO-570931,mop:MO-571031 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Algebra" .
 
@@ -5530,7 +5530,7 @@
 
 :MO-poe-15-07
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-590932, :MO-591032 ;
+    owl:sameAs mop:MO-590932,mop:MO-591032 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Geometrie" .
 
@@ -5560,7 +5560,7 @@
 
 :MO-poe-16-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-580921, :MO-581021 ;
+    owl:sameAs mop:MO-580921,mop:MO-581021 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Algebra" .
 
@@ -5573,7 +5573,7 @@
 :MO-poe-16-03
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "4" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Ungleichungen" .
 
 :MO-poe-17-01
@@ -5591,61 +5591,61 @@
 :MO-poe-18-01
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "1" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Algebra" .
 
 :MO-poe-18-02
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "1" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Algebra" .
 
 :MO-poe-18-03
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "1" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Analysis" .
 
 :MO-poe-18-04
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "1" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Algebra" .
 
 :MO-poe-18-05
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "1" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Algebra" .
 
 :MO-poe-18-06
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "1" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Algebra" .
 
 :MO-poe-18-07
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2-3" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-poe-18-08
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-poe-18-09
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "1" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-poe-18-10
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
-    mo:hatStatus "im Schatz" ;
+    mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-poe-19-01
@@ -5686,7 +5686,7 @@
 
 :MO-sch-02-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-440946, :MO-441046 ;
+    owl:sameAs mop:MO-440946,mop:MO-441046 ;
     mo:hatSchwierigkeit "mittel" ;
     mo:zumGebiet "Kombinatorik" .
 
@@ -5697,7 +5697,7 @@
 
 :MO-sch-02-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-440941, :MO-441041 ;
+    owl:sameAs mop:MO-440941,mop:MO-441041 ;
     mo:hatSchwierigkeit "leicht" ;
     mo:zumGebiet "Ungleichungen" .
 
@@ -5715,17 +5715,17 @@
 
 :MO-spr-00-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420931, :MO-421031 ;
+    owl:sameAs mop:MO-420931,mop:MO-421031 ;
     mo:zumGebiet "Algebra" .
 
 :MO-spr-00-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420943, :MO-421041 ;
+    owl:sameAs mop:MO-420943,mop:MO-421041 ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-spr-00-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420911, :MO-421011 ;
+    owl:sameAs mop:MO-420911,mop:MO-421011 ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-spr-00-04
@@ -5740,7 +5740,7 @@
 
 :MO-spr-00-06
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420916, :MO-421016 ;
+    owl:sameAs mop:MO-420916,mop:MO-421016 ;
     mo:zumGebiet "Algebra" .
 
 :MO-spr-01-01
@@ -5791,7 +5791,7 @@
 
 :MO-spr-99-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-410922, :MO-411022 .
+    owl:sameAs mop:MO-410922,mop:MO-411022 .
 
 :MO-spr-99-02
     a mo:AufgabenVorschlag ;

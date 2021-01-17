@@ -58,7 +58,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bey-01-03">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-430933"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-431032"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-431032"/>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bey-01-04">
@@ -78,13 +78,13 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bey-03-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-460931"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-461031"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-461031"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bey-03-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-450921"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-451021"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-451021"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -110,12 +110,12 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-boc-00-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-420924"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-421024"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-421024"/>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-boc-00-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-420935"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-421035"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-421035"/>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-boc-00-03">
@@ -128,7 +128,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-boc-01-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-430944"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-431044"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-431044"/>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-boc-01-03">
@@ -137,7 +137,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-boc-01-04">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-430941"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-431041"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-431041"/>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-03-01">
@@ -213,7 +213,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-08-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-520942"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-521042"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-521042"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -259,7 +259,7 @@
     <mo:hasSubtype>An sich nur Additionstheorem Sinus</mo:hasSubtype>
     <mo:hasType>Ungleichungen</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-13-01">
@@ -267,7 +267,7 @@
     <mo:hasSubtype>Pythagoreische Tripel</mo:hasSubtype>
     <mo:hasType>Zahlentheorieaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-14-01">
@@ -288,7 +288,7 @@
     <mo:hasSubtype>Aufgabe spielt sich im Koordinatensystem ab</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit hohem rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Analysis</mo:zumGebiet>
     <mo:zumGebiet>Analytische Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
@@ -300,7 +300,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-15-01">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-15-02">
@@ -315,12 +315,12 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-16-01">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-16-02">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-16-03">
@@ -344,27 +344,27 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-17-01">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-17-02">
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Gleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-17-03">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-17-04">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-17-05">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-590941"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-591041"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-591041"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -375,12 +375,12 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-18-01">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-18-02">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -402,27 +402,27 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-18-06">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Stereometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-18-07">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-18-08">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Gleichung in ganzen Zahlen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-18-09">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-18-10">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-bre-19-01">
@@ -471,7 +471,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-00-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-420914"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-421014"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-421014"/>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-00-03">
@@ -492,12 +492,12 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-01-03">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-440942"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-441042"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-441042"/>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-01-04">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-440933"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-441033"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-441033"/>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-01-05">
@@ -527,7 +527,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-03-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-460924"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-461024"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-461024"/>
     <mo:zumGebiet>Knobelaufgabe</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-03-03">
@@ -557,7 +557,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-04-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-460934"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-461034"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-461034"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -606,7 +606,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-05-04">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-500934"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-501034"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-501034"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -633,13 +633,13 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-05-09">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-470932"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-471032"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-471032"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-06-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-500944"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-501044"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-501044"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -685,7 +685,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-07-05">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-490944"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-491044"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-491044"/>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
     <mo:zumGebiet>Knobelaufgabe</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -705,7 +705,7 @@
     <mo:hasSubtype>benötigt Voraufgabe</mo:hasSubtype>
     <mo:hasType>sonstige Geometrieaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-07-09">
@@ -724,7 +724,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-08-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-500924"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-501023"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-501023"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -733,7 +733,7 @@
     <mo:hasSubtype>Pythagoras bei sich berührenden Dingen</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit hohem rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-08-04">
@@ -774,7 +774,7 @@
     <mo:hasSubtype>Flächenformeln draufhauen und dann Algebra</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit hohem rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-10-01">
@@ -785,14 +785,14 @@
     <mo:hasSubtype>Rekursion</mo:hasSubtype>
     <mo:hasType>Folgen &amp; Reihen</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-10-03">
     <rdfs:comment>Type, Subtype, Anmerkung langer AA 2014</rdfs:comment>
     <mo:hasType>sonstige Aufgaben</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
     <mo:zumGebiet>Sonstiges</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -842,7 +842,7 @@
     <mo:hasSubtype>mit Apollonius trivial, anderenfalls am besten rechnen</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-11-04">
@@ -869,13 +869,13 @@
     <mo:hasSubtype>Unendlicher Abstieg / Teilerfremdheit voraussetzen</mo:hasSubtype>
     <mo:hasType>Zahlentheorie</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-11-10">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Polynome</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-11-11">
@@ -891,7 +891,7 @@
     <rdfs:comment>Type, Subtype, Anmerkung langer AA 2014</rdfs:comment>
     <mo:hasType>sonstige Aufgaben</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
     <mo:zumGebiet>Sonstiges</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -911,7 +911,7 @@
     <mo:hasSubtype>periodische Funktion</mo:hasSubtype>
     <mo:hasType>Funktionalgleichungen</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Funktionen</mo:zumGebiet>
     <mo:zumGebiet>Sonstiges</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -939,7 +939,7 @@
     <mo:hasSubtype>Quadratische Reste</mo:hasSubtype>
     <mo:hasType>Zahlentheorie</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Funktionalgleichung</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -962,7 +962,7 @@
     <mo:hasSubtype>Quadratische Reste</mo:hasSubtype>
     <mo:hasType>Zahlentheorie</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-12-15">
@@ -978,7 +978,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-12-18">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-12-19">
@@ -986,7 +986,7 @@
     <mo:hasSubtype>Unendlicher Abstieg / Teilerfremdheit voraussetzen</mo:hasSubtype>
     <mo:hasType>Zahlentheorie</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Polynome</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1000,14 +1000,14 @@
     <mo:hasSubtype>Faktorisierung mittels 3. binomischer Formel</mo:hasSubtype>
     <mo:hasType>Zahlentheorieaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-13-03">
     <rdfs:comment>Type, Subtype, Anmerkung langer AA 2014</rdfs:comment>
     <mo:hasType>Abzählende Kombinatorik</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1031,7 +1031,7 @@
     <mo:hasSubtype>komb. Geometrie</mo:hasSubtype>
     <mo:hasType>sonstige Geometrieaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-13-07">
@@ -1043,7 +1043,7 @@
     <rdfs:comment>Type, Subtype, Anmerkung langer AA 2014</rdfs:comment>
     <mo:hasType>Zahlentheorieaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-13-09">
@@ -1054,7 +1054,7 @@
     <mo:hasSubtype>Ecken zählen</mo:hasSubtype>
     <mo:hasType>geometrische Ungleichungen</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-13-12">
@@ -1073,7 +1073,7 @@
     <mo:hasSubtype>Anzahl Teiler abschätzen</mo:hasSubtype>
     <mo:hasType>Zahlentheorieaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-14-01">
@@ -1081,7 +1081,7 @@
     <mo:hasSubtype>Unendlicher Abstieg / Teilerfremdheit voraussetzen</mo:hasSubtype>
     <mo:hasType>Zahlentheorieaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Polynome</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1098,32 +1098,32 @@
     <mo:hasSubtype>Dreiecksungleichung</mo:hasSubtype>
     <mo:hasType>geometrische Ungleichungen</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-14-04">
     <mo:hatSchwierigkeit>5</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-14-05">
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-15-01">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-15-02">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-15-03">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Ungleichung</mo:zumGebiet>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
@@ -1131,13 +1131,13 @@
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-15-04">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Teilbarkeit</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-15-05">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-15-06">
@@ -1146,7 +1146,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-15-07">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-15-08">
@@ -1166,7 +1166,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-15-10">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Teilbarkeit</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1177,22 +1177,22 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-15-11">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-15-12">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-15-13">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Funktionen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-16-01">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1219,18 +1219,18 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-16-06">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-16-07">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-590944"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-591044"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-591044"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Polynome</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-17-01">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-17-02">
@@ -1245,22 +1245,22 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-17-04">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-17-05">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-17-06">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-17-07">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-17-08">
@@ -1280,13 +1280,13 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-17-10">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
     <mo:zumGebiet>Stereometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-18-01">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-18-02">
@@ -1297,33 +1297,33 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-18-03">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-18-04">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-18-05">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-18-06">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-18-07">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-18-08">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-600934"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-601034"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-601034"/>
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
     <mo:zumGebiet>Analysis</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1339,17 +1339,17 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-18-10">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Polynome</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-18-11">
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-18-12">
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-18-13">
@@ -1359,12 +1359,12 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-18-14">
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-fuc-18-15">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-600922"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-601022"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-601022"/>
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1468,7 +1468,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-gir-00-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-420915"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-421015"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-421015"/>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-gir-00-04">
@@ -1542,13 +1542,13 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-02-03">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-480933"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-481033"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-481033"/>
     <mo:hatSchwierigkeit>5</mo:hatSchwierigkeit>
     <mo:zumGebiet>Stereometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-03-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-450946"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-451045"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-451045"/>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1559,7 +1559,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-03-03">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-450933"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-451033"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-451033"/>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1568,7 +1568,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-03-05">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-450941"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-451041"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-451041"/>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1605,7 +1605,7 @@
     <mo:hasSubtype>Strahlensatz/Streckungen/ähnliche Dreiecke</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-05-02">
@@ -1634,7 +1634,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-05-05">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-490935"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-491035"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-491035"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1696,7 +1696,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-07-05">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-500941"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-501041"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-501041"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1712,7 +1712,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-08-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-500932"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-501032"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-501032"/>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1721,7 +1721,7 @@
     <mo:hasSubtype>Pythagoras</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>5</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Stereometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1732,7 +1732,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-08-05">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-540941"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-541041"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-541041"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Gleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1764,7 +1764,7 @@
     <mo:hasType>Ungleichungen</mo:hasType>
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1789,7 +1789,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-11-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-530923"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-531023"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-531023"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Stochastik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1798,7 +1798,7 @@
     <mo:hasSubtype>Zahlensysteme</mo:hasSubtype>
     <mo:hasType>Unausgegoren</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Sonstiges</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1807,7 +1807,7 @@
     <mo:hasSubtype>Mehr Ungleichung als Zahlentheorie</mo:hasSubtype>
     <mo:hasType>Ungleichungen</mo:hasType>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1825,7 +1825,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-11-05">
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-12-01">
@@ -1838,7 +1838,7 @@
     <mo:hasSubtype>Würfel beschriften</mo:hasSubtype>
     <mo:hasType>Knobelaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>5</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
     <mo:zumGebiet>Sonstiges</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1850,7 +1850,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-12-04">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-540924"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-541024"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-541024"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
@@ -1866,7 +1866,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-13-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-550935"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-551035"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-551035"/>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1878,12 +1878,12 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-14-01">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-14-02">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-14-03">
@@ -1896,7 +1896,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-14-05">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-570933"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-571033"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-571033"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -1912,7 +1912,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-15-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-570941"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-571041"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-571041"/>
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
@@ -1930,17 +1930,17 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-15-04">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-580933"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-581033"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-581033"/>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-16-01">
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-16-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-581016"/>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Stereometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-16-04">
@@ -1954,54 +1954,54 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-17-01">
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Gleichungen</mo:zumGebiet>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-17-02">
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Gleichungen</mo:zumGebiet>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-17-03">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-590921"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-591021"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-591021"/>
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-18-01">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-18-02">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-18-03">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-18-04">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-18-05">
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-18-06">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -2018,7 +2018,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-goe-18-09">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -2082,7 +2082,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-gra-01-03">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-430924"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-431024"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-431024"/>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-gra-01-04">
@@ -2136,7 +2136,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-gra-12-02">
     <mo:hatSchwierigkeit>5</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-gra-12-03">
@@ -2144,7 +2144,7 @@
     <mo:hasSubtype>Pythagoreische Tripel</mo:hasSubtype>
     <mo:hasType>Zahlentheorieaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-gra-14-01">
@@ -2152,7 +2152,7 @@
     <rdfs:comment>Vorschlag Hercher Aug. 2013</rdfs:comment>
     <mo:hasType>sonstige Aufgaben</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Sonstiges</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -2162,7 +2162,7 @@
     <mo:hasSubtype>Unendlicher Abstieg / Teilerfremdheit voraussetzen</mo:hasSubtype>
     <mo:hasType>Zahlentheorie</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-gra-14-03">
@@ -2174,7 +2174,7 @@
     <mo:hasSubtype>Zwei Kreise mit Rechtecken, Lösung etwas unausgegoren</mo:hasSubtype>
     <mo:hasType>sonstige Geometrieaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-gra-14-05">
@@ -2189,7 +2189,7 @@
     <mo:hasSubtype>Erwartungswerte</mo:hasSubtype>
     <mo:hasType>Unausgegoren</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Sonstiges</mo:zumGebiet>
     <mo:zumGebiet>Stochastik</mo:zumGebiet>
     <mo:zumGebiet>Wahrscheinlichkeit</mo:zumGebiet>
@@ -2210,7 +2210,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-gra-15-01">
     <mo:hatSchwierigkeit>5</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-gra-15-02">
@@ -2220,7 +2220,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-gra-15-03">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-gra-15-04">
@@ -2233,18 +2233,18 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-gra-99-03">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-410936"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-411036"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-411036"/>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-gra-99-04">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-410941"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-411041"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-411041"/>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-gra-99-05">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-411014"/>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-hel-00-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-420912"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-421012"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-421012"/>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-hel-00-02">
@@ -2281,7 +2281,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-hel-03-03">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-450931"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-451031"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-451031"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -2320,22 +2320,22 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-hel-99-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-410921"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-411021"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-411021"/>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-hel-99-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-410924"/>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-hel-99-03">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-410935"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-411035"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-411035"/>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-hel-99-04">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-410931"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-411031"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-411031"/>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-02-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-480923"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-481023"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-481023"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -2352,7 +2352,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-02-03">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-480944"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-481044"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-481044"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -2361,13 +2361,12 @@
     <mo:hasSubtype>Strahlensatz/Streckungen/ähnliche Dreiecke</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>2015 im Schatz</mo:hatStatus>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-02-05">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-560935"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-561035"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-561035"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:hatStatus>2012 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
@@ -2379,7 +2378,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-03-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-460941"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-461041"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-461041"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Gleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -2419,7 +2418,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-04-04">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-460942"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-461042"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-461042"/>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -2433,8 +2432,7 @@
     <mo:hasSubtype>Dreiecksungleichung</mo:hasSubtype>
     <mo:hasType>geometrische Ungleichungen</mo:hasType>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>2015 im Schatz</mo:hatStatus>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-04-07">
@@ -2442,8 +2440,7 @@
     <mo:hasSubtype>rein algebraische Ungleichung</mo:hasSubtype>
     <mo:hasType>Ungleichungen</mo:hasType>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>2015 im Schatz</mo:hatStatus>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-04-08">
@@ -2511,7 +2508,7 @@
     <mo:hasSubtype></mo:hasSubtype>
     <mo:hasType>Zahlentheorieaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -2542,7 +2539,7 @@
     <mo:hasSubtype>Abstandssumme minimieren</mo:hasSubtype>
     <mo:hasType>geometrische Ungleichungen</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-07-02">
@@ -2550,7 +2547,7 @@
     <mo:hasSubtype>Abstandssumme minimieren</mo:hasSubtype>
     <mo:hasType>geometrische Ungleichungen</mo:hasType>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-07-03a">
@@ -2558,7 +2555,7 @@
     <mo:hasSubtype>Abstandssumme minimieren</mo:hasSubtype>
     <mo:hasType>geometrische Ungleichungen</mo:hasType>
     <mo:hatSchwierigkeit>4/5</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-07-03b">
@@ -2566,7 +2563,7 @@
     <mo:hasSubtype>Abstandssumme minimieren</mo:hasSubtype>
     <mo:hasType>geometrische Ungleichungen</mo:hasType>
     <mo:hatSchwierigkeit>6</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Stereometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -2580,7 +2577,7 @@
     <mo:hasSubtype>komb. Geometrie</mo:hasSubtype>
     <mo:hasType>sonstige Geometrieaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>5</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -2591,13 +2588,13 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-09-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-510942"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-511042"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-511042"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-09-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-530943"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-531043"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-531043"/>
     <mo:hatSchwierigkeit>3-4</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -2642,7 +2639,7 @@
     <mo:hasSubtype>Kreis berührt Seiten und Umkreis</mo:hasSubtype>
     <mo:hasType>sonstige Geometrieaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>4/5</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-10-05">
@@ -2676,7 +2673,7 @@
     <mo:hasSubtype>Ganzzahlige Seitenlängen - evtl zu schwer?</mo:hasSubtype>
     <mo:hasType>Knobelaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>3/4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
     <mo:zumGebiet>Sonstiges</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -2685,7 +2682,7 @@
     <mo:hasSubtype>Ganzzahlige Seitenlängen - evtl zu schwer?</mo:hasSubtype>
     <mo:hasType>Knobelaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>5</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
     <mo:zumGebiet>Sonstiges</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -2701,20 +2698,20 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-15-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-580936"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-581036"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-581036"/>
     <mo:hatSchwierigkeit>3/4</mo:hatSchwierigkeit>
     <mo:zumGebiet>Stochastik</mo:zumGebiet>
     <mo:zumGebiet>Wahrscheinlichkeit</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-15-02">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Ungleichung</mo:zumGebiet>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-15-03">
     <mo:hatSchwierigkeit>3/4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -2735,30 +2732,30 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-17-01">
     <mo:hatSchwierigkeit>3/4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-17-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-590933"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-591033"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-591033"/>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-17-03">
     <mo:hatSchwierigkeit>4/5</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-17-04">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-17-05">
     <mo:hatSchwierigkeit>6</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-17-06">
@@ -2774,12 +2771,12 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-18-01">
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-18-02">
     <mo:hatSchwierigkeit>6</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-her-19-01">
@@ -2807,7 +2804,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-heu-00-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-420913"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-421013"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-421013"/>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-heu-00-02">
@@ -2817,7 +2814,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-heu-00-03">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-420923"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-421023"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-421023"/>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-heu-00-04">
@@ -2826,7 +2823,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-heu-00-05">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-420934"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-421034"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-421034"/>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-heu-01-01">
@@ -2834,7 +2831,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-heu-01-03">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-430936"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-431036"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-431036"/>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-heu-01-03a">
@@ -2886,7 +2883,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-heu-03-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-450934"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-451034"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-451034"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -2897,7 +2894,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-heu-03-04">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-450923"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-451023"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-451023"/>
     <mo:hatSchwierigkeit>mittel</mo:hatSchwierigkeit>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -2906,7 +2903,7 @@
     <mo:hasSubtype>Dreiecksungleichung</mo:hasSubtype>
     <mo:hasType>geometrische Ungleichungen</mo:hasType>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -2916,7 +2913,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-heu-04-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-460921"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-461021"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-461021"/>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-heu-04-03">
@@ -2939,13 +2936,13 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-heu-06-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-480931"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-481031"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-481031"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Knobelaufgabe</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-heu-06-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-480941"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-481041"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-481041"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Knobeln</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -2981,7 +2978,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-heu-08-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-590935"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-591035"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-591035"/>
     <mo:hasSubtype>Flächeninhalt maximieren</mo:hasSubtype>
     <mo:hasType>geometrische Ungleichungen</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
@@ -3007,13 +3004,13 @@
     <mo:hasSubtype>Termumformung</mo:hasSubtype>
     <mo:hasType>Zahlentheorieaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Gleichungen</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-heu-09-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-510934"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-511034"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-511034"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Gleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -3029,7 +3026,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-heu-10-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-520931"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-521031"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-521031"/>
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
     <mo:zumGebiet>Logik</mo:zumGebiet>
@@ -3039,7 +3036,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-heu-16-01">
     <mo:hatSchwierigkeit>5</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Analysis</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-heu-99-01">
@@ -3133,7 +3130,7 @@
     <mo:hasSubtype>Fläche als Produkt von Seiten</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>5</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-03-07">
@@ -3143,7 +3140,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-03-08">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-450922"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-451022"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-451022"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -3176,7 +3173,7 @@
     <mo:hasSubtype>geometrische Reihe</mo:hasSubtype>
     <mo:hasType>Ungleichungen</mo:hasType>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -3194,7 +3191,7 @@
     <rdfs:comment>Type, Subtype, Anmerkung langer AA 2014</rdfs:comment>
     <mo:hasType>Abzählende Kombinatorik</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-05-04">
@@ -3204,7 +3201,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-05-05">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-470941"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-471041"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-471041"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
@@ -3216,13 +3213,13 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-05-07">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-490945"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-491045"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-491045"/>
     <mo:hatSchwierigkeit>2-3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-06-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-480922"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-481022"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-481022"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -3231,7 +3228,7 @@
     <mo:hasSubtype>Cavalieri</mo:hasSubtype>
     <mo:hasType>sonstige Geometrieaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>5</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Stereometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -3247,7 +3244,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-06-04">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-500936"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-501035"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-501035"/>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -3271,7 +3268,7 @@
     <mo:hasSubtype>Simplexprinzip</mo:hasSubtype>
     <mo:hasType>Ungleichungen</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -3300,7 +3297,7 @@
     <mo:hasSubtype>Flächeninhalt maximieren</mo:hasSubtype>
     <mo:hasType>geometrische Ungleichungen</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -3309,7 +3306,7 @@
     <mo:hasSubtype>Flächeninhalt maximieren</mo:hasSubtype>
     <mo:hasType>geometrische Ungleichungen</mo:hasType>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -3357,7 +3354,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-08-04">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-500931"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-501031"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-501031"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -3381,7 +3378,7 @@
     <mo:hasSubtype>Volumen von Tetraedern</mo:hasSubtype>
     <mo:hasType>sonstige Geometrieaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-09-03">
@@ -3426,7 +3423,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-10-03">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-520945"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-521045"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-521045"/>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -3437,7 +3434,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-11-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-530936"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-531036"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-531036"/>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
@@ -3447,7 +3444,7 @@
     <mo:hasSubtype>Fläche als Produkt von Seiten</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-11-03">
@@ -3466,7 +3463,7 @@
     <mo:hasSubtype>Mischung Zahlentheorie &amp; Kombinatorik</mo:hasSubtype>
     <mo:hasType>Zahlentheorieaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -3495,7 +3492,7 @@
     <mo:hasSubtype>Komb, W.Theorie, Spiel/Optimierung</mo:hasSubtype>
     <mo:hasType>Spiele</mo:hasType>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Sonstiges</mo:zumGebiet>
     <mo:zumGebiet>Wahrscheinlichkeit</mo:zumGebiet>
     <mo:zumGebiet>Wahrscheinlichkeitstheorie</mo:zumGebiet>
@@ -3525,7 +3522,7 @@
     <mo:hasSubtype>Rekursion</mo:hasSubtype>
     <mo:hasType>Folgen &amp; Reihen</mo:hasType>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -3534,7 +3531,7 @@
     <mo:hasSubtype>Rundungseffekte</mo:hasSubtype>
     <mo:hasType>Ungleichungen</mo:hasType>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-13-03A">
@@ -3571,7 +3568,7 @@
     <mo:hasSubtype>Multiplikation mit 8</mo:hasSubtype>
     <mo:hasType>Zahlentheorieaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-13-07">
@@ -3601,7 +3598,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-14-03">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-560931"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-561031"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-561031"/>
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
     <mo:zumGebiet>Arithmetik</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
@@ -3613,7 +3610,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-14-05">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-560941"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-561041"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-561041"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Arithmetik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -3671,7 +3668,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-15-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-570924"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-571023"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-571023"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Arithmetik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -3697,25 +3694,25 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-15-07">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-570934"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-571034"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-571034"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-15-08">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-570944"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-571044"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-571044"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-16-01a">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-580944"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-581044"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-581044"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Ungleichung / Arithmetik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-16-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-580942"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-581042"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-581042"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -3731,7 +3728,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-16-04">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-580941"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-581041"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-581041"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Algebra / Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -3773,7 +3770,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-17-05">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-590924"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-591024"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-591024"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Kombinatorik/Arithmetik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -3804,31 +3801,31 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-18-01">
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-18-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-600944"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-601044"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-601044"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-18-03">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-600943"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-601042"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-601042"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Knobelaufgabe</mo:zumGebiet>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-18-04">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-18-05">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-600931"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-601031"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-601031"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Arithmetik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -3840,19 +3837,19 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-18-07">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-600933"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-601032"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-601032"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-18-08a">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-600921"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-601021"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-601021"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-18-08b">
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-lan-18-09">
@@ -3995,7 +3992,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-met-02-04">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-440934"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-441034"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-441034"/>
     <mo:hatSchwierigkeit>mittel</mo:hatSchwierigkeit>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -4040,7 +4037,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-met-03-05">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-450945"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-451046"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-451046"/>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
     <mo:zumGebiet>Gleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -4049,7 +4046,7 @@
     <mo:hasSubtype>Pythagoras</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-met-03-07">
@@ -4060,7 +4057,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-met-99-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-410946"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-411046"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-411046"/>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-met-99-03">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-411013"/>
@@ -4094,7 +4091,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-mol-07-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-490941"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-491041"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-491041"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
@@ -4133,7 +4130,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-olb-10-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-530946"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-531046"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-531046"/>
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
@@ -4143,7 +4140,7 @@
     <mo:hasSubtype>Quadratische Reste</mo:hasSubtype>
     <mo:hasType>Zahlentheorieaufgaben, bei der Modulo-Betrachtung von Vorteil</mo:hasType>
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-olb-11-02">
@@ -4224,13 +4221,13 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-olb-15-02b">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-600941"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-601041"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-601041"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-olb-16-01">
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-olb-18-01">
@@ -4245,12 +4242,12 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-olb-18-02">
     <mo:hatSchwierigkeit>5</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-olb-18-03">
     <mo:hatSchwierigkeit>5</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-olb-19-01">
@@ -4298,7 +4295,7 @@
     <mo:hasSubtype>Aufgabe spielt sich im Koordinatensystem ab</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit hohem rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-07-04">
@@ -4323,7 +4320,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-07-07">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-540942"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-541042"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-541042"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
@@ -4354,7 +4351,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-07-13">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-550931"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-551031"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-551031"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Gleichungen</mo:zumGebiet>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
@@ -4369,7 +4366,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-07-16">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-530944"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-531044"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-531044"/>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
     <mo:zumGebiet>Zahlenfolgen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -4378,7 +4375,7 @@
     <mo:hasSubtype>Pythagoras</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-07-18">
@@ -4391,7 +4388,7 @@
     <mo:hasSubtype>Inkreisradius/Umfang/Flächeninhalt-Formel</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit hohem rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-07-20">
@@ -4412,7 +4409,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-07-21">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-490922"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-491022"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-491022"/>
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
     <mo:zumGebiet>Logik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -4432,7 +4429,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-07-25">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-510923"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-511023"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-511023"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -4457,7 +4454,7 @@
     <mo:hasSubtype>Strahlensatz/Streckungen/ähnliche Dreiecke</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-07-30">
@@ -4467,7 +4464,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-08-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-540931"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-541031"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-541031"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Gleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -4505,7 +4502,7 @@
     <mo:hasSubtype>Kreisfläche</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-08-08">
@@ -4519,7 +4516,7 @@
     <mo:hasSubtype>Kreisfläche</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Gleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -4587,25 +4584,25 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-09-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-530922"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-531022"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-531022"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Zahlenfolgen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-09-03">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-530931"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-531031"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-531031"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Zahlenfolgen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-09-04">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-510944"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-511044"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-511044"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Spieleaufgabe</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-09-05">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-510931"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-511031"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-511031"/>
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -4614,7 +4611,7 @@
     <mo:hasSubtype>Kreisfläche</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-10-01">
@@ -4622,7 +4619,7 @@
     <mo:hasSubtype>Aufgabe spielt sich im Koordinatensystem ab</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit hohem rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -4652,7 +4649,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-10-06">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-520924"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-521023"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-521023"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Spiel</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -4661,7 +4658,7 @@
     <mo:hasSubtype>Termumformung</mo:hasSubtype>
     <mo:hasType>Folgen und Reihen</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -4682,7 +4679,7 @@
     <mo:hasSubtype>Mischung Zahlentheorie &amp; Kombinatorik</mo:hasSubtype>
     <mo:hasType>Zahlentheorieaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-10-10">
@@ -4732,7 +4729,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-11-04">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-540932"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-541032"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-541032"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -4754,12 +4751,12 @@
     <mo:hasSubtype>Pythagoras bei sich berührenden Dingen</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit hohem rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-11-08">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-530935"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-531035"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-531035"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -4768,7 +4765,7 @@
     <mo:hasSubtype>Quadratzahlen aneinanderhängen</mo:hasSubtype>
     <mo:hasType>Unausgegoren</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Sonstiges</mo:zumGebiet>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -4777,7 +4774,7 @@
     <mo:hasSubtype>Ansätze von chinesischem Restsatz</mo:hasSubtype>
     <mo:hasType>Zahlentheorieaufgaben</mo:hasType>
     <mo:hatSchwierigkeit>3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-13-01">
@@ -4790,7 +4787,7 @@
     <mo:hasSubtype>Aufgabe spielt sich im Koordinatensystem ab</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit hohem rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-13-03">
@@ -4827,7 +4824,7 @@
     <mo:hasSubtype>Pythagoras bei sich berührenden Dingen</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit hohem rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-14-01B">
@@ -4835,7 +4832,7 @@
     <mo:hasSubtype>Pythagoras bei sich berührenden Dingen</mo:hasSubtype>
     <mo:hasType>Geometrieaufgaben mit hohem rechnerischem Anteil</mo:hasType>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-14-02">
@@ -4848,7 +4845,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-14-03">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-560934"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-561034"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-561034"/>
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
     <mo:zumGebiet>Arithmetik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -4867,23 +4864,23 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-15-02">
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-15-03">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-570921"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-571021"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-571021"/>
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-15-04">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-15-05">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-570931"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-571031"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-571031"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -4894,7 +4891,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-15-07">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-590932"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-591032"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-591032"/>
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -4920,7 +4917,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-16-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-580921"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-581021"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-581021"/>
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -4931,7 +4928,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-16-03">
     <mo:hatSchwierigkeit>4</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-17-01">
@@ -4946,52 +4943,52 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-18-01">
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-18-02">
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-18-03">
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Analysis</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-18-04">
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-18-05">
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-18-06">
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-18-07">
     <mo:hatSchwierigkeit>2-3</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-18-08">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-18-09">
     <mo:hatSchwierigkeit>1</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Zahlentheorie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-18-10">
     <mo:hatSchwierigkeit>2</mo:hatSchwierigkeit>
-    <mo:hatStatus>im Schatz</mo:hatStatus>
+    <mo:hatStatus>2017 im Schatz</mo:hatStatus>
     <mo:zumGebiet>Geometrie</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-poe-19-01">
@@ -5025,7 +5022,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-sch-02-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-440946"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-441046"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-441046"/>
     <mo:hatSchwierigkeit>mittel</mo:hatSchwierigkeit>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -5035,7 +5032,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-sch-02-04">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-440941"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-441041"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-441041"/>
     <mo:hatSchwierigkeit>leicht</mo:hatSchwierigkeit>
     <mo:zumGebiet>Ungleichungen</mo:zumGebiet>
   </mo:AufgabenVorschlag>
@@ -5051,17 +5048,17 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-spr-00-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-420931"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-421031"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-421031"/>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-spr-00-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-420943"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-421041"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-421041"/>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-spr-00-03">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-420911"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-421011"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-421011"/>
     <mo:zumGebiet>Kombinatorik</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-spr-00-04">
@@ -5074,7 +5071,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-spr-00-06">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-420916"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-421016"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-421016"/>
     <mo:zumGebiet>Algebra</mo:zumGebiet>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-spr-01-01">
@@ -5116,7 +5113,7 @@
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-spr-99-01">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-410922"/>
-    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-411022"/>
+    <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-411022"/>
   </mo:AufgabenVorschlag>
   <mo:AufgabenVorschlag rdf:about="https://www.mathematik-olympiaden.de/aufgaben/rdf/AufgabenVorschlag/MO-spr-99-02">
     <owl:sameAs rdf:resource="https://www.mathematik-olympiaden.de/aufgaben/rdf/Aufgabe/MO-410932"/>
