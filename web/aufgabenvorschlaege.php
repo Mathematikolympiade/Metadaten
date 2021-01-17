@@ -50,12 +50,12 @@ $content='
 <h2 align="center"> Klassifizierung von Aufgabenvorschlägen </h2>
 
 <p>Hier nun eine etwas umfassendere Übersicht der Aufgaben der AAG 9/10, die
-aus den Metadaten der Aufgaben extrahiert wurde.  In der letzten Spalte ist
+aus den Metadaten der Aufgaben extrahiert wurde.  In der Spalte "Status" ist
 angegeben, wann die Aufgabe gestellt wurde, wenn sie schon gestellt wurde,
-wobei hier nur Aufgaben aus Olympiaden gelistet werden, die schon
-veröffentlicht sind.  Aus technischen Gründen sind eine Reihe von Aufgaben die
-parallel in Klasse 9 und 10 gestellt wurden, unter "Status" nur einmal
-gelistet. </p> </div>
+wobei hier nur Aufgaben aus Olympiaden (ab 44. MO) gelistet werden, die schon
+veröffentlicht sind.  Aus technischen Gründen sind eine Reihe von Aufgaben,
+die parallel in Klasse 9 und 10 gestellt wurden, dort nur einmal gelistet. </p>
+</div>
 ';
 
 echo showPage($content.AufgabenVorschlaege());
