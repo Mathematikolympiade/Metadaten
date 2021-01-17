@@ -27,13 +27,12 @@ function AufgabenVorschlaege() {
           }
           $status=join(", ",$b);
       }
-      $a[]='<tr align="center"><th scope="row">'.$id.'</th> <td>'
-          .$schwierigkeit.'</td> <td>'.$gebiet.'</td> <td>'
-          .$status.'</td> </tr>';
+      $a[]='<tr align="center"><td width="20%">'.$id.'</td> <td>'.$schwierigkeit.'</td> <td>'
+          .$gebiet.'</td> <td>'.$status.'</td> </tr>';
     }
     return '
 <div class="container">
-<table class="table table-bordered table-hover"> 
+<table class="table table-bordered table-hover w-75" align="center" style="margin-top:3em"> 
 <thead>
   <tr> 
    <th scope="col" class="text-center"> Aufgabe </th> 

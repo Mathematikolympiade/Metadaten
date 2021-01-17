@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * Last Update: 2019-11-22
+ * Last Update: 2021-01-17
  *
  */
 
@@ -27,9 +27,14 @@ function Aufgaben() {
   ksort($a);
   return '
 <div class="container">
-<table align="center" border="1"> 
-<tr align="center"> <th> Aufgabe </th> <th> Gebiet </th>  </tr>'.
-    join("\n",$a).'</table></div>';
+<table class="table table-bordered table-hover w-50" align="center"> 
+<thead>
+  <tr> 
+   <th scope="col" class="text-center"> Aufgabe </th> 
+   <th scope="col" class="text-center"> Gebiet </th>  
+  </tr>
+</thead>
+<tbody>'.join("\n",$a).'</tbody></table></div>';
 }
 
 $content='
