@@ -1,0 +1,43 @@
+Diese Anfragen können unter
+http://pcai003.informatik.uni-leipzig.de:8893/sparql eingegeben werden. 
+
+-- Suche alle Gebiete heraus, die wir in der 9/10 vergeben
+
+PREFIX ksn: <http://kosemnet.de/Data/Model#> 
+select distinct ?g
+where {
+ ?a ksn:zumGebiet ?g .
+} order by ?g
+
+-- Suche alle Aufgaben zum Gebiet Polynome
+
+PREFIX ksn: <http://kosemnet.de/Data/Model#> 
+select ?a  
+where {
+ ?a ksn:zumGebiet "Polynome" .
+}
+
+-- Suche alle Aufgaben zum Gebiet Polynome und finde heraus, zu welcher
+   Olympiade sie gestellt wurden
+
+PREFIX ksn: <http://kosemnet.de/Data/Model#> 
+select ?a ?o
+where {
+ ?a ksn:zumGebiet "Polynome" .
+ ?a owl:sameAs ?o .
+}
+
+-- Suche alle Aufgaben zum Gebiet Polynome und finde heraus, zu welcher
+   Olympiade sie gestellt wurden, unter welcher Schwierigkeit wir sie
+   eingeordnet hatten und wie sie praktisch bewältigt wurde
+
+PREFIX ksn: <http://kosemnet.de/Data/Model#> 
+select distinct ?a ?o ?s ?p
+where {
+ ?a ksn:zumGebiet "Polynome" .
+ ?a owl:sameAs ?o .
+optional{ ?a ksn:hatSchwierigkeit ?s .}
+optional{ ?o ksn:hatErfolgsQuote ?p .}
+}
+
+

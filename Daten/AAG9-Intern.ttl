@@ -21,7 +21,6 @@
 
 :MO-bey-00-03
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     owl:sameAs mop:MO-571043 ;
     mo:hasSubtype "Bey-Aufgabe" ;
     mo:hasType "sonstige Geometrieaufgaben" ;
@@ -69,7 +68,7 @@
 
 :MO-bey-01-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-430933,mop:MO-431032 ;
+    owl:sameAs mop:MO-430933, mop:MO-431032 ;
     mo:zumGebiet "Algebra" .
 
 :MO-bey-01-04
@@ -93,13 +92,13 @@
 
 :MO-bey-03-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-460931,mop:MO-461031 ;
+    owl:sameAs mop:MO-460931, mop:MO-461031 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Algebra" .
 
 :MO-bey-03-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-450921,mop:MO-451021 ;
+    owl:sameAs mop:MO-450921, mop:MO-451021 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Kombinatorik" .
 
@@ -129,12 +128,12 @@
 
 :MO-boc-00-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420924,mop:MO-421024 ;
+    owl:sameAs mop:MO-420924, mop:MO-421024 ;
     mo:zumGebiet "Geometrie" .
 
 :MO-boc-00-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420935,mop:MO-421035 ;
+    owl:sameAs mop:MO-420935, mop:MO-421035 ;
     mo:zumGebiet "Geometrie" .
 
 :MO-boc-00-03
@@ -149,7 +148,7 @@
 
 :MO-boc-01-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-430944,mop:MO-431044 ;
+    owl:sameAs mop:MO-430944, mop:MO-431044 ;
     mo:zumGebiet "Geometrie" .
 
 :MO-boc-01-03
@@ -159,7 +158,7 @@
 
 :MO-boc-01-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-430941,mop:MO-431041 ;
+    owl:sameAs mop:MO-430941, mop:MO-431041 ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-bre-03-01
@@ -297,7 +296,6 @@
 
 :MO-bre-10-02
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "An sich nur Additionstheorem Sinus" ;
     mo:hasType "Ungleichungen" ;
     mo:hatSchwierigkeit "2" ;
@@ -306,7 +304,6 @@
 
 :MO-bre-13-01
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Pythagoreische Tripel" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "2" ;
@@ -315,7 +312,6 @@
 
 :MO-bre-14-01
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     owl:sameAs mop:MO-580935 ;
     mo:hasSubtype "Abstände paralleler Geraden" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
@@ -330,7 +326,7 @@
 
 :MO-bre-14-03
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
+    owl:sameAs mop:MO-631012 ;
     mo:hasSubtype "Aufgabe spielt sich im Koordinatensystem ab" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
     mo:hatSchwierigkeit "1" ;
@@ -422,7 +418,7 @@
 
 :MO-bre-17-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-590941,mop:MO-591041 ;
+    owl:sameAs mop:MO-590941, mop:MO-591041 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Algebra" .
 
@@ -516,6 +512,13 @@
 
 :MO-bre-20-01
     a mo:AufgabenVorschlag ;
+    rdfs:comment "AA 2021: Teil b in bre-20-01b abgespalten" ;
+    owl:sameAs mop:MO-631014 ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Algebra" .
+
+:MO-bre-20-01b
+    a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Algebra" .
 
@@ -527,6 +530,7 @@
 
 :MO-bre-20-03
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-630943, mop:MO-631042 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Zahlentheorie" .
 
@@ -540,6 +544,12 @@
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Geometrie" .
 
+:MO-bre-21-01
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-630931 ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Zahlentheorie" .
+
 :MO-fuc-00-01
     a mo:AufgabenVorschlag ;
     owl:sameAs mop:MO-420922 ;
@@ -547,7 +557,7 @@
 
 :MO-fuc-00-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420914,mop:MO-421014 ;
+    owl:sameAs mop:MO-420914, mop:MO-421014 ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-fuc-00-03
@@ -572,12 +582,12 @@
 
 :MO-fuc-01-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-440942,mop:MO-441042 ;
+    owl:sameAs mop:MO-440942, mop:MO-441042 ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-fuc-01-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-440933,mop:MO-441033 ;
+    owl:sameAs mop:MO-440933, mop:MO-441033 ;
     mo:zumGebiet "Algebra" .
 
 :MO-fuc-01-05
@@ -613,7 +623,7 @@
 
 :MO-fuc-03-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-460924,mop:MO-461024 ;
+    owl:sameAs mop:MO-460924, mop:MO-461024 ;
     mo:zumGebiet "Knobelaufgabe" .
 
 :MO-fuc-03-03
@@ -646,7 +656,7 @@
 
 :MO-fuc-04-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-460934,mop:MO-461034 ;
+    owl:sameAs mop:MO-460934, mop:MO-461034 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Zahlentheorie" .
 
@@ -704,7 +714,7 @@
 
 :MO-fuc-05-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-500934,mop:MO-501034 ;
+    owl:sameAs mop:MO-500934, mop:MO-501034 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Kombinatorik" .
 
@@ -734,13 +744,13 @@
 
 :MO-fuc-05-09
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-470932,mop:MO-471032 ;
+    owl:sameAs mop:MO-470932, mop:MO-471032 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Ungleichungen" .
 
 :MO-fuc-06-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-500944,mop:MO-501044 ;
+    owl:sameAs mop:MO-500944, mop:MO-501044 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Zahlentheorie" .
 
@@ -792,7 +802,7 @@
 
 :MO-fuc-07-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-490944,mop:MO-491044 ;
+    owl:sameAs mop:MO-490944, mop:MO-491044 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Knobelaufgabe" .
 
@@ -810,7 +820,6 @@
 
 :MO-fuc-07-08
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "benötigt Voraufgabe" ;
     mo:hasType "sonstige Geometrieaufgaben" ;
     mo:hatSchwierigkeit "3" ;
@@ -819,7 +828,6 @@
 
 :MO-fuc-07-09
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Faktorisierung mittels 3. binomischer Formel" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "4" ;
@@ -834,13 +842,12 @@
 
 :MO-fuc-08-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-500924,mop:MO-501023 ;
+    owl:sameAs mop:MO-500924, mop:MO-501023 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-08-03
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Pythagoras bei sich berührenden Dingen" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
     mo:hatSchwierigkeit "2" ;
@@ -871,9 +878,8 @@
 
 :MO-fuc-09-02
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Rekursion" ;
-    mo:hasType "Folgen & Reihen" ;
+    mo:hasType "Folgen, Reihen" ;
     mo:hatSchwierigkeit "3" ;
     mo:hatStatus "2015 Halde" ;
     mo:zumGebiet "Algebra", "Zahlenfolgen" .
@@ -888,7 +894,6 @@
 
 :MO-fuc-09-05
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Flächenformeln draufhauen und dann Algebra" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
     mo:hatSchwierigkeit "2" ;
@@ -901,16 +906,14 @@
 
 :MO-fuc-10-02
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Rekursion" ;
-    mo:hasType "Folgen & Reihen" ;
+    mo:hasType "Folgen, Reihen" ;
     mo:hatSchwierigkeit "3" ;
     mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Algebra" .
 
 :MO-fuc-10-03
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasType "sonstige Aufgaben" ;
     mo:hatSchwierigkeit "3" ;
     mo:hatStatus "2017 im Schatz" ;
@@ -946,7 +949,6 @@
 
 :MO-fuc-10-08
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     owl:sameAs mop:MO-580943 ;
     mo:hasType "Abzählende Kombinatorik" ;
     mo:hatSchwierigkeit "2" ;
@@ -967,7 +969,6 @@
 
 :MO-fuc-11-03
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "mit Apollonius trivial, anderenfalls am besten rechnen" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "3" ;
@@ -1000,7 +1001,6 @@
 
 :MO-fuc-11-09
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Unendlicher Abstieg / Teilerfremdheit voraussetzen" ;
     mo:hasType "Zahlentheorie" ;
     mo:hatSchwierigkeit "2" ;
@@ -1027,7 +1027,6 @@
 
 :MO-fuc-12-02
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasType "sonstige Aufgaben" ;
     mo:hatSchwierigkeit "3" ;
     mo:hatStatus "2017 im Schatz" ;
@@ -1049,7 +1048,6 @@
 
 :MO-fuc-12-06
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "periodische Funktion" ;
     mo:hasType "Funktionalgleichungen" ;
     mo:hatSchwierigkeit "3" ;
@@ -1070,7 +1068,6 @@
 
 :MO-fuc-12-09
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     owl:sameAs mop:MO-601016 ;
     mo:hasSubtype "Binäre Operation" ;
     mo:hasType "Funktionalgleichungen" ;
@@ -1079,7 +1076,6 @@
 
 :MO-fuc-12-10
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Quadratische Reste" ;
     mo:hasType "Zahlentheorie" ;
     mo:hatSchwierigkeit "2" ;
@@ -1104,7 +1100,6 @@
 
 :MO-fuc-12-14
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Quadratische Reste" ;
     mo:hasType "Zahlentheorie" ;
     mo:hatSchwierigkeit "2" ;
@@ -1133,7 +1128,6 @@
 
 :MO-fuc-12-19
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Unendlicher Abstieg / Teilerfremdheit voraussetzen" ;
     mo:hasType "Zahlentheorie" ;
     mo:hatSchwierigkeit "3" ;
@@ -1148,7 +1142,6 @@
 
 :MO-fuc-13-02
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Faktorisierung mittels 3. binomischer Formel" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "2" ;
@@ -1157,7 +1150,7 @@
 
 :MO-fuc-13-03
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
+    owl:sameAs mop:MO-630921, mop:MO-631021 ;
     mo:hasType "Abzählende Kombinatorik" ;
     mo:hatSchwierigkeit "2" ;
     mo:hatStatus "2017 im Schatz" ;
@@ -1171,7 +1164,6 @@
 
 :MO-fuc-13-05
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     owl:sameAs mop:MO-581015 ;
     mo:hasSubtype "Rekursion" ;
     mo:hasType "Folgen und Reihen" ;
@@ -1180,7 +1172,7 @@
 
 :MO-fuc-13-06
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
+    owl:sameAs mop:MO-630941, mop:MO-631041 ;
     mo:hasSubtype "komb. Geometrie" ;
     mo:hasType "sonstige Geometrieaufgaben" ;
     mo:hatSchwierigkeit "4" ;
@@ -1195,7 +1187,6 @@
 
 :MO-fuc-13-08
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "3" ;
     mo:hatStatus "2017 im Schatz" ;
@@ -1207,7 +1198,6 @@
 
 :MO-fuc-13-10
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Ecken zählen" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "3" ;
@@ -1228,7 +1218,6 @@
 
 :MO-fuc-13-14
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Anzahl Teiler abschätzen" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "3" ;
@@ -1237,7 +1226,6 @@
 
 :MO-fuc-14-01
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Unendlicher Abstieg / Teilerfremdheit voraussetzen" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "2" ;
@@ -1246,7 +1234,6 @@
 
 :MO-fuc-14-02
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     owl:sameAs mop:MO-570935 ;
     mo:hasSubtype "Strahlensatz/Streckungen/ähnliche Dreiecke" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
@@ -1255,7 +1242,6 @@
 
 :MO-fuc-14-03
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Dreiecksungleichung" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "2" ;
@@ -1264,8 +1250,9 @@
 
 :MO-fuc-14-04
     a mo:AufgabenVorschlag ;
+    rdfs:comment "Klassisches Problem, das im MO-Training immer wieder besprochen wird, deshalb für Runde 4 nicht geeignet, sonst aber zu schwer." ;
     mo:hatSchwierigkeit "5" ;
-    mo:hatStatus "2017 im Schatz" ;
+    mo:hatStatus "2021 aussortiert" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-14-05
@@ -1353,6 +1340,7 @@
 
 :MO-fuc-15-12
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-631031 ;
     mo:hatSchwierigkeit "2" ;
     mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Geometrie" .
@@ -1401,7 +1389,7 @@
 
 :MO-fuc-16-07
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-590944,mop:MO-591044 ;
+    owl:sameAs mop:MO-590944, mop:MO-591044 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Polynome" .
 
@@ -1516,7 +1504,7 @@
 
 :MO-fuc-18-08
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-600934,mop:MO-601034 ;
+    owl:sameAs mop:MO-600934, mop:MO-601034 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Analysis" .
 
@@ -1564,7 +1552,7 @@
 
 :MO-fuc-18-15
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-600922,mop:MO-601022 ;
+    owl:sameAs mop:MO-600922, mop:MO-601022 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Zahlentheorie" .
 
@@ -1654,15 +1642,18 @@
 :MO-fuc-20-03
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
+    mo:hatStatus "2021 aussortiert" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-fuc-20-04
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-630924 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-20-05
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-631035 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Geometrie" .
 
@@ -1674,9 +1665,57 @@
 :MO-fuc-20-07
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
+    mo:hatStatus "Dublette. 2021 aussortiert" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-fuc-20-08
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-fuc-21-01
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-630935 ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-fuc-21-02
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Zahlentheorie" .
+
+:MO-fuc-21-04
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-630934, mop:MO-631034 ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Zahlentheorie" .
+
+:MO-fuc-21-07
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Zahlentheorie" .
+
+:MO-fuc-21-08
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Funktionen" .
+
+:MO-fuc-21-09
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "1" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-fuc-21-10
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Geometrie", "Gleichungen" .
+
+:MO-fuc-21-11
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-fuc-21-12
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Geometrie" .
@@ -1688,7 +1727,7 @@
 
 :MO-gir-00-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420915,mop:MO-421015 ;
+    owl:sameAs mop:MO-420915, mop:MO-421015 ;
     mo:zumGebiet "Algebra" .
 
 :MO-gir-00-04
@@ -1778,13 +1817,13 @@
 
 :MO-goe-02-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-480933,mop:MO-481033 ;
+    owl:sameAs mop:MO-480933, mop:MO-481033 ;
     mo:hatSchwierigkeit "5" ;
     mo:zumGebiet "Stereometrie" .
 
 :MO-goe-03-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-450946,mop:MO-451045 ;
+    owl:sameAs mop:MO-450946, mop:MO-451045 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Geometrie" .
 
@@ -1796,7 +1835,7 @@
 
 :MO-goe-03-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-450933,mop:MO-451033 ;
+    owl:sameAs mop:MO-450933, mop:MO-451033 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Ungleichungen" .
 
@@ -1806,7 +1845,7 @@
 
 :MO-goe-03-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-450941,mop:MO-451041 ;
+    owl:sameAs mop:MO-450941, mop:MO-451041 ;
     mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
 
 :MO-goe-03-06
@@ -1845,7 +1884,7 @@
 
 :MO-goe-05-01
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
+    owl:sameAs mop:MO-631046 ;
     mo:hasSubtype "Strahlensatz/Streckungen/ähnliche Dreiecke" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "4" ;
@@ -1872,7 +1911,6 @@
 
 :MO-goe-05-04
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     owl:sameAs mop:MO-591042 ;
     mo:hasSubtype "Flächeninhalt maximieren" ;
     mo:hasType "geometrische Ungleichungen" ;
@@ -1881,7 +1919,7 @@
 
 :MO-goe-05-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-490935,mop:MO-491035 ;
+    owl:sameAs mop:MO-490935, mop:MO-491035 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Ungleichungen" .
 
@@ -1951,7 +1989,7 @@
 
 :MO-goe-07-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-500941,mop:MO-501041 ;
+    owl:sameAs mop:MO-500941, mop:MO-501041 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Kombinatorik" .
 
@@ -1969,13 +2007,12 @@
 
 :MO-goe-08-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-500932,mop:MO-501032 ;
+    owl:sameAs mop:MO-500932, mop:MO-501032 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-goe-08-03
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Pythagoras" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "5" ;
@@ -1990,7 +2027,7 @@
 
 :MO-goe-08-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-540941,mop:MO-541041 ;
+    owl:sameAs mop:MO-540941, mop:MO-541041 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Gleichungen" .
 
@@ -2020,7 +2057,7 @@
 
 :MO-goe-09-02
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
+    owl:sameAs mop:MO-630922, mop:MO-631022 ;
     mo:hasSubtype "Bernoulli" ;
     mo:hasType "Ungleichungen" ;
     mo:hatSchwierigkeit "1", "2" ;
@@ -2047,13 +2084,12 @@
 
 :MO-goe-11-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-530923,mop:MO-531023 ;
+    owl:sameAs mop:MO-530923, mop:MO-531023 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Stochastik" .
 
 :MO-goe-11-02
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Zahlensysteme" ;
     mo:hasType "Unausgegoren" ;
     mo:hatSchwierigkeit "3" ;
@@ -2062,7 +2098,7 @@
 
 :MO-goe-11-03
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
+    owl:sameAs mop:MO-630936, mop:MO-631036 ;
     mo:hasSubtype "Mehr Ungleichung als Zahlentheorie" ;
     mo:hasType "Ungleichungen" ;
     mo:hatSchwierigkeit "4" ;
@@ -2095,7 +2131,7 @@
 
 :MO-goe-12-02
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
+    owl:sameAs mop:MO-631043 ;
     mo:hasSubtype "Würfel beschriften" ;
     mo:hasType "Knobelaufgaben" ;
     mo:hatSchwierigkeit "5" ;
@@ -2110,7 +2146,7 @@
 
 :MO-goe-12-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-540924,mop:MO-541024 ;
+    owl:sameAs mop:MO-540924, mop:MO-541024 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
 
@@ -2126,7 +2162,7 @@
 
 :MO-goe-13-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-550935,mop:MO-551035 ;
+    owl:sameAs mop:MO-550935, mop:MO-551035 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Geometrie" .
 
@@ -2160,7 +2196,7 @@
 
 :MO-goe-14-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-570933,mop:MO-571033 ;
+    owl:sameAs mop:MO-570933, mop:MO-571033 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Zahlentheorie" .
 
@@ -2178,7 +2214,7 @@
 
 :MO-goe-15-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-570941,mop:MO-571041 ;
+    owl:sameAs mop:MO-570941, mop:MO-571041 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Geometrie", "Zahlentheorie" .
 
@@ -2196,7 +2232,7 @@
 
 :MO-goe-15-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-580933,mop:MO-581033 .
+    owl:sameAs mop:MO-580933, mop:MO-581033 .
 
 :MO-goe-16-01
     a mo:AufgabenVorschlag ;
@@ -2235,7 +2271,7 @@
 
 :MO-goe-17-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-590921,mop:MO-591021 ;
+    owl:sameAs mop:MO-590921, mop:MO-591021 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Algebra", "Zahlentheorie" .
 
@@ -2326,6 +2362,11 @@
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Geometrie" .
 
+:MO-goe-21-01
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Geometrie" .
+
 :MO-gra-00-01
     a mo:AufgabenVorschlag ;
     owl:sameAs mop:MO-421036 ;
@@ -2364,7 +2405,7 @@
 
 :MO-gra-01-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-430924,mop:MO-431024 ;
+    owl:sameAs mop:MO-430924, mop:MO-431024 ;
     mo:zumGebiet "Geometrie" .
 
 :MO-gra-01-04
@@ -2433,7 +2474,6 @@
 
 :MO-gra-12-03
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Pythagoreische Tripel" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "3" ;
@@ -2442,7 +2482,7 @@
 
 :MO-gra-14-01
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014", "Vorschlag Hercher Aug. 2013" ;
+    rdfs:comment "Vorschlag Hercher Aug. 2013" ;
     mo:hasType "sonstige Aufgaben" ;
     mo:hatSchwierigkeit "2" ;
     mo:hatStatus "2017 im Schatz" ;
@@ -2450,7 +2490,7 @@
 
 :MO-gra-14-02
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014", "Vorschlag Hercher Aug. 2013" ;
+    rdfs:comment "Vorschlag Hercher Aug. 2013" ;
     mo:hasSubtype "Unendlicher Abstieg / Teilerfremdheit voraussetzen" ;
     mo:hasType "Zahlentheorie" ;
     mo:hatSchwierigkeit "2" ;
@@ -2463,7 +2503,7 @@
 
 :MO-gra-14-04
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014", "Übernahme aus der AAG 8" ;
+    rdfs:comment "Übernahme aus der AAG 8" ;
     mo:hasSubtype "Zwei Kreise mit Rechtecken, Lösung etwas unausgegoren" ;
     mo:hasType "sonstige Geometrieaufgaben" ;
     mo:hatSchwierigkeit "3" ;
@@ -2526,17 +2566,38 @@
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Zahlentheorie" .
 
+:MO-gra-21-01
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Zahlentheorie" .
+
+:MO-gra-21-02
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-gra-21-03
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Zahlentheorie" .
+
+:MO-gra-21-04
+    a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-631016 ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Kombinatorik" .
+
 :MO-gra-99-02
     a mo:AufgabenVorschlag ;
     owl:sameAs mop:MO-411024 .
 
 :MO-gra-99-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-410936,mop:MO-411036 .
+    owl:sameAs mop:MO-410936, mop:MO-411036 .
 
 :MO-gra-99-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-410941,mop:MO-411041 .
+    owl:sameAs mop:MO-410941, mop:MO-411041 .
 
 :MO-gra-99-05
     a mo:AufgabenVorschlag ;
@@ -2544,7 +2605,7 @@
 
 :MO-hel-00-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420912,mop:MO-421012 ;
+    owl:sameAs mop:MO-420912, mop:MO-421012 ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-hel-00-02
@@ -2589,7 +2650,7 @@
 
 :MO-hel-03-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-450931,mop:MO-451031 ;
+    owl:sameAs mop:MO-450931, mop:MO-451031 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Kombinatorik" .
 
@@ -2635,7 +2696,7 @@
 
 :MO-hel-99-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-410921,mop:MO-411021 .
+    owl:sameAs mop:MO-410921, mop:MO-411021 .
 
 :MO-hel-99-02
     a mo:AufgabenVorschlag ;
@@ -2643,15 +2704,15 @@
 
 :MO-hel-99-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-410935,mop:MO-411035 .
+    owl:sameAs mop:MO-410935, mop:MO-411035 .
 
 :MO-hel-99-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-410931,mop:MO-411031 .
+    owl:sameAs mop:MO-410931, mop:MO-411031 .
 
 :MO-her-02-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-480923,mop:MO-481023 ;
+    owl:sameAs mop:MO-480923, mop:MO-481023 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Ungleichungen" .
 
@@ -2669,13 +2730,12 @@
 
 :MO-her-02-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-480944,mop:MO-481044 ;
+    owl:sameAs mop:MO-480944, mop:MO-481044 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-her-02-04
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Strahlensatz/Streckungen/ähnliche Dreiecke" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "3" ;
@@ -2684,7 +2744,7 @@
 
 :MO-her-02-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-560935,mop:MO-561035 ;
+    owl:sameAs mop:MO-560935, mop:MO-561035 ;
     mo:hatSchwierigkeit "3" ;
     mo:hatStatus "2012 im Schatz" ;
     mo:zumGebiet "Geometrie" .
@@ -2697,7 +2757,7 @@
 
 :MO-her-03-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-460941,mop:MO-461041 ;
+    owl:sameAs mop:MO-460941, mop:MO-461041 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Gleichungen" .
 
@@ -2744,7 +2804,7 @@
 
 :MO-her-04-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-460942,mop:MO-461042 ;
+    owl:sameAs mop:MO-460942, mop:MO-461042 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Geometrie" .
 
@@ -2756,7 +2816,6 @@
 
 :MO-her-04-06
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Dreiecksungleichung" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "4" ;
@@ -2765,7 +2824,6 @@
 
 :MO-her-04-07
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "rein algebraische Ungleichung" ;
     mo:hasType "Ungleichungen" ;
     mo:hatSchwierigkeit "4" ;
@@ -2845,8 +2903,7 @@
 
 :MO-her-06-02c
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
-    mo:hasSubtype "" ;
+    owl:sameAs mop:MO-630944, mop:MO-631044 ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "2" ;
     mo:hatStatus "2017 im Schatz" ;
@@ -2881,7 +2938,7 @@
 
 :MO-her-07-01
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
+    owl:sameAs mop:MO-631015 ;
     mo:hasSubtype "Abstandssumme minimieren" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "2" ;
@@ -2890,7 +2947,7 @@
 
 :MO-her-07-02
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
+    owl:sameAs mop:MO-630933, mop:MO-631033 ;
     mo:hasSubtype "Abstandssumme minimieren" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "4" ;
@@ -2899,20 +2956,20 @@
 
 :MO-her-07-03a
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
+    rdfs:comment "Fortsetzung her-07-02, die gestellt wurde.  Dort bereits allgemeines Lösungsprinzip dargestellt, deshalb für Runde 4 nicht geeignet, sonst aber zu schwer." ;
     mo:hasSubtype "Abstandssumme minimieren" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "4/5" ;
-    mo:hatStatus "2017 im Schatz" ;
+    mo:hatStatus "2021 aussortiert" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-her-07-03b
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
+    rdfs:comment "Fortsetzung her-07-02, die gestellt wurde.  Dort bereits allgemeines Lösungsprinzip dargestellt, deshalb für Runde 4 nicht geeignet, sonst aber zu schwer." ;
     mo:hasSubtype "Abstandssumme minimieren" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "6" ;
-    mo:hatStatus "2017 im Schatz" ;
+    mo:hatStatus "2021 aussortiert" ;
     mo:zumGebiet "Geometrie", "Stereometrie" .
 
 :MO-her-07-04
@@ -2923,7 +2980,6 @@
 
 :MO-her-07-05
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "komb. Geometrie" ;
     mo:hasType "sonstige Geometrieaufgaben" ;
     mo:hatSchwierigkeit "5" ;
@@ -2938,13 +2994,13 @@
 
 :MO-her-09-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-510942,mop:MO-511042 ;
+    owl:sameAs mop:MO-510942, mop:MO-511042 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-her-09-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-530943,mop:MO-531043 ;
+    owl:sameAs mop:MO-530943, mop:MO-531043 ;
     mo:hatSchwierigkeit "3-4" ;
     mo:zumGebiet "Geometrie" .
 
@@ -2992,11 +3048,11 @@
 
 :MO-her-10-04
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
+    rdfs:comment "War IMO-Aufgabe 1993, deshalb für Runde 4 nicht geeignet, sonst aber zu schwer." ;
     mo:hasSubtype "Kreis berührt Seiten und Umkreis" ;
     mo:hasType "sonstige Geometrieaufgaben" ;
     mo:hatSchwierigkeit "4/5" ;
-    mo:hatStatus "2017 im Schatz" ;
+    mo:hatStatus "2021 aussortiert" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-her-10-05
@@ -3033,7 +3089,6 @@
 
 :MO-her-12-04
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Ganzzahlige Seitenlängen - evtl zu schwer?" ;
     mo:hasType "Knobelaufgaben" ;
     mo:hatSchwierigkeit "3/4" ;
@@ -3042,7 +3097,6 @@
 
 :MO-her-12-05
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Ganzzahlige Seitenlängen - evtl zu schwer?" ;
     mo:hasType "Knobelaufgaben" ;
     mo:hatSchwierigkeit "5" ;
@@ -3063,7 +3117,7 @@
 
 :MO-her-15-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-580936,mop:MO-581036 ;
+    owl:sameAs mop:MO-580936, mop:MO-581036 ;
     mo:hatSchwierigkeit "3/4" ;
     mo:zumGebiet "Stochastik", "Wahrscheinlichkeit" .
 
@@ -3075,6 +3129,7 @@
 
 :MO-her-15-03
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-631045 ;
     mo:hatSchwierigkeit "3/4" ;
     mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
@@ -3105,7 +3160,7 @@
 
 :MO-her-17-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-590933,mop:MO-591033 ;
+    owl:sameAs mop:MO-590933, mop:MO-591033 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Algebra", "Zahlentheorie" .
 
@@ -3180,7 +3235,7 @@
 
 :MO-heu-00-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420913,mop:MO-421013 ;
+    owl:sameAs mop:MO-420913, mop:MO-421013 ;
     mo:zumGebiet "Geometrie" .
 
 :MO-heu-00-02
@@ -3191,7 +3246,7 @@
 
 :MO-heu-00-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420923,mop:MO-421023 ;
+    owl:sameAs mop:MO-420923, mop:MO-421023 ;
     mo:zumGebiet "Geometrie" .
 
 :MO-heu-00-04
@@ -3201,7 +3256,7 @@
 
 :MO-heu-00-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420934,mop:MO-421034 ;
+    owl:sameAs mop:MO-420934, mop:MO-421034 ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-heu-01-01
@@ -3210,7 +3265,7 @@
 
 :MO-heu-01-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-430936,mop:MO-431036 ;
+    owl:sameAs mop:MO-430936, mop:MO-431036 ;
     mo:zumGebiet "Geometrie" .
 
 :MO-heu-01-03a
@@ -3270,7 +3325,7 @@
 
 :MO-heu-03-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-450934,mop:MO-451034 ;
+    owl:sameAs mop:MO-450934, mop:MO-451034 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Zahlentheorie" .
 
@@ -3282,13 +3337,12 @@
 
 :MO-heu-03-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-450923,mop:MO-451023 ;
+    owl:sameAs mop:MO-450923, mop:MO-451023 ;
     mo:hatSchwierigkeit "mittel" ;
     mo:zumGebiet "Algebra" .
 
 :MO-heu-03-05
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Dreiecksungleichung" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "4" ;
@@ -3302,12 +3356,11 @@
 
 :MO-heu-04-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-460921,mop:MO-461021 ;
+    owl:sameAs mop:MO-460921, mop:MO-461021 ;
     mo:zumGebiet "Algebra" .
 
 :MO-heu-04-03
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     owl:sameAs mop:MO-600942 ;
     mo:hasSubtype "Dreiecksungleichung" ;
     mo:hasType "geometrische Ungleichungen" ;
@@ -3320,7 +3373,6 @@
 
 :MO-heu-04-05
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     owl:sameAs mop:MO-590942 ;
     mo:hasSubtype "Flächenformeln draufhauen und dann Algebra" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
@@ -3328,13 +3380,13 @@
 
 :MO-heu-06-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-480931,mop:MO-481031 ;
+    owl:sameAs mop:MO-480931, mop:MO-481031 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Knobelaufgabe" .
 
 :MO-heu-06-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-480941,mop:MO-481041 ;
+    owl:sameAs mop:MO-480941, mop:MO-481041 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Knobeln" .
 
@@ -3376,7 +3428,7 @@
 
 :MO-heu-08-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-590935,mop:MO-591035 ;
+    owl:sameAs mop:MO-590935, mop:MO-591035 ;
     mo:hasSubtype "Flächeninhalt maximieren" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "3" ;
@@ -3402,7 +3454,6 @@
 
 :MO-heu-09-01
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Termumformung" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "2" ;
@@ -3411,7 +3462,7 @@
 
 :MO-heu-09-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-510934,mop:MO-511034 ;
+    owl:sameAs mop:MO-510934, mop:MO-511034 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Gleichungen" .
 
@@ -3429,7 +3480,7 @@
 
 :MO-heu-10-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-520931,mop:MO-521031 ;
+    owl:sameAs mop:MO-520931, mop:MO-521031 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Kombinatorik", "Logik" .
 
@@ -3489,7 +3540,6 @@
 
 :MO-lan-02-04
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     owl:sameAs mop:MO-571046 ;
     mo:hasSubtype "Flächeninhalt maximieren" ;
     mo:hasType "geometrische Ungleichungen" ;
@@ -3550,7 +3600,7 @@
 
 :MO-lan-03-06
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
+    owl:sameAs mop:MO-630946 ;
     mo:hasSubtype "Fläche als Produkt von Seiten" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "5" ;
@@ -3565,7 +3615,7 @@
 
 :MO-lan-03-08
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-450922,mop:MO-451022 ;
+    owl:sameAs mop:MO-450922, mop:MO-451022 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Ungleichungen" .
 
@@ -3599,7 +3649,7 @@
 
 :MO-lan-05-01
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
+    owl:sameAs mop:MO-630942 ;
     mo:hasSubtype "geometrische Reihe" ;
     mo:hasType "Ungleichungen" ;
     mo:hatSchwierigkeit "4" ;
@@ -3620,7 +3670,7 @@
 
 :MO-lan-05-03
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
+    owl:sameAs mop:MO-630932, mop:MO-631032 ;
     mo:hasType "Abzählende Kombinatorik" ;
     mo:hatSchwierigkeit "3" ;
     mo:hatStatus "2017 im Schatz" ;
@@ -3634,7 +3684,7 @@
 
 :MO-lan-05-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-470941,mop:MO-471041 ;
+    owl:sameAs mop:MO-470941, mop:MO-471041 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Algebra", "Zahlentheorie" .
 
@@ -3646,19 +3696,18 @@
 
 :MO-lan-05-07
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-490945,mop:MO-491045 ;
+    owl:sameAs mop:MO-490945, mop:MO-491045 ;
     mo:hatSchwierigkeit "2-3" ;
     mo:zumGebiet "Geometrie" .
 
 :MO-lan-06-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-480922,mop:MO-481022 ;
+    owl:sameAs mop:MO-480922, mop:MO-481022 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-lan-06-02
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Cavalieri" ;
     mo:hasType "sonstige Geometrieaufgaben" ;
     mo:hatSchwierigkeit "5" ;
@@ -3679,7 +3728,7 @@
 
 :MO-lan-06-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-500936,mop:MO-501035 ;
+    owl:sameAs mop:MO-500936, mop:MO-501035 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Zahlentheorie" .
 
@@ -3703,7 +3752,6 @@
 
 :MO-lan-07-01
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Simplexprinzip" ;
     mo:hasType "Ungleichungen" ;
     mo:hatSchwierigkeit "3" ;
@@ -3736,7 +3784,6 @@
 
 :MO-lan-07-05
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Flächeninhalt maximieren" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "3" ;
@@ -3745,7 +3792,6 @@
 
 :MO-lan-07-05b
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Flächeninhalt maximieren" ;
     mo:hasType "geometrische Ungleichungen" ;
     mo:hatSchwierigkeit "4" ;
@@ -3802,7 +3848,7 @@
 
 :MO-lan-08-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-500931,mop:MO-501031 ;
+    owl:sameAs mop:MO-500931, mop:MO-501031 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Algebra" .
 
@@ -3826,7 +3872,6 @@
 
 :MO-lan-09-02
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Volumen von Tetraedern" ;
     mo:hasType "sonstige Geometrieaufgaben" ;
     mo:hatSchwierigkeit "3" ;
@@ -3883,7 +3928,7 @@
 
 :MO-lan-10-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-520945,mop:MO-521045 ;
+    owl:sameAs mop:MO-520945, mop:MO-521045 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Kombinatorik" .
 
@@ -3895,13 +3940,12 @@
 
 :MO-lan-11-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-530936,mop:MO-531036 ;
+    owl:sameAs mop:MO-530936, mop:MO-531036 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Geometrie", "Kombinatorik" .
 
 :MO-lan-11-02
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Fläche als Produkt von Seiten" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "4" ;
@@ -3922,7 +3966,7 @@
 
 :MO-lan-11-05
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
+    owl:sameAs mop:MO-630945 ;
     mo:hasSubtype "Mischung Zahlentheorie & Kombinatorik" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "4" ;
@@ -3955,7 +3999,6 @@
 
 :MO-lan-12-05
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Komb, W.Theorie, Spiel/Optimierung" ;
     mo:hasType "Spiele" ;
     mo:hatSchwierigkeit "4" ;
@@ -3988,7 +4031,6 @@
 
 :MO-lan-13-01
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Rekursion" ;
     mo:hasType "Folgen & Reihen" ;
     mo:hatSchwierigkeit "4" ;
@@ -3997,7 +4039,6 @@
 
 :MO-lan-13-02
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Rundungseffekte" ;
     mo:hasType "Ungleichungen" ;
     mo:hatSchwierigkeit "4" ;
@@ -4042,7 +4083,6 @@
 
 :MO-lan-13-06
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Multiplikation mit 8" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "3" ;
@@ -4081,7 +4121,7 @@
 
 :MO-lan-14-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-560931,mop:MO-561031 ;
+    owl:sameAs mop:MO-560931, mop:MO-561031 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Arithmetik", "Zahlentheorie" .
 
@@ -4093,7 +4133,7 @@
 
 :MO-lan-14-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-560941,mop:MO-561041 ;
+    owl:sameAs mop:MO-560941, mop:MO-561041 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Arithmetik" .
 
@@ -4159,7 +4199,7 @@
 
 :MO-lan-15-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-570924,mop:MO-571023 ;
+    owl:sameAs mop:MO-570924, mop:MO-571023 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Arithmetik" .
 
@@ -4189,25 +4229,25 @@
 
 :MO-lan-15-07
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-570934,mop:MO-571034 ;
+    owl:sameAs mop:MO-570934, mop:MO-571034 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-lan-15-08
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-570944,mop:MO-571044 ;
+    owl:sameAs mop:MO-570944, mop:MO-571044 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-lan-16-01a
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-580944,mop:MO-581044 ;
+    owl:sameAs mop:MO-580944, mop:MO-581044 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Ungleichung / Arithmetik" .
 
 :MO-lan-16-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-580942,mop:MO-581042 ;
+    owl:sameAs mop:MO-580942, mop:MO-581042 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Geometrie" .
 
@@ -4225,7 +4265,7 @@
 
 :MO-lan-16-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-580941,mop:MO-581041 ;
+    owl:sameAs mop:MO-580941, mop:MO-581041 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Algebra / Ungleichungen" .
 
@@ -4273,7 +4313,7 @@
 
 :MO-lan-17-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-590924,mop:MO-591024 ;
+    owl:sameAs mop:MO-590924, mop:MO-591024 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Kombinatorik/Arithmetik" .
 
@@ -4315,13 +4355,13 @@
 
 :MO-lan-18-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-600944,mop:MO-601044 ;
+    owl:sameAs mop:MO-600944, mop:MO-601044 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Algebra" .
 
 :MO-lan-18-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-600943,mop:MO-601042 ;
+    owl:sameAs mop:MO-600943, mop:MO-601042 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Knobelaufgabe", "Ungleichungen" .
 
@@ -4333,7 +4373,7 @@
 
 :MO-lan-18-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-600931,mop:MO-601031 ;
+    owl:sameAs mop:MO-600931, mop:MO-601031 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Arithmetik" .
 
@@ -4345,13 +4385,13 @@
 
 :MO-lan-18-07
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-600933,mop:MO-601032 ;
+    owl:sameAs mop:MO-600933, mop:MO-601032 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Algebra" .
 
 :MO-lan-18-08a
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-600921,mop:MO-601021 ;
+    owl:sameAs mop:MO-600921, mop:MO-601021 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Algebra" .
 
@@ -4428,13 +4468,26 @@
 
 :MO-lan-20-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-620921, mop:MO-621021 ;
+    owl:sameAs mop:MO-620921 ;
+    mo:hatSchwierigkeit "1" ;
+    mo:zumGebiet "Knobelaufgabe" .
+
+:MO-lan-20-01a
+    a mo:AufgabenVorschlag ;
+    rdfs:comment "von lan-20-01 für Klasse 10 abgespalten, mit Teil c)" ;
+    owl:sameAs mop:MO-621021 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Knobelaufgabe" .
 
 :MO-lan-20-02
     a mo:AufgabenVorschlag ;
     owl:sameAs mop:MO-620936 ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Knobelaufgabe", "Kombinatorik" .
+
+:MO-lan-20-02a
+    a mo:AufgabenVorschlag ;
+    rdfs:comment "Teil c) von lan-20-02 abgespalten. Kann auch an 11/12 weitergegeben werden" ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Knobelaufgabe", "Kombinatorik" .
 
@@ -4520,7 +4573,7 @@
 
 :MO-met-02-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-440934,mop:MO-441034 ;
+    owl:sameAs mop:MO-440934, mop:MO-441034 ;
     mo:hatSchwierigkeit "mittel" ;
     mo:zumGebiet "Kombinatorik" .
 
@@ -4572,13 +4625,12 @@
 
 :MO-met-03-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-450945,mop:MO-451046 ;
+    owl:sameAs mop:MO-450945, mop:MO-451046 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Gleichungen" .
 
 :MO-met-03-06
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Pythagoras" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "4" ;
@@ -4595,7 +4647,7 @@
 
 :MO-met-99-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-410946,mop:MO-411046 .
+    owl:sameAs mop:MO-410946, mop:MO-411046 .
 
 :MO-met-99-03
     a mo:AufgabenVorschlag ;
@@ -4639,7 +4691,7 @@
 
 :MO-mol-07-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-490941,mop:MO-491041 ;
+    owl:sameAs mop:MO-490941, mop:MO-491041 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Geometrie", "Kombinatorik" .
 
@@ -4681,13 +4733,12 @@
 
 :MO-olb-10-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-530946,mop:MO-531046 ;
+    owl:sameAs mop:MO-530946, mop:MO-531046 ;
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Kombinatorik", "Zahlentheorie" .
 
 :MO-olb-11-01
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Quadratische Reste" ;
     mo:hasType "Zahlentheorieaufgaben, bei der Modulo-Betrachtung von Vorteil" ;
     mo:hatSchwierigkeit "1" ;
@@ -4782,7 +4833,7 @@
 
 :MO-olb-15-02b
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-600941,mop:MO-601041 ;
+    owl:sameAs mop:MO-600941, mop:MO-601041 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Kombinatorik" .
 
@@ -4845,6 +4896,26 @@
     mo:hatSchwierigkeit "4" ;
     mo:zumGebiet "Geometrie", "Kombinatorik" .
 
+:MO-olb-21-01
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "4" ;
+    mo:zumGebiet "Algebra", "Ungleichungen" .
+
+:MO-olb-21-02
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-olb-21-03
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-olb-21-04
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Wahrscheinlichkeit" .
+
 :MO-poe-07-01
     a mo:AufgabenVorschlag ;
     owl:sameAs mop:MO-531014 ;
@@ -4859,7 +4930,6 @@
 
 :MO-poe-07-03
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Aufgabe spielt sich im Koordinatensystem ab" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
     mo:hatSchwierigkeit "2" ;
@@ -4892,7 +4962,7 @@
 
 :MO-poe-07-07
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-540942,mop:MO-541042 ;
+    owl:sameAs mop:MO-540942, mop:MO-541042 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Algebra", "Geometrie" .
 
@@ -4928,7 +4998,7 @@
 
 :MO-poe-07-13
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-550931,mop:MO-551031 ;
+    owl:sameAs mop:MO-550931, mop:MO-551031 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Gleichungen", "Kombinatorik" .
 
@@ -4944,13 +5014,12 @@
 
 :MO-poe-07-16
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-530944,mop:MO-531044 ;
+    owl:sameAs mop:MO-530944, mop:MO-531044 ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Zahlenfolgen" .
 
 :MO-poe-07-17
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Pythagoras" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "2" ;
@@ -4965,7 +5034,6 @@
 
 :MO-poe-07-19
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Inkreisradius/Umfang/Flächeninhalt-Formel" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
     mo:hatSchwierigkeit "2" ;
@@ -4994,7 +5062,7 @@
 
 :MO-poe-07-21
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-490922,mop:MO-491022 ;
+    owl:sameAs mop:MO-490922, mop:MO-491022 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Logik" .
 
@@ -5016,7 +5084,7 @@
 
 :MO-poe-07-25
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-510923,mop:MO-511023 ;
+    owl:sameAs mop:MO-510923, mop:MO-511023 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Zahlentheorie" .
 
@@ -5040,7 +5108,6 @@
 
 :MO-poe-07-29
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Strahlensatz/Streckungen/ähnliche Dreiecke" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "1" ;
@@ -5055,7 +5122,7 @@
 
 :MO-poe-08-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-540931,mop:MO-541031 ;
+    owl:sameAs mop:MO-540931, mop:MO-541031 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Gleichungen" .
 
@@ -5067,7 +5134,6 @@
 
 :MO-poe-08-03
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Nullstellen mod p" ;
     mo:hasType "Zahlentheorie" ;
     mo:hatSchwierigkeit "3" ;
@@ -5094,7 +5160,6 @@
 
 :MO-poe-08-07
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Kreisfläche" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "1" ;
@@ -5109,7 +5174,6 @@
 
 :MO-poe-08-09
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Kreisfläche" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "2" ;
@@ -5192,31 +5256,30 @@
 
 :MO-poe-09-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-530922,mop:MO-531022 ;
+    owl:sameAs mop:MO-530922, mop:MO-531022 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Zahlenfolgen" .
 
 :MO-poe-09-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-530931,mop:MO-531031 ;
+    owl:sameAs mop:MO-530931, mop:MO-531031 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Zahlenfolgen" .
 
 :MO-poe-09-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-510944,mop:MO-511044 ;
+    owl:sameAs mop:MO-510944, mop:MO-511044 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Spieleaufgabe" .
 
 :MO-poe-09-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-510931,mop:MO-511031 ;
+    owl:sameAs mop:MO-510931, mop:MO-511031 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-poe-09-06
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Kreisfläche" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
     mo:hatSchwierigkeit "2" ;
@@ -5225,7 +5288,6 @@
 
 :MO-poe-10-01
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Aufgabe spielt sich im Koordinatensystem ab" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
     mo:hatSchwierigkeit "1" ;
@@ -5234,7 +5296,6 @@
 
 :MO-poe-10-02
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     owl:sameAs mop:MO-581013 ;
     mo:hasSubtype "Aufgabe spielt sich im Koordinatensystem ab" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
@@ -5261,13 +5322,13 @@
 
 :MO-poe-10-06
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-520924,mop:MO-521023 ;
+    owl:sameAs mop:MO-520924, mop:MO-521023 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Spiel" .
 
 :MO-poe-10-07
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
+    owl:sameAs mop:MO-630923, mop:MO-631023 ;
     mo:hasSubtype "Termumformung" ;
     mo:hasType "Folgen und Reihen" ;
     mo:hatSchwierigkeit "2" ;
@@ -5288,7 +5349,6 @@
 
 :MO-poe-10-09
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Mischung Zahlentheorie & Kombinatorik" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "3" ;
@@ -5339,7 +5399,6 @@
 
 :MO-poe-11-03
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     owl:sameAs mop:MO-591011 ;
     mo:hasSubtype "Aufgabe spielt sich im Koordinatensystem ab" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
@@ -5348,7 +5407,7 @@
 
 :MO-poe-11-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-540932,mop:MO-541032 ;
+    owl:sameAs mop:MO-540932, mop:MO-541032 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Geometrie" .
 
@@ -5360,7 +5419,6 @@
 
 :MO-poe-11-06
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     owl:sameAs mop:MO-590923 ;
     mo:hasSubtype "Strahlensatz/Streckungen/ähnliche Dreiecke" ;
     mo:hasType "Geometrieaufgaben mit rechnerischem Anteil" ;
@@ -5369,7 +5427,6 @@
 
 :MO-poe-11-07
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Pythagoras bei sich berührenden Dingen" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
     mo:hatSchwierigkeit "1" ;
@@ -5378,13 +5435,12 @@
 
 :MO-poe-11-08
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-530935,mop:MO-531035 ;
+    owl:sameAs mop:MO-530935, mop:MO-531035 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Zahlentheorie" .
 
 :MO-poe-12-01
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Quadratzahlen aneinanderhängen" ;
     mo:hasType "Unausgegoren" ;
     mo:hatSchwierigkeit "3" ;
@@ -5393,7 +5449,7 @@
 
 :MO-poe-12-02
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
+    owl:sameAs mop:MO-631013 ;
     mo:hasSubtype "Ansätze von chinesischem Restsatz" ;
     mo:hasType "Zahlentheorieaufgaben" ;
     mo:hatSchwierigkeit "3" ;
@@ -5408,7 +5464,6 @@
 
 :MO-poe-13-02
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Aufgabe spielt sich im Koordinatensystem ab" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
     mo:hatSchwierigkeit "2" ;
@@ -5452,7 +5507,6 @@
 
 :MO-poe-14-01A
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Pythagoras bei sich berührenden Dingen" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
     mo:hatSchwierigkeit "2" ;
@@ -5461,7 +5515,6 @@
 
 :MO-poe-14-01B
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     mo:hasSubtype "Pythagoras bei sich berührenden Dingen" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
     mo:hatSchwierigkeit "2" ;
@@ -5470,7 +5523,6 @@
 
 :MO-poe-14-02
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     owl:sameAs mop:MO-581011 ;
     mo:hasSubtype "Flächenformeln draufhauen und dann Algebra" ;
     mo:hasType "Geometrieaufgaben mit hohem rechnerischem Anteil" ;
@@ -5479,13 +5531,12 @@
 
 :MO-poe-14-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-560934,mop:MO-561034 ;
+    owl:sameAs mop:MO-560934, mop:MO-561034 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Arithmetik" .
 
 :MO-poe-14-04
     a mo:AufgabenVorschlag ;
-    rdfs:comment "Type, Subtype, Anmerkung langer AA 2014" ;
     owl:sameAs mop:MO-561012 ;
     mo:hasSubtype "Dreieckszerlegung" ;
     mo:hasType "sonstige Geometrieaufgaben" ;
@@ -5506,7 +5557,7 @@
 
 :MO-poe-15-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-570921,mop:MO-571021 ;
+    owl:sameAs mop:MO-570921, mop:MO-571021 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Algebra" .
 
@@ -5518,7 +5569,7 @@
 
 :MO-poe-15-05
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-570931,mop:MO-571031 ;
+    owl:sameAs mop:MO-570931, mop:MO-571031 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Algebra" .
 
@@ -5530,7 +5581,7 @@
 
 :MO-poe-15-07
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-590932,mop:MO-591032 ;
+    owl:sameAs mop:MO-590932, mop:MO-591032 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Geometrie" .
 
@@ -5560,7 +5611,7 @@
 
 :MO-poe-16-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-580921,mop:MO-581021 ;
+    owl:sameAs mop:MO-580921, mop:MO-581021 ;
     mo:hatSchwierigkeit "1" ;
     mo:zumGebiet "Algebra" .
 
@@ -5590,6 +5641,7 @@
 
 :MO-poe-18-01
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-631011 ;
     mo:hatSchwierigkeit "1" ;
     mo:hatStatus "2017 im Schatz" ;
     mo:zumGebiet "Algebra" .
@@ -5650,6 +5702,7 @@
 
 :MO-poe-19-01
     a mo:AufgabenVorschlag ;
+    owl:sameAs mop:MO-631024 ;
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Geometrie" .
 
@@ -5686,7 +5739,7 @@
 
 :MO-sch-02-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-440946,mop:MO-441046 ;
+    owl:sameAs mop:MO-440946, mop:MO-441046 ;
     mo:hatSchwierigkeit "mittel" ;
     mo:zumGebiet "Kombinatorik" .
 
@@ -5697,7 +5750,7 @@
 
 :MO-sch-02-04
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-440941,mop:MO-441041 ;
+    owl:sameAs mop:MO-440941, mop:MO-441041 ;
     mo:hatSchwierigkeit "leicht" ;
     mo:zumGebiet "Ungleichungen" .
 
@@ -5715,17 +5768,17 @@
 
 :MO-spr-00-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420931,mop:MO-421031 ;
+    owl:sameAs mop:MO-420931, mop:MO-421031 ;
     mo:zumGebiet "Algebra" .
 
 :MO-spr-00-02
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420943,mop:MO-421041 ;
+    owl:sameAs mop:MO-420943, mop:MO-421041 ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-spr-00-03
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420911,mop:MO-421011 ;
+    owl:sameAs mop:MO-420911, mop:MO-421011 ;
     mo:zumGebiet "Kombinatorik" .
 
 :MO-spr-00-04
@@ -5740,7 +5793,7 @@
 
 :MO-spr-00-06
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-420916,mop:MO-421016 ;
+    owl:sameAs mop:MO-420916, mop:MO-421016 ;
     mo:zumGebiet "Algebra" .
 
 :MO-spr-01-01
@@ -5791,7 +5844,7 @@
 
 :MO-spr-99-01
     a mo:AufgabenVorschlag ;
-    owl:sameAs mop:MO-410922,mop:MO-411022 .
+    owl:sameAs mop:MO-410922, mop:MO-411022 .
 
 :MO-spr-99-02
     a mo:AufgabenVorschlag ;
