@@ -14,14 +14,18 @@ configParams = """
 
     #   fixed names & values
     [CONST]
-        modelDirName = models
+        mathModelFileName = models/math
+        moModelFileName = models/mo
         dataFileName = moProbleme.ttl
+        remoteURL = http://www.mathematik-olympiaden.de/aufgaben/rdf
 
     #   specific data
 
     #   workflow setup
     [WORK]
-        checkData = True
+        source = remote
+        checkData = False
+        queryData = True
 """
 
 #   lib logging
@@ -92,27 +96,37 @@ if __name__ == '__main__':
         if config['DEFAULT'].getboolean('logToFile', None):
             logging.info(f'logging to {logFilePath}')
 
-        #   const
-        modelDirPath = workDirPath / config.get('CONST', 'modelDirName')
-        dataFilePath = workDirPath / config.get('CONST', 'dataFileName')
 
         #   run
 
         #   read models
         rdfGraph = rdflib.Graph(identifier="moProbleme")
-        graphSize = 0
-        for modelFilePath in modelDirPath.iterdir():
-            with modelFilePath.open(mode='rt', encoding='utf8') as dataFile:
-                logging.info(f'reading {dataFile.name}')
-                rdfGraph.parse(file=dataFile, format='ttl')
-            newGraphSize = len(rdfGraph)
-            logging.info(f'\t{newGraphSize - graphSize} statements read')
-            graphSize = newGraphSize
+        graphSize = len(rdfGraph)
+        match src := config.get('WORK', 'source'):
+            case 'remote':
+                rootURL = config.get('CONST', 'remoteURL')
+                for prefix in ['mathModel', 'moModel', 'data']:
+                    srcURL = f"{rootURL}/{config.get('CONST', f'{prefix}FileName')}"
+                    rdfGraph.parse(srcURL, format='ttl')
+                    newGraphSize = len(rdfGraph)
+                    logging.info(f'\t{newGraphSize - graphSize} statements read from {srcURL}')
+                    graphSize = newGraphSize
+            case 'local':
+                for prefix in ['mathModel', 'moModel', 'data']:
+                    srcFilePath = workDirPath / config.get('CONST', f'{prefix}FileName')
+                    with srcFilePath.open(mode='rt', encoding='utf8') as srcFile:
+                        rdfGraph.parse(file=srcFile, format='ttl')
+                    newGraphSize = len(rdfGraph)
+                    logging.info(f'\t{newGraphSize - graphSize} statements read from {srcFile.name}')
+                    graphSize = newGraphSize
+            case _:
+                    raise NotImplementedError(f'source {src} not yet implemented!')
         logging.info(f'data graph now has {len(rdfGraph)} statements')
+
         #   check data
-        # if config.getboolean('WORK', 'checkData'):
-        #     for (subj, pred, obj) in rdfGraph:
-        #         print(subj, pred, obj)
+        if config.getboolean('WORK', 'checkData'):
+            for (subj, pred, obj) in rdfGraph:
+                print(subj, pred, obj)
 
         #   set bindings
         logging.debug('Namespaces\n\t{:s}'.format('\n\t'.join(map(str, rdfGraph.namespaces()))))
@@ -120,23 +134,16 @@ if __name__ == '__main__':
         mo = rdflib.Namespace(nsDict['mo'])
 
         #   read data
-        with dataFilePath.open(mode='rt', encoding='utf8') as dataFile:
-            logging.info(f'reading {dataFile.name}')
-            rdfGraph.parse(file=dataFile, format='ttl')
-        newGraphSize = len(rdfGraph)
-        logging.info(f'\t{newGraphSize - graphSize} statements read')
-        graphSize = newGraphSize
-        logging.info(f'data graph now has {len(rdfGraph)} statements')
         if config.getboolean('WORK', 'checkData'):
             for (subj, pred, obj) in rdfGraph:
                 print(subj, pred, obj)
-            uriRef = rdflib.term.URIRef("MO-511341")
-            for (pred, obj) in rdfGraph.predicate_objects(subject=uriRef):
-                print(rdfGraph.label(pred), obj)
+            # uriRef = rdflib.term.URIRef(value="https://www.mathematik-olympiaden.de/aufgaben/rdf/Problem#MO-511341")
+            # print(uriRef)
+            # for (pred, obj) in rdfGraph.predicate_objects(subject=uriRef):
+            #     print(rdfGraph.label(pred), obj)
 
-        sys.exit()
         #  query data: MO
-        if True:
+        if config.getboolean('WORK', 'queryData'):
             queryStr = 'SELECT $nr $pdfA $oly $rnd $okl \
                         WHERE { \
                             $problem a mo:Problem . \
@@ -155,13 +162,13 @@ if __name__ == '__main__':
             olyLabel = rdfGraph.label(mo.oly)
             rndLabel = rdfGraph.label(mo.rnd)
             oklLabel = rdfGraph.label(mo.okl)
-            for res in queryRes:
-                resStr = '{:s}\t{:s}\t{:s}\n'.format(res.nr, rdfGraph.label(mo.pdfA), res.pdfA)
-                resStr += '\t{:s}:'.format(rdfGraph.label(mo.anw))
-                resStr += '\t{:s} {:s}'.format(olyLabel[3:], res.oly)
-                resStr += ', {:s} {:s}'.format(rndLabel[3:], res.rnd)
-                resStr += ', {:s} {:s}'.format(oklLabel[3:], res.okl)
-                print(resStr)
+            # for res in queryRes:
+            #     resStr = '{:s}\t{:s}\t{:s}\n'.format(res.nr, rdfGraph.label(mo.pdfA), res.pdfA)
+            #     resStr += '\t{:s}:'.format(rdfGraph.label(mo.anw))
+            #     resStr += '\t{:s} {:s}'.format(olyLabel[3:], res.oly)
+            #     resStr += ', {:s} {:s}'.format(rndLabel[3:], res.rnd)
+            #     resStr += ', {:s} {:s}'.format(oklLabel[3:], res.okl)
+            #     print(resStr)
 
     #   exceptions
     except Exception:
