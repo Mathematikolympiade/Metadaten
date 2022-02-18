@@ -14,6 +14,7 @@ configParams = """
 
     #   fixed names & values
     [CONST]
+        localDirName = mdRDF
         mathModelFileName = models/math
         moModelFileName = models/mo
         dataFileName = moProbleme.ttl
@@ -23,7 +24,7 @@ configParams = """
 
     #   workflow setup
     [WORK]
-        source = remote
+        source = local
         checkData = False
         queryData = True
 """
@@ -37,7 +38,7 @@ compName = os.environ.get('COMPUTERNAME', 'SHERATAN')
 argParser = ArgumentParser(description="AS user satisfaction: organize data")
 argParser.add_argument('-w', '--workDir', dest='workDirName', default=".", help="working directory")
 argParser.add_argument('-i', '--iniFile', dest='iniFileName', default=None, help="param ini file")
-cmdLineArgs = f' --workDir={str(Path.home() / "Documents/MO/AA/mdData/rdf")}'
+cmdLineArgs = f' --workDir={str(Path.home() / "Documents/MO/AA/")}'
 # if compName.upper() == 'LONG':
 #     cmdLineArgs = ' --workDir=P:/Daten/NewsEye/GT_AS'
 # cmdLineArgs += f' --iniFile={PurePosixPath(sys.argv[0]).with_suffix(".ini").name}'
@@ -112,8 +113,9 @@ if __name__ == '__main__':
                     logging.info(f'\t{newGraphSize - graphSize} statements read from {srcURL}')
                     graphSize = newGraphSize
             case 'local':
+                srcDirPath = workDirPath / config.get('CONST', 'localDirName')
                 for prefix in ['mathModel', 'moModel', 'data']:
-                    srcFilePath = workDirPath / config.get('CONST', f'{prefix}FileName')
+                    srcFilePath = srcDirPath / config.get('CONST', f'{prefix}FileName')
                     with srcFilePath.open(mode='rt', encoding='utf8') as srcFile:
                         rdfGraph.parse(file=srcFile, format='ttl')
                     newGraphSize = len(rdfGraph)
@@ -122,6 +124,7 @@ if __name__ == '__main__':
             case _:
                     raise NotImplementedError(f'source {src} not yet implemented!')
         logging.info(f'data graph now has {len(rdfGraph)} statements')
+        sys.exit()
 
         #   check data
         if config.getboolean('WORK', 'checkData'):
