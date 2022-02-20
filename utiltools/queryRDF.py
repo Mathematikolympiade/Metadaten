@@ -35,7 +35,7 @@ configParams = """
 inIDE = (os.environ.get('PYCHARM_HOSTED', 0) == '1')
 compName = os.environ.get('COMPUTERNAME', 'SHERATAN')
 #   control
-argParser = ArgumentParser(description="AS user satisfaction: organize data")
+argParser = ArgumentParser(description="Roger's RDF-store client")
 argParser.add_argument('-w', '--workDir', dest='workDirName', default=".", help="working directory")
 argParser.add_argument('-i', '--iniFile', dest='iniFileName', default=None, help="param ini file")
 cmdLineArgs = f' --workDir={str(Path.home() / "Documents/MO/AA/")}'
@@ -124,7 +124,6 @@ if __name__ == '__main__':
             case _:
                     raise NotImplementedError(f'source {src} not yet implemented!')
         logging.info(f'data graph now has {len(rdfGraph)} statements')
-        sys.exit()
 
         #   check data
         if config.getboolean('WORK', 'checkData'):
@@ -162,16 +161,17 @@ if __name__ == '__main__':
             queryRes = rdfGraph.query(queryStr)
             print(len(queryRes))
 
+            dstFile = (workDirPath/"tmp.lst").open(mode='wt')
             olyLabel = rdfGraph.label(mo.oly)
             rndLabel = rdfGraph.label(mo.rnd)
             oklLabel = rdfGraph.label(mo.okl)
-            # for res in queryRes:
-            #     resStr = '{:s}\t{:s}\t{:s}\n'.format(res.nr, rdfGraph.label(mo.pdfA), res.pdfA)
-            #     resStr += '\t{:s}:'.format(rdfGraph.label(mo.anw))
-            #     resStr += '\t{:s} {:s}'.format(olyLabel[3:], res.oly)
-            #     resStr += ', {:s} {:s}'.format(rndLabel[3:], res.rnd)
-            #     resStr += ', {:s} {:s}'.format(oklLabel[3:], res.okl)
-            #     print(resStr)
+            for res in queryRes:
+                resStr = '{:s}\t{:s}\t{:s}\n'.format(res.nr, rdfGraph.label(mo.pdfA), res.pdfA)
+                resStr += '\t{:s}:'.format(rdfGraph.label(mo.anw))
+                resStr += '\t{:s} {:s}'.format(olyLabel[3:], res.oly)
+                resStr += ', {:s} {:s}'.format(rndLabel[3:], res.rnd)
+                resStr += ', {:s} {:s}'.format(oklLabel[3:], res.okl)
+                print(resStr, file=dstFile)
 
     #   exceptions
     except Exception:
