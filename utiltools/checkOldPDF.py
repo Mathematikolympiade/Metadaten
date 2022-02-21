@@ -145,7 +145,7 @@ if __name__ == '__main__':
                             resDict[olyStr][rnd][oklStr] = [anz]
                             if rnd>2 and okl>5:
                                 resDict[olyStr][rnd][oklStr] = [3,3]
-                    resDict[olyStr][rnd].update({"gleich": {}})
+                    resDict[olyStr][rnd].update({"parent": {}})
 
         jsonFilePath = (workDirPath / "moNr").with_suffix('.json')
         with jsonFilePath.open(mode='wt', encoding='utf8') as jsonFile:
