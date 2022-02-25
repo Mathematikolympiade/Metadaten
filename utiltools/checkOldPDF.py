@@ -108,32 +108,35 @@ if __name__ == '__main__':
                 resDict[olyStr] = {}
                 print(file=resFile)
                 print(file=resFile)
-                print('='*40, file=resFile)
+                print('=' * 40, file=resFile)
                 for rnd in range(1, 5):
                     resDict[olyStr][rnd] = {}
+                    lenDict = {}
                     print(file=resFile)
                     print('=' * 20, file=resFile)
                     for okl in range(3, 14):
                         text = ''
+                        oklLenList = []
                         for tag in ['', 'a', 'b']:
                             fileName = f'A{oly:02d}{okl:02d}{rnd:d}{tag}'
                             actURL = f'{webRootURL}/{oly:02d}/{rnd:d}/{fileName}.pdf'
+                            pdfFilePath = (workDirPath / fileName).with_suffix('.pdf')
                             try:
                                 logging.debug(f'{actURL}')
                                 response: Response = session.get(url=actURL)
                                 if response.status_code == 200:
-                                    pdfFilePath = (workDirPath / fileName).with_suffix('.pdf')
                                     with pdfFilePath.open(mode='wb') as actFile:
                                         actFile.write(response.content)
                                         logging.debug(f'\t… erledigt')
-                                    with pdfFilePath.open(mode='rb') as actFile:
-                                        pdfReader = PdfFileReader(actFile)
-                                        for page in pdfReader.pages:
-                                            text += page.extractText()
                                 else:
                                     logging.debug(f'\t… nicht gefunden')
                             except Exception as ex:
                                 logging.debug(ex)
+                            if pdfFilePath.exists():
+                                with pdfFilePath.open(mode='rb') as actFile:
+                                    pdfReader = PdfFileReader(actFile)
+                                    for page in pdfReader.pages:
+                                        text += page.extractText()
                         logging.debug(f'{oly:02d}-{rnd:d}-{okl:02d}: found text {len(text)}')
                         if len(text) > 0:
                             moNrPattern = f'({oly:02d}{okl:02d}{rnd:1d}\\d)'
@@ -143,9 +146,18 @@ if __name__ == '__main__':
                             anz = int(resList[0][-1])
                             oklStr = f'{okl:02d}'
                             resDict[olyStr][rnd][oklStr] = [anz]
-                            if rnd>2 and okl>5:
-                                resDict[olyStr][rnd][oklStr] = [3,3]
-                    resDict[olyStr][rnd].update({"parent": {}})
+                            if rnd > 2 and okl > 5:
+                                resDict[olyStr][rnd][oklStr] = [3, 3]
+                            oldStart = 0
+                            for moNrMatch in re.finditer(pattern=moNrPattern, string=text):
+                                newStart = moNrMatch.start()
+                                if oldStart > 0:
+                                    oklLenList.append(newStart - oldStart)
+                                oldStart = newStart
+                            oklLenList.append(len(text) - oldStart)
+                        if len(oklLenList) > 0:
+                            lenDict[okl] = oklLenList
+                    resDict[olyStr][rnd].update({"parent": lenDict})
 
         jsonFilePath = (workDirPath / "moNr").with_suffix('.json')
         with jsonFilePath.open(mode='wt', encoding='utf8') as jsonFile:
