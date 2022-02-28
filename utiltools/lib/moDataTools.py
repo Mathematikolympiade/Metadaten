@@ -71,7 +71,7 @@ class MoOlyData(list[MoProbData]):
         for oly in self.jsonData:
             for (rnd, rndData) in self.jsonData[oly].items():
                 logger.info(f'verarbeite MO {oly}-{rnd}')
-                oklList = [key for key in rndData.keys() if key != 'parent']
+                oklList = [key for key in rndData.keys() if key not in ['parent','AB']]
                 for okl in oklList:
                     for itm in range(sum(rndData[okl])):
                         prob = MoProbData(oly, rnd, okl, str(itm + 1))
@@ -100,7 +100,7 @@ class MoOlyData(list[MoProbData]):
 
     def writeTTL(self, ttlFilepath: Path):
         if not self._isOK:
-            self.procOldJSON()
+            self.procJSON()
         ttlWriter = TtlWriter()
         with ttlFilepath.open(mode='wt', encoding='utf8') as ttlFile:
             rnd = 0
@@ -116,7 +116,8 @@ class MoOlyData(list[MoProbData]):
 
 
 class TtlWriter:
-    maxOkl = 12
+    minOkl = 5
+    maxOkl = 13
     webRoot = 'https://www.mathematik-olympiaden.de/aufgaben'
 
     oklSep = '#' * 30
@@ -129,7 +130,7 @@ class TtlWriter:
     anwFmt = 'anw:MO-{:s}-{:s}-{:s}'
     anwLineFmt = '\tmo:anw\t{:s}'
 
-    anwHeaderFmt = 'anw:MO-{0:s}-{1:s}-{2:s} a mo:Verwendung ;\n\tmo:oly "{0:s};\tmo:rnd "{1:s};\tmo:okl "{2:s};"\n.'
+    anwHeaderFmt = 'anw:MO-{0:s}-{1:s}-{2:s} a mo:Verwendung ;\n\tmo:oly "{0:s}";\tmo:rnd "{1:s}";\tmo:okl "{2:s}"\n.'
 
     def write(self, prob: MoProbData):
         moNr = prob.moNr()
@@ -147,7 +148,7 @@ class TtlWriter:
 
     def writeRndHeader(self, prob: MoProbData):
         ttlList = [self.rndSep]
-        for oklStr in [f'{okl:02d}' for okl in range(3, self.maxOkl + 1)]:
+        for oklStr in [f'{okl:02d}' for okl in range(self.minOkl, self.maxOkl + 1)]:
             ttlList.append(self.anwHeaderFmt.format(prob.oly, prob.rnd, oklStr))
         ttlList.append("\n")
         return '\n'.join(ttlList)

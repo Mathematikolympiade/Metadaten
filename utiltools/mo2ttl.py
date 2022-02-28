@@ -14,8 +14,8 @@ configParams = """
 
     #   fixed names & values
     [CONST]
-        jsonFileName = mdData/moNr_38-43.json
-        ttlFileName = mdRDF/moProbleme_38-43.ttl
+        jsonFileName = mdData/moNr_35-36.json
+        ttlFileName = moProbleme_35-36.ttl
         # csvFileBaseFmt = {}data
 
     #   specific data
@@ -101,8 +101,9 @@ if __name__ == '__main__':
         moOlyData.loadJSON(jsonFilePath=jsonFilePath)
         moOlyData.procJSON()
         print('\n'.join([prob.info() for prob in sorted(moOlyData)]))
-        # ttlFilepath = workDirPath / config.get('CONST', 'ttlFileName')
-        # moOlyData.writeTTL(ttlFilepath=ttlFilepath)
+        ttlFilepath = workDirPath / config.get('CONST', 'ttlFileName')
+        logging.info(f'writing {ttlFilepath}')
+        moOlyData.writeTTL(ttlFilepath=ttlFilepath)
 
     except Exception:
         logging.exception('General fatal error!')
