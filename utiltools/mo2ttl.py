@@ -14,9 +14,10 @@ configParams = """
 
     #   fixed names & values
     [CONST]
-        jsonFileName = mdData/moNr_35-36.json
-        ttlFileName = moProbleme_35-36.ttl
-        # csvFileBaseFmt = {}data
+        minOkl = 5
+        maxOkl = 13
+        jsonFileName = mdData/moNr_41-43.json
+        ttlFileName = moProbleme_41-43.ttl
 
     #   specific data
 
@@ -94,9 +95,11 @@ if __name__ == '__main__':
             logging.info(f'logging to {logFilePath}')
 
         #   Konstanten
+        minOkl = config.getint('CONST', 'minOkl')
+        maxOkl = config.getint('CONST', 'maxOkl')
 
         #   Daten einlesen
-        moOlyData = mdt.MoOlyData()
+        moOlyData = mdt.MoOlyData(minOkl=minOkl, maxOkl=maxOkl)
         jsonFilePath = workDirPath / config.get('CONST', 'jsonFileName')
         moOlyData.loadJSON(jsonFilePath=jsonFilePath)
         moOlyData.procJSON()

@@ -39,10 +39,13 @@ class MoProbData:
         other.anw = list(self.anw)
         return other
 
+
 class MoOlyData(list[MoProbData]):
 
-    def __init__(self):
+    def __init__(self, minOkl: int, maxOkl: int):
         super(MoOlyData, self).__init__([])
+        self.minOkl = minOkl
+        self.maxOkl = maxOkl
         self.jsonData: dict = {}
         self._isOK: bool = False
 
@@ -113,7 +116,7 @@ class MoOlyData(list[MoProbData]):
     def writeTTL(self, ttlFilepath: Path):
         if not self._isOK:
             self.procJSON()
-        ttlWriter = TtlWriter()
+        ttlWriter = TtlWriter(self.minOkl, self.maxOkl)
         with ttlFilepath.open(mode='wt', encoding='utf8') as ttlFile:
             rnd = 0
             okl = 0
@@ -128,8 +131,6 @@ class MoOlyData(list[MoProbData]):
 
 
 class TtlWriter:
-    minOkl = 5
-    maxOkl = 13
     webRoot = 'https://www.mathematik-olympiaden.de/aufgaben'
 
     oklSep = '#' * 30
@@ -143,6 +144,10 @@ class TtlWriter:
     anwLineFmt = '\tmo:anw\t{:s}'
 
     anwHeaderFmt = 'anw:MO-{0:s}-{1:s}-{2:s} a mo:Verwendung ;\n\tmo:oly "{0:s}";\tmo:rnd "{1:s}";\tmo:okl "{2:s}"\n.'
+
+    def __init__(self, minOkl: int, maxOkl: int):
+        self.minOkl = minOkl
+        self.maxOkl = maxOkl
 
     def write(self, prob: MoProbData):
         moNr = prob.moNr()
