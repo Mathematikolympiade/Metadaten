@@ -46,7 +46,7 @@ class MoOlyData(list[MoProbData]):
             logger.info(f'lade Daten aus {jsonFile.name}')
             self.jsonData.update(json.load(fp=jsonFile))
 
-    def procJSON(self):
+    def procOldJSON(self):
         for oly in self.jsonData:
             for (rnd, rndData) in self.jsonData[oly].items():
                 logger.info(f'verarbeite MO {oly}-{rnd}')
@@ -67,9 +67,40 @@ class MoOlyData(list[MoProbData]):
                                         prob.anw.append((oly, rnd, anw[2:4]))
                             self.append(prob)
 
+    def procJSON(self):
+        for oly in self.jsonData:
+            for (rnd, rndData) in self.jsonData[oly].items():
+                logger.info(f'verarbeite MO {oly}-{rnd}')
+                oklList = [key for key in rndData.keys() if key != 'parent']
+                for okl in oklList:
+                    for itm in range(sum(rndData[okl])):
+                        prob = MoProbData(oly, rnd, okl, str(itm + 1))
+                        moNr = prob.moNr()
+                        if moNr not in rndData['parent']:
+                            if len(rndData[okl]) > 1:
+                                if itm < rndData[okl][0]:
+                                    prob.tag = 'a'
+                                else:
+                                    prob.tag = 'b'
+                            match okl:
+                                case '06' | '08' | '10' | '12':
+                                    childOkl = f'{int(okl) - 1:02d}'
+                                    if childOkl not in rndData:
+                                        prob.anw.append((oly, rnd, childOkl))
+                                case '13':
+                                    for dist in [1,2]:
+                                        childOkl = f'{int(okl) - dist:02d}'
+                                        if childOkl not in rndData:
+                                            prob.anw.append((oly, rnd, childOkl))
+                            if moNr in rndData['parent'].values():
+                                for (anw, moNr) in rndData['parent'].items():
+                                    if prob.moNr() == moNr:
+                                        prob.anw.append((oly, rnd, anw[2:4]))
+                            self.append(prob)
+
     def writeTTL(self, ttlFilepath: Path):
         if not self._isOK:
-            self.procJSON()
+            self.procOldJSON()
         ttlWriter = TtlWriter()
         with ttlFilepath.open(mode='wt', encoding='utf8') as ttlFile:
             rnd = 0
