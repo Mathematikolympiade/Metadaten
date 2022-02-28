@@ -33,6 +33,11 @@ class MoProbData:
             infoStr += f' » {" ".join(map(str, self.anw[1:]))}'
         return infoStr
 
+    def copy(self) -> 'MoProbData':
+        other = MoProbData(self.oly, self.rnd, self.okl, self.itm)
+        other.tag = str(self.tag)
+        other.anw = list(self.anw)
+        return other
 
 class MoOlyData(list[MoProbData]):
 
@@ -71,12 +76,13 @@ class MoOlyData(list[MoProbData]):
         for oly in self.jsonData:
             for (rnd, rndData) in self.jsonData[oly].items():
                 logger.info(f'verarbeite MO {oly}-{rnd}')
-                oklList = [key for key in rndData.keys() if key not in ['parent','AB']]
+                parentDict = rndData.get('parent', dict())
+                oklList = [key for key in rndData.keys() if key not in ['parent', 'AB']]
                 for okl in oklList:
                     for itm in range(sum(rndData[okl])):
                         prob = MoProbData(oly, rnd, okl, str(itm + 1))
                         moNr = prob.moNr()
-                        if moNr not in rndData['parent']:
+                        if moNr not in parentDict:
                             if len(rndData[okl]) > 1:
                                 if itm < rndData[okl][0]:
                                     prob.tag = 'a'
@@ -88,15 +94,21 @@ class MoOlyData(list[MoProbData]):
                                     if childOkl not in rndData:
                                         prob.anw.append((oly, rnd, childOkl))
                                 case '13':
-                                    for dist in [1,2]:
+                                    for dist in [1, 2]:
                                         childOkl = f'{int(okl) - dist:02d}'
                                         if childOkl not in rndData:
                                             prob.anw.append((oly, rnd, childOkl))
-                            if moNr in rndData['parent'].values():
-                                for (anw, moNr) in rndData['parent'].items():
-                                    if prob.moNr() == moNr:
-                                        prob.anw.append((oly, rnd, anw[2:4]))
-                            self.append(prob)
+                            if moNr in parentDict.values():
+                                for (moChildNr, moParentNr) in parentDict.items():
+                                    if moNr == moParentNr:
+                                        prob.anw.append((oly, rnd, moChildNr[2:4]))
+                            if prob.moNr() in rndData.get('AB', []):
+                                for suffix in ['A', 'B']:
+                                    cpProb = prob.copy()
+                                    cpProb.itm += suffix
+                                    self.append(cpProb)
+                            else:
+                                self.append(prob)
 
     def writeTTL(self, ttlFilepath: Path):
         if not self._isOK:
