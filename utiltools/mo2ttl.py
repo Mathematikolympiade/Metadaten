@@ -16,8 +16,8 @@ configParams = """
     [CONST]
         minOkl = 5
         maxOkl = 13
-        jsonFileName = mdData/moNr_41-43.json
-        ttlFileName = moProbleme_41-43.ttl
+        jsonFileName = mdData/moNr_37-40.json
+        ttlFileName = moProbleme_37-40.ttl
 
     #   specific data
 
