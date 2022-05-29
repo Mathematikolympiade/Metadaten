@@ -1,12 +1,14 @@
 """Roger's RDF-store client"""
 
-import rdflib
-
-import logging, sys, os
+import logging
+import sys
+import os
 from configparser import ConfigParser, ExtendedInterpolation
-from pathlib import Path, PurePosixPath
+from pathlib import Path
 from datetime import datetime
 from argparse import ArgumentParser
+
+import rdflib
 
 configParams = """
     [DEFAULT]
@@ -44,6 +46,7 @@ cmdLineArgs = f' --workDir={str(Path.home() / "Documents/MO/AA/")}'
 # cmdLineArgs += f' --iniFile={PurePosixPath(sys.argv[0]).with_suffix(".ini").name}'
 
 if __name__ == '__main__':
+    # noinspection PyBroadException
     try:
         #   cmdLine
         if inIDE and 'cmdLineArgs' in globals():
@@ -76,9 +79,9 @@ if __name__ == '__main__':
         consoleHandler.setLevel(logging.INFO)
         consoleHandler.setFormatter(logging.Formatter(fmt='%(levelname)s %(message)s'))
         handlerList = [consoleHandler]
+        logBase = Path(sys.argv[0])
+        logFilePath = (logBase.parent / 'logs' / logBase.stem).with_suffix('.log')
         if config['DEFAULT'].getboolean('logToFile', None):
-            logBase = Path(sys.argv[0])
-            logFilePath = (logBase.parent / 'logs' / logBase.stem).with_suffix('.log')
             with logFilePath.open(mode='w', encoding='utf8') as logFile:
                 print(datetime.now().strftime('%y-%m-%d %H:%M:%S'), file=logFile)
             fileHandler = logging.FileHandler(logFilePath, mode='a', encoding="utf-8")
@@ -96,7 +99,6 @@ if __name__ == '__main__':
         logging.info(configMsg)
         if config['DEFAULT'].getboolean('logToFile', None):
             logging.info(f'logging to {logFilePath}')
-
 
         #   run
 
@@ -122,7 +124,7 @@ if __name__ == '__main__':
                     logging.info(f'\t{newGraphSize - graphSize} statements read from {srcFile.name}')
                     graphSize = newGraphSize
             case _:
-                    raise NotImplementedError(f'source {src} not yet implemented!')
+                raise NotImplementedError(f'source {src} not yet implemented!')
         logging.info(f'data graph now has {len(rdfGraph)} statements')
 
         #   check data
@@ -161,7 +163,7 @@ if __name__ == '__main__':
             queryRes = rdfGraph.query(queryStr)
             print(len(queryRes))
 
-            dstFile = (workDirPath/"tmp.lst").open(mode='wt')
+            dstFile = (workDirPath / "tmp.lst").open(mode='wt')
             olyLabel = rdfGraph.label(mo.oly)
             rndLabel = rdfGraph.label(mo.rnd)
             oklLabel = rdfGraph.label(mo.okl)
