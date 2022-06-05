@@ -1,2 +1,2 @@
 
-from .mdSubjectTools import TocConverter
+from .mdSubjectTools import TocDict

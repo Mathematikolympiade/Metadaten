@@ -8,7 +8,7 @@ from pathlib import Path
 from datetime import datetime
 from argparse import ArgumentParser
 
-from lib import TocConverter
+from lib import TocDict
 
 configParams = """
     [DEFAULT]
@@ -16,13 +16,14 @@ configParams = """
 
     #   fixed names & values
     [CONST]
-        txtFileName = mdData/Buch300_ToC.txt
-        ttlFileName = buchThemen.ttl
 
     #   specific data
 
     #   workflow setup
     [WORK]
+        txtFileName = mdData/Buch300_ToC.txt
+        ttlFileName = mdRDF/buchThemen.ttl
+        labelPrefix = buch
 """
 
 #   lib logging
@@ -95,14 +96,15 @@ if __name__ == '__main__':
             logging.info(f'logging to {logFilePath}')
 
         #   setup
-        tocConver = TocConverter()
+        tocDict = TocDict()
 
         #   read data
-        txtFilePath = workDirPath / config.get('CONST', 'txtFileName')
+        txtFilePath = workDirPath / config.get('WORK', 'txtFileName')
         logging.info(f'reading {txtFilePath}')
-        tocConver.readTXT(txtFilePath=txtFilePath)
-        # ttlFilepath = workDirPath / config.get('CONST', 'ttlFileName')
-        # logging.info(f'writing {ttlFilepath}')
+        tocDict.readTXT(txtFilePath=txtFilePath)
+        ttlFilePath = workDirPath / config.get('WORK', 'ttlFileName')
+        logging.debug(f'writing {ttlFilePath}')
+        tocDict.writeTTL(ttlFilePath=ttlFilePath, labelPrefix=config.get('WORK', 'labelPrefix', fallback=''))
 
     except Exception:
         logging.exception('General fatal error!')
