@@ -7,8 +7,7 @@ require_once "thema.php";
 $writer = new ThemenHandler("../../mdRDF/");
 $writer->readTTL("buchThemen.ttl", 'text/turtle');
 $writer->writeJsTreeNode("math:Gebiet", 0);
-$jsTreeJSON = array('core' => array("themes" => array("stripes" => true),
-    'data' => $writer->nodeCoreData));
+$jsTreeData = json_encode($writer->nodeCoreData);
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +19,9 @@ $jsTreeJSON = array('core' => array("themes" => array("stripes" => true),
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
     <script type="application/javascript">
         $(function () {
-            $("#treeview").jstree(<?php echo json_encode($jsTreeJSON); ?>)
+            let jsTreeData = <?php echo $jsTreeData; ?>;
+            let jsTreeJSON = {"core": {"themes": {"dots": false, "stripes": true}, "data": jsTreeData}};
+            $("#treeview").jstree(jsTreeJSON);
         })
     </script>
 </header>

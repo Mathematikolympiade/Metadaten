@@ -34,24 +34,6 @@ class ThemenHandler
         $this->updateThemen();
     }
 
-    public function writeDL($thema, $level)
-    {
-        $themen = array();
-        foreach ($this->themen as $thm) if ($thm->get("rdfs:subClassOf") == RdfNamespace::expand($thema)) {
-            $themen[] = $thm;
-        }
-        if (count($themen) > 0) {
-            echo '<dl class="mds subject-level-' . $level . '">';
-            foreach ($themen as $thm) {
-                echo '<dt class="mds subject-level-' . $level . '">' . $thm->label()->getValue() . '</dt>';
-                echo '<dd class="mds subject-level-' . $level . '">';
-                $this->writeDL($thm->getUri(), $level + 1);
-                echo '</dd>';
-            }
-            echo '</dl>';
-        }
-    }
-
     public function writeJsTreeNode($thema, int $level)
     {
         if (is_string($thema)) {

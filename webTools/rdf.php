@@ -17,6 +17,6 @@ echo $writer->graph->countTriples() . " Triples successfully imported";
 </header>
 <body>
 <h2>Thematisches Register</h2>
-<?php echo $writer->writeDL("math:Gebiet", 0); ?>
+<?php $writer->writeDL("math:Gebiet", 0); ?>
 </body>
 </html>
