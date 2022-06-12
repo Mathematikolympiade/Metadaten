@@ -1,6 +1,6 @@
 <?php
 
-use EasyRdf\RdfNamespace, EasyRdf\Graph, EasyRdf\Resource;
+use EasyRdf\RdfNamespace, EasyRdf\Graph;
 
 RdfNamespace::set('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#');
 RdfNamespace::set('rdfs', 'http://www.w3.org/2000/01/rdf-schema#');
@@ -9,9 +9,10 @@ RdfNamespace::set('mo', 'https://www.mathematik-olympiaden.de/aufgaben/rdf/model
 
 class ThemenHandler
 {
-    public $graph, $themen;
-    private $dataBaseDir;
-    public $nodeCoreData;
+    public Graph $graph;
+    public array $themen;
+    private string $dataBaseDir;
+    public array $nodeCoreData;
 
     function __construct($dataBaseDir)
     {
@@ -23,18 +24,18 @@ class ThemenHandler
         $this->nodeCoreData = array();
     }
 
-    private function updateThemen()
+    private function updateThemen(): void
     {
         $this->themen = $this->graph->allOfType("math:Thema");
     }
 
-    public function readTTL($fileName)
+    public function readTTL($fileName): void
     {
         $this->graph->parseFile($this->dataBaseDir . $fileName, 'text/turtle');
         $this->updateThemen();
     }
 
-    public function writeJsTreeNode($thema, int $level)
+    public function writeJsTreeNode($thema, int $level): void
     {
         if (is_string($thema)) {
             $rdfNode = RdfNamespace::expand($thema);
