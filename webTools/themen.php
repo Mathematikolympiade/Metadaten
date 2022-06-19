@@ -1,5 +1,7 @@
 <?php
 
+require_once "lib/EasyRdf.php";
+
 use EasyRdf\RdfNamespace, EasyRdf\Graph;
 
 RdfNamespace::set('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#');
@@ -12,7 +14,7 @@ class ThemenHandler
     public Graph $graph;
     public array $themen;
     private string $dataBaseDir;
-    public array $nodeCoreData;
+    public array $jsTreeData;
 
     function __construct($dataBaseDir)
     {
@@ -21,7 +23,7 @@ class ThemenHandler
         $this->graph->parseFile($this->dataBaseDir . 'models/math', 'text/turtle');
         $this->graph->parseFile($this->dataBaseDir . 'models/mo', 'text/turtle');
         $this->updateThemen();
-        $this->nodeCoreData = array();
+        $this->jsTreeData = array();
     }
 
     private function updateThemen(): void
@@ -35,7 +37,7 @@ class ThemenHandler
         $this->updateThemen();
     }
 
-    public function writeJsTreeNode($thema, int $level): void
+    public function writeJsTreeData($thema, int $level): void
     {
         if (is_string($thema)) {
             $rdfNode = RdfNamespace::expand($thema);
@@ -53,12 +55,15 @@ class ThemenHandler
                 $thmParent = $rdfNode->localName();
             }
             foreach ($themen as $thm) {
-                $this->nodeCoreData[] = array('id' => $thm->localName(),
+                $this->jsTreeData[] = array('id' => $thm->localName(),
                     'parent' => $thmParent, 'text' => htmlentities($thm->label()->getValue()));
-                $this->writeJsTreeNode($thm, $level + 1);
+                $this->writeJsTreeData($thm, $level + 1);
             }
         }
     }
 
+    public function clearJsTreeData(): void {
+        $this->jsTreeData = array();
+    }
 }
 

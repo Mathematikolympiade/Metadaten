@@ -1,12 +1,10 @@
 
-dl.mds {
-    margin-top: 1ex;
+* {
+    box-sizing: border-box;
 }
 
-dt.subject-level-0 {
-    margin-top: 3ex;
-}
-
-dd.mds {
-    margin-left: 2em;
+.treeBox {
+    float: left;
+    /*width: "40%";*/
+    padding-left: 2%;
 }
