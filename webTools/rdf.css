@@ -3,8 +3,14 @@
     box-sizing: border-box;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .treeBox {
     float: left;
-    /*width: "40%";*/
-    padding-left: 2%;
+    width: 30%;
+    margin-left: 2%;
 }

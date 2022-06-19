@@ -37,13 +37,15 @@ class ThemenHandler
         $this->updateThemen();
     }
 
-    public function writeJsTreeData($thema, int $level): void
+    public function writeJsTreeData($label, $thema, int $level): void
     {
+        if ($level==0) {
+            $this->jsTreeData[$label] = array();
+        }
         if (is_string($thema)) {
             $rdfNode = RdfNamespace::expand($thema);
         } else {
             $rdfNode = $thema;
-//            error_log('else'.$level,3,'error.log');
         }
         $themen = array();
         foreach ($this->themen as $thm) if ($thm->get("rdfs:subClassOf") == $rdfNode) {
@@ -55,15 +57,12 @@ class ThemenHandler
                 $thmParent = $rdfNode->localName();
             }
             foreach ($themen as $thm) {
-                $this->jsTreeData[] = array('id' => $thm->localName(),
+                $this->jsTreeData[$label][] = array('id' => $thm->localName(),
                     'parent' => $thmParent, 'text' => htmlentities($thm->label()->getValue()));
-                $this->writeJsTreeData($thm, $level + 1);
+                $this->writeJsTreeData($label, $thm, $level + 1);
             }
         }
     }
 
-    public function clearJsTreeData(): void {
-        $this->jsTreeData = array();
-    }
 }
 
