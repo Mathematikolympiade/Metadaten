@@ -1,6 +1,6 @@
 <?php
 
-require_once "lib/EasyRdf.php";
+require_once "libs/EasyRdf.php";
 
 use EasyRdf\RdfNamespace, EasyRdf\Graph;
 
