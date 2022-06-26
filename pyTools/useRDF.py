@@ -19,7 +19,7 @@ configParams = """
         localDirName = mdRDF
         mathModelFileName = models/math
         moModelFileName = models/mo
-        dataFileName = moBuchProjekt.ttl
+        dataFileName = buchThemen.ttl
         remoteURL = http://www.mathematik-olympiaden.de/aufgaben/metadaten
 
     #   specific data
@@ -27,8 +27,7 @@ configParams = """
     #   workflow setup
     [WORK]
         source = local
-        checkData = True
-        queryData = False
+        checkData = False
 """
 
 #   lib logging
@@ -131,6 +130,7 @@ if __name__ == '__main__':
         logging.debug('Namespaces\n\t{:s}'.format('\n\t'.join(map(str, rdfGraph.namespaces()))))
         nsDict = dict(rdfGraph.namespaces())
         mo = rdflib.Namespace(nsDict['mo'])
+        math = rdflib.Namespace(nsDict['math'])
 
         #   check data
         if config.getboolean('WORK', 'checkData'):
@@ -141,34 +141,27 @@ if __name__ == '__main__':
             # for (pred, obj) in rdfGraph.predicate_objects(subject=uriRef):
             #     print(rdfGraph.label(pred), obj)
 
-        #  query data: MO
-        if config.getboolean('WORK', 'queryData'):
-            queryStr = 'SELECT $nr $pdfA $oly $rnd $okl \
-                        WHERE { \
-                            $problem a mo:Problem . \
-                            $problem mo:nr $nr . \
-                            $problem mo:pdfA $pdfA . \
-                            $problem mo:anw $anw . \
-                            $anw mo:oly $oly . \
-                            $anw mo:rnd $rnd . \
-                            $anw mo:okl $okl . \
-                        }  \
-                        ORDER BY $nr \
-                       '
-            queryRes = rdfGraph.query(queryStr)
-            print(len(queryRes))
+        #   work
+        replDict = {}
+        for subj in rdfGraph.subjects(predicate=rdflib.RDFS.subClassOf, object=math.Gebiet):
+            for gebiet in rdfGraph.subjects(predicate=rdflib.RDFS.subClassOf, object=subj):
+                replDict[str(rdfGraph.label(subject=gebiet))] = str(gebiet)[62:]
 
-            dstFile = (workDirPath / "tmp.lst").open(mode='wt')
-            olyLabel = rdfGraph.label(mo.oly)
-            rndLabel = rdfGraph.label(mo.rnd)
-            oklLabel = rdfGraph.label(mo.okl)
-            for res in queryRes:
-                resStr = '{:s}\t{:s}\t{:s}\n'.format(res.nr, rdfGraph.label(mo.pdfA), res.pdfA)
-                resStr += '\t{:s}:'.format(rdfGraph.label(mo.anw))
-                resStr += '\t{:s} {:s}'.format(olyLabel[3:], res.oly)
-                resStr += ', {:s} {:s}'.format(rndLabel[3:], res.rnd)
-                resStr += ', {:s} {:s}'.format(oklLabel[3:], res.okl)
-                print(resStr, file=dstFile)
+        dstFileName = "buchProblemeGebiete.ttl"
+        dstFilePath = srcDirPath / dstFileName
+        with dstFilePath.open(mode='wt', encoding='utf8') as dstFile:
+            srcFileName = "moBuchProjekt.ttl"
+            srcFilePath = srcDirPath / srcFileName
+            with srcFilePath.open(mode='rt', encoding='utf8') as srcFile:
+                for line in srcFile:
+                    if "math:kap" in line:
+                        continue
+                    newLine = line
+                    if "math:typ" in line:
+                        replKey = line.split(maxsplit=1)[1][1:-4]
+                        print(replDict.get(replKey, replKey))
+                    print(newLine, file=dstFile, end='')
+            
 
     #   exceptions
     except Exception:
