@@ -1,6 +1,6 @@
 <?php
 
-require_once "themen.php";
+require_once "php/themen.php";
 
 $writer = new ThemenHandler("../../mdRDF/");
 $writer->readTTL("buchThemen.ttl");
@@ -13,17 +13,13 @@ $allData = json_encode($writer->jsTreeData);
 <html lang="de">
 <header>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css"/>
-    <link rel="stylesheet" type="text/css" href="rdf.css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="metaData.css"/>
+    <script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+    <script type="application/javascript" src="js/themen.js"></script>
     <script type="application/javascript">
-        $(function () {
-            let jsTreeJSON = {"core": {"themes": {"dots": false, "stripes": true}}};
-            let allData = JSON.parse(<?php echo json_encode($allData); ?>);
-            jsTreeJSON['core']['data'] = allData["gebiete"];
-            $("#gebieteTree").jstree(jsTreeJSON);
-            jsTreeJSON['core']['data'] = allData["methoden"];
-            $("#methodenTree").jstree(jsTreeJSON);
+        $(function (){
+            buildThemenTrees();
         })
     </script>
 </header>
