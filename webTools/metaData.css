@@ -14,3 +14,15 @@
     width: 45%;
     margin-left: 2%;
 }
+
+#suchDiv {
+    width: 100%;
+}
+
+#suchButton {
+    width: 20%;
+    margin-left: 2%;
+    padding: 10px;
+    color: ghostwhite;
+    background-color: forestgreen;
+}

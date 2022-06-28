@@ -1,12 +1,12 @@
 <?php
 
-require_once "php/themen.php";
+//require_once "php/themen.php";
 
-$writer = new ThemenHandler("../../mdRDF/");
-$writer->readTTL("buchThemen.ttl");
-$writer->writeJsTreeData("gebiete", "math:Gebiet", 0);
-$writer->writeJsTreeData("methoden", "math:Methode", 0);
-$allData = json_encode($writer->jsTreeData);
+//$writer = new ThemenHandler("../../mdRDF/");
+//$writer->readTTL("buchThemen.ttl");
+//$writer->writeJsTreeData("gebiete", "math:Gebiet", 0);
+//$writer->writeJsTreeData("methoden", "math:Methode", 0);
+//$allData = json_encode($writer->jsTreeData);
 ?>
 
 <!DOCTYPE html>
@@ -26,6 +26,9 @@ $allData = json_encode($writer->jsTreeData);
 <body>
 <div id="aufgabenTable" class="clearfix">
     <h2>Aufgaben</h2>
+</div>
+<div id="suchDiv" class="clearfix">
+    <button id="suchButton" onclick="searchAction('#00aa00')">Suche Aufgaben</button>
 </div>
 <div class="clearfix">
     <h2>Register</h2>

@@ -1,6 +1,6 @@
 <?php
 
-require_once "themen.php";
+require_once "php/themen.php";
 
 $writer = new ThemenHandler("../../mdRDF/");
 $writer->readTTL("buchThemen.ttl");
