@@ -139,7 +139,7 @@ class TtlWriter:
 
     aLineFmt = ':MO-{:s} a mo:Problem ;'
     nrLineFmt = '\tmo:nr\t\t"{:s}" ;'
-    pdfALineFmt = '\tmo:pdfA\t{0:s}/{1:s}/{2:s}/A{1:s}{3:s}{2:s}{4:s}.pdf ;'
+    pdfALineFmt = '\tmo:pdfA\t"{0:s}/{1:s}/{2:s}/A{1:s}{3:s}{2:s}{4:s}.pdf" ;'
     anwFmt = 'anw:MO-{:s}-{:s}-{:s}'
     anwLineFmt = '\tmo:anw\t{:s}'
 
