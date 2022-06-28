@@ -54,5 +54,26 @@ math:Gebiet a rdfs:Class ;
         return ttlStr
 
 
+class MoSubjData:
+
+    def __init__(self, moNr: str):
+        self.moNr: str = moNr
+        self.thm: str = ''
+        self.aut: str = ''
+
+class TtlWriter:
+    nrFmt = ':MO-{:s} a mo:Problem ;'
+    autFmt = '\tmath:aut\t"{:s}" ;'
+
+    def __init__(self, thmFmt: str):
+        self.thmFmt = f'\tmath:thm\t{thmFmt} ;'
+
+    def write(self, subj: MoSubjData):
+        ttlList = [self.nrFmt.format(subj.moNr)]
+        ttlList.append(self.thmFmt.format(subj.thm))
+        ttlList.append(self.autFmt.format(subj.aut))
+        ttlList.append(".\n")
+        return '\n'.join(ttlList)
+
 if __name__ == '__main__':
     print(TocDict.parentLabel('1.1.5'))

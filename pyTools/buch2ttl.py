@@ -1,13 +1,13 @@
 """Roger's RDF store MO data provider module"""
 
 import logging, sys, os
-import re
 from configparser import ConfigParser, ExtendedInterpolation
 from pathlib import Path
 from datetime import datetime
 from argparse import ArgumentParser
+from csv import DictReader
 
-import lib.moDataTools as mdt
+import lib.mdSubjectTools as mst
 
 configParams = """
     [DEFAULT]
@@ -15,8 +15,8 @@ configParams = """
 
     #   fixed names & values
     [CONST]
-        txtFileName = mdData/buch300_MethodenListe.txt
-        ttlFileName = mdRDF/buchProblemeThemen.ttl
+        csvFileName = mdData/Buch300_aufgList.csv
+        ttlFileName = mdRDF/buchProblemeGebiete.ttl
 
     #   specific data
 
@@ -94,30 +94,26 @@ if __name__ == '__main__':
             logging.info(f'logging to {logFilePath}')
 
         #   Konstanten
-        startThemaRegex = re.compile('^[A-Z]')
-        startNummerRegex = re.compile('^\d')
 
-        #   TXT einlesen
-        ttlData = []
-        thmIndex = 0
-        txtFilePath = workDirPath / config.get('CONST', 'txtFileName')
-        with txtFilePath.open(mode='rt', encoding='utf8') as txtFile:
-            for line in txtFile:
-                line = line.rstrip()
-                if startThemaRegex.search(line):
-                    thmIndex += 1
-                    thema = f'math:buch_M_{thmIndex:02d}'
-                if startNummerRegex.search(line):
-                    nummer = line
-                    ttlData.append((thema, nummer))
+        #   CSV einlesen
+        subjList = []
+        csvFilePath = workDirPath / config.get('CONST', 'csvFileName')
+        with csvFilePath.open(mode='rt', encoding='utf8') as csvFile:
+            logging.info(f'reading from {csvFile.name}')
+            subjReader = DictReader(csvFile, delimiter=';')
+            for dataRow in subjReader:
+                subjData = mst.MoSubjData(dataRow["OJM"])
+                subjData.aut = "BuchProjekt (Roger Labahn)"
+                subjData.thm = dataRow["SekNummer"].replace('.', '-')
+                subjList.append(subjData)
 
         #   TTL schreiben
+        ttlWriter = mst.TtlWriter("math:buch_G_{:s}")
         ttlFilepath = workDirPath / config.get('CONST', 'ttlFileName')
-        logging.info(f'writing {ttlFilepath}')
+        logging.info(f'writing to {ttlFilepath}')
         with ttlFilepath.open(mode='wt', encoding='utf8') as ttlFile:
-            for (thema, nummer) in ttlData:
-                ttlLine = f'MO-{nummer} math:thm {thema}.'
-                print(ttlLine, file=ttlFile)
+            for subjData in subjList:
+                print(ttlWriter.write(subjData), file=ttlFile)
 
     except Exception:
         logging.exception('General fatal error!')
