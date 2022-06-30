@@ -19,7 +19,6 @@ configParams = """
         localDirName = mdRDF
         mathModelFileName = models/math
         moModelFileName = models/mo
-        dataFileName = buchThemen.ttl
         remoteURL = http://www.mathematik-olympiaden.de/aufgaben/metadaten
 
     #   specific data
@@ -101,7 +100,7 @@ if __name__ == '__main__':
 
         #   run
 
-        #   read data
+        #   read models
         rdfGraph = rdflib.Graph(identifier="buchProbleme")
         graphSize = len(rdfGraph)
         match src := config.get('WORK', 'source'):
@@ -115,7 +114,7 @@ if __name__ == '__main__':
                     graphSize = newGraphSize
             case 'local':
                 srcDirPath = workDirPath / config.get('CONST', 'localDirName')
-                for prefix in ['mathModel', 'moModel', 'data']:
+                for prefix in ['mathModel', 'moModel']:
                     srcFilePath = srcDirPath / config.get('CONST', f'{prefix}FileName')
                     with srcFilePath.open(mode='rt', encoding='utf8') as srcFile:
                         rdfGraph.parse(file=srcFile, format='ttl')
@@ -126,11 +125,22 @@ if __name__ == '__main__':
                 raise NotImplementedError(f'source {src} not yet implemented!')
         logging.info(f'data graph now has {len(rdfGraph)} statements')
 
+        #   read data
+        for suffix in ['Gebiete', 'Themen']:
+            srcFilePath = (srcDirPath/f'buchProbleme{suffix}').with_suffix('.ttl')
+            with srcFilePath.open(mode='rt', encoding='utf8') as srcFile:
+                rdfGraph.parse(file=srcFile, format='ttl')
+                newGraphSize = len(rdfGraph)
+                logging.info(f'\t{newGraphSize - graphSize} statements read from {srcFile.name}')
+                graphSize = newGraphSize
+        logging.info(f'data graph now has {len(rdfGraph)} statements')
+
         #   set prefixes
         logging.debug('Namespaces\n\t{:s}'.format('\n\t'.join(map(str, rdfGraph.namespaces()))))
         nsDict = dict(rdfGraph.namespaces())
         mo = rdflib.Namespace(nsDict['mo'])
         math = rdflib.Namespace(nsDict['math'])
+        prob = rdflib.Namespace(nsDict[''])
 
         #   check data
         if config.getboolean('WORK', 'checkData'):
@@ -142,26 +152,19 @@ if __name__ == '__main__':
             #     print(rdfGraph.label(pred), obj)
 
         #   work
-        replDict = {}
-        for subj in rdfGraph.subjects(predicate=rdflib.RDFS.subClassOf, object=math.Gebiet):
-            for gebiet in rdfGraph.subjects(predicate=rdflib.RDFS.subClassOf, object=subj):
-                replDict[str(rdfGraph.label(subject=gebiet))] = str(gebiet)[62:]
-
-        dstFileName = "buchProblemeGebiete.ttl"
+        dstFileName = "buchProbleme.ttl"
         dstFilePath = srcDirPath / dstFileName
         with dstFilePath.open(mode='wt', encoding='utf8') as dstFile:
-            srcFileName = "moBuchProjekt.ttl"
-            srcFilePath = srcDirPath / srcFileName
-            with srcFilePath.open(mode='rt', encoding='utf8') as srcFile:
-                for line in srcFile:
-                    if "math:kap" in line:
-                        continue
-                    newLine = line
-                    if "math:typ" in line:
-                        replKey = line.split(maxsplit=1)[1][1:-4]
-                        print(replDict.get(replKey, replKey))
-                    print(newLine, file=dstFile, end='')
-            
+            for problem in rdfGraph.subjects(predicate=rdflib.RDF.type, object=mo.Problem):
+                line = f':{rdfGraph.qname(problem)} a mo:Problem ;'
+                print(line, file=dstFile)
+                for mdc in rdfGraph.objects(subject=problem, predicate=math.mdc):
+                    line = f'\tmath:mdc\t"{mdc}" ;'
+                    print(line, file=dstFile)
+                for thm in rdfGraph.objects(subject=problem, predicate=math.thm):
+                    line = f'\tmath:thm\t{rdfGraph.qname(thm)} ;'
+                    print(line, file=dstFile)
+                print('.', file=dstFile)
 
     #   exceptions
     except Exception:
