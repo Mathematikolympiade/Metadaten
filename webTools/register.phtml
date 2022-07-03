@@ -1,6 +1,6 @@
 <?php
 
-//require_once "php/themen.php";
+//require_once "php/procer.php";
 
 //$writer = new ThemenHandler("../../mdRDF/");
 //$writer->readTTL("buchThemen.ttl");
@@ -13,10 +13,13 @@
 <html lang="de">
 <header>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css"/>
+<!--    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">-->
     <link rel="stylesheet" type="text/css" href="metaData.css"/>
     <script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+<!--    <script type="application/javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>    <script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->
     <script type="application/javascript" src="js/themen.js"></script>
+    <script type="application/javascript" src="js/probleme.js"></script>
     <script type="application/javascript">
         $(function (){
             buildThemenTrees();
@@ -24,11 +27,16 @@
     </script>
 </header>
 <body>
-<div id="aufgabenTable" class="clearfix">
+<div" class="clearfix">
     <h2>Aufgaben</h2>
+    <table id="problemTable">
+        <thead></thead>
+        <tbody></tbody>
+        <tfoot></tfoot>
+    </table>
 </div>
 <div id="suchDiv" class="clearfix">
-    <button id="suchButton" onclick="searchAction('#00aa00')">Suche Aufgaben</button>
+    <button id="suchButton" onclick="searchProblems('#00aa00')">Suche Aufgaben</button>
 </div>
 <div class="clearfix">
     <h2>Register</h2>

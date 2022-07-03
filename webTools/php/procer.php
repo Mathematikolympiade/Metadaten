@@ -6,22 +6,35 @@ use EasyRdf\RdfNamespace, EasyRdf\Graph;
 
 RdfNamespace::set('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#');
 RdfNamespace::set('rdfs', 'http://www.w3.org/2000/01/rdf-schema#');
-RdfNamespace::set('math', 'https://www.mathematik-olympiaden.de/aufgaben/rdf/models/math#');
-RdfNamespace::set('mo', 'https://www.mathematik-olympiaden.de/aufgaben/rdf/models/mo#');
+RdfNamespace::set('math', 'https://www.mathematik-olympiaden.de/aufgaben/metadaten/models/math#');
+RdfNamespace::set('mo', 'https://www.mathematik-olympiaden.de/aufgaben/metadaten/models/mo#');
 
-class ThemenHandler
+class TtlProcer
 {
+    protected string $baseDir;
+    public string $modelDir = "models/";
+    public array $modelList = ["math", "mo"];
     public Graph $graph;
+
+    function __construct($baseDir)
+    {
+        $this->baseDir = $baseDir;
+        $this->graph = new Graph();
+        foreach ($this->modelList as $model) {
+            $filename = $this->baseDir . $this->modelDir . $model;
+            $this->graph->parseFile($filename, 'text/turtle');
+        }
+    }
+}
+
+class ThemenProcer extends TtlProcer
+{
     public array $themen;
-    private string $dataBaseDir;
     public array $jsTreeData;
 
-    function __construct($dataBaseDir)
+    function __construct($baseDir)
     {
-        $this->dataBaseDir = $dataBaseDir;
-        $this->graph = new Graph();
-        $this->graph->parseFile($this->dataBaseDir . 'models/math', 'text/turtle');
-        $this->graph->parseFile($this->dataBaseDir . 'models/mo', 'text/turtle');
+        parent::__construct($baseDir);
         $this->updateThemen();
         $this->jsTreeData = array();
     }
@@ -33,13 +46,13 @@ class ThemenHandler
 
     public function readTTL($fileName): void
     {
-        $this->graph->parseFile($this->dataBaseDir . $fileName, 'text/turtle');
+        $this->graph->parseFile($this->baseDir . $fileName, 'text/turtle');
         $this->updateThemen();
     }
 
     public function writeJsTreeData($label, $thema, int $level): void
     {
-        if ($level==0) {
+        if ($level == 0) {
             $this->jsTreeData[$label] = array();
         }
         if (is_string($thema)) {
@@ -66,3 +79,21 @@ class ThemenHandler
 
 }
 
+class ProblemeProcer extends TtlProcer
+{
+    public array $themen;
+    public array $dataTableData;
+
+    function __construct($baseDir)
+    {
+        parent::__construct($baseDir);
+        $this->dataTableData = [];
+    }
+
+    public function readTTL($fileName): void
+    {
+        $this->graph->parseFile($this->baseDir . $fileName, 'text/turtle');
+    }
+
+
+}
