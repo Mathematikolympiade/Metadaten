@@ -9,9 +9,7 @@
     display: table;
 }
 
-.treeBox {
-    float: left;
-    width: 45%;
+#problemTable {
     margin-left: 2%;
 }
 
@@ -26,3 +24,9 @@
     color: ghostwhite;
     background-color: forestgreen;
 }
+
+.treeBox {
+     float: left;
+     width: 45%;
+     margin-left: 2%;
+ }

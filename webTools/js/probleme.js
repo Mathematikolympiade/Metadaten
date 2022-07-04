@@ -1,3 +1,13 @@
+function buildProblemTable(tableData) {
+    // let newRow = jQuery("tbody").append(jQuery("<tr></tr>"));
+    // newRow.append(jQuery("<td></td>").text("das klappt!"));
+    jQuery("tbody")
+        .append(jQuery("<tr>")
+            .append(jQuery("<td>").text("das klappt schon mal"))
+        );
+}
+
+
 function searchProblems(arg) {
     jQuery("#suchButton").css("background-color", "maroon");
     let selectedData = [];
@@ -15,6 +25,7 @@ function searchProblems(arg) {
     const xhttp = new XMLHttpRequest();
     xhttp.onload = function () {
         const tableData = JSON.parse(this.response);
+        buildProblemTable(tableData);
         // let dataTableJSON = {};
         // dataTableJSON["data"] = tableData;
         // jQuery("#problemTable").dataTable(dataTableJSON);
