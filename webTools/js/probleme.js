@@ -1,10 +1,18 @@
 function buildProblemTable(tableData) {
-    // let newRow = jQuery("tbody").append(jQuery("<tr></tr>"));
-    // newRow.append(jQuery("<td></td>").text("das klappt!"));
-    jQuery("tbody")
-        .append(jQuery("<tr>")
-            .append(jQuery("<td>").text("das klappt schon mal"))
-        );
+    jQuery("#problemTable").append("<tbody>");
+    let tbodyNode = jQuery("#problemTable").find("tbody")[0];
+    const rowClass = {true: "even", false: "odd"};
+    parity = true;
+    for (const row of tableData) {
+        parity = !parity;
+        let rowNode = jQuery("<tr>");
+        for (const cell of row) {
+            rowNode.append(
+                jQuery('<td class=></td>').addClass(rowClass[parity]).html(cell)
+            );
+        }
+        rowNode.appendTo(tbodyNode);
+    }
 }
 
 
