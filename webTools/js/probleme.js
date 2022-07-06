@@ -3,15 +3,18 @@ function buildProblemTable(tableData) {
     let tbodyNode = jQuery("#problemTable").find("tbody")[0];
     const rowClass = {true: "even", false: "odd"};
     parity = true;
-    for (const row of tableData) {
+    for (const rowData of tableData) {
         parity = !parity;
         let rowNode = jQuery("<tr>");
-        for (const dataList of row) {
-            cellContent = dataList.join('<br/>');
-            rowNode.append(
-                jQuery('<td class=></td>').addClass(rowClass[parity]).html(cellContent)
-            );
-        }
+        rowNode.append(
+            jQuery('<td class=></td>').addClass(rowClass[parity]).html(rowData['id'])
+        );
+        rowNode.append(
+            jQuery('<td class=></td>').addClass(rowClass[parity]).html(rowData['thm'].join('<br/>'))
+        );
+        rowNode.append(
+            jQuery('<td class=></td>').addClass(rowClass[parity]).html(rowData['kur'].join('<br/>'))
+        );
         rowNode.appendTo(tbodyNode);
     }
 }
