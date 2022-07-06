@@ -7,13 +7,18 @@ function buildProblemTable(tableData) {
         parity = !parity;
         let rowNode = jQuery("<tr>");
         rowNode.append(
-            jQuery('<td class=></td>').addClass(rowClass[parity]).html(rowData['id'])
+            jQuery('<td class=></td>').addClass(rowClass[parity])
+                .html(rowData['id'])
         );
         rowNode.append(
-            jQuery('<td class=></td>').addClass(rowClass[parity]).html(rowData['thm'].join('<br/>'))
+            jQuery('<td class=></td>').addClass(rowClass[parity])
+                .html(rowData['thm'].join('<br/>'))
         );
+        let iconImg = jQuery("<img src='js/icons/comment-user-free-icon-font.svg'>")
+            .click(function() {alert(rowData['kur'].join('\n'))});
         rowNode.append(
-            jQuery('<td class=></td>').addClass(rowClass[parity]).html(rowData['kur'].join('<br/>'))
+            jQuery('<td class=></td>').addClass(rowClass[parity])
+                .html(iconImg)
         );
         rowNode.appendTo(tbodyNode);
     }
