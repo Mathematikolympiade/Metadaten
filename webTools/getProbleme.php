@@ -22,13 +22,18 @@ foreach ($procer->themen as $thema) {
 }
 $actProblemList = call_user_func_array("array_intersect", $problemLists);
 foreach ($actProblemList as $problem) {
-    $dataTableEntry = [$problem->localName()];
+    $dataTableEntry = [[$problem->localName()]];
     $themenList = array();
     foreach ($problem->allResources("math:thm") as $thm) {
         $themenList[] = htmlentities($thm->label());
     }
-    $dataTableEntry[] = join(" + ", $themenList);
-    $dataTableEntry[] = $problem->join("math:kur", " | ");
+    $dataTableEntry[] = $themenList; // join(" + ", $themenList);
+    $curList = array();
+    foreach ($problem->allLiterals("math:kur") as $cur) {
+        $curList[] = htmlentities($cur->getValue());
+    }
+    $dataTableEntry[] = $curList; // join(" + ", $themenList);
+//    $dataTableEntry[] = $problem->join("math:kur", " | ");
     $procer->dataTableData[] = $dataTableEntry;
 }
 

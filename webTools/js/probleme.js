@@ -6,9 +6,10 @@ function buildProblemTable(tableData) {
     for (const row of tableData) {
         parity = !parity;
         let rowNode = jQuery("<tr>");
-        for (const cell of row) {
+        for (const dataList of row) {
+            cellContent = dataList.join('<br/>');
             rowNode.append(
-                jQuery('<td class=></td>').addClass(rowClass[parity]).html(cell)
+                jQuery('<td class=></td>').addClass(rowClass[parity]).html(cellContent)
             );
         }
         rowNode.appendTo(tbodyNode);
