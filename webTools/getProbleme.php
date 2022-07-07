@@ -25,6 +25,10 @@ foreach ($actProblemList as $problem) {
     $dataTableEntry = ['id' => $problem->localName()];
     $themenList = array();
     foreach ($problem->allResources("math:thm") as $thm) {
+        error_log('::'.$thm->label().'::',3,'error.log');
+        foreach ($thm->allResources("RDFS:subClassOf") as $parent) {
+            error_log($parent->label().':',3,'error.log');
+        }
         $themenList[] = htmlentities($thm->label());
     }
     $dataTableEntry['thm'] = $themenList;
