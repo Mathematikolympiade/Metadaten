@@ -9,7 +9,7 @@ from datetime import datetime
 from argparse import ArgumentParser
 
 import rdflib
-from owlrl import DeductiveClosure, RDFS_Semantics
+from owlrl import DeductiveClosure, RDFS_Semantics, OWLRL_Semantics
 
 configParams = """
     [DEFAULT]
@@ -119,7 +119,7 @@ if __name__ == '__main__':
                 graphSize = newGraphSize
         logging.info(f'data graph now has {len(rdfGraph)} statements')
 
-        rdfsClosure = DeductiveClosure(closure_class=RDFS_Semantics)
+        rdfsClosure = DeductiveClosure(closure_class=RDFS_Semantics, rdfs_closure=False, improved_datatypes=False)
         rdfsClosure.expand(rdfGraph)
 
         logging.info(f'closure graph has {len(rdfGraph)} statements')
