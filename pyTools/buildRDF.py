@@ -8,8 +8,9 @@ from pathlib import Path
 from datetime import datetime
 from argparse import ArgumentParser
 
-import rdflib
+# import rdflib, rdflib.resource
 from owlrl import DeductiveClosure, RDFS_Semantics, OWLRL_Semantics
+from rdflib import Graph, Literal
 
 configParams = """
     [DEFAULT]
@@ -107,9 +108,9 @@ if __name__ == '__main__':
         #   run
 
         #   read models
-        rdfGraph = rdflib.Graph(identifier="buch300")
+        rdfGraph = Graph(identifier="buch300")
         graphSize = len(rdfGraph)
-        srcDirPath = workDirPath / config.get(config.get('WORK','srcDir').upper(), 'srcDir')
+        srcDirPath = workDirPath / config.get(config.get('WORK', 'srcDir').upper(), 'srcDir')
         for srcFileName in config['SOURCES'].values():
             srcFilePath = srcDirPath/srcFileName
             if srcFilePath.is_file():
@@ -121,21 +122,26 @@ if __name__ == '__main__':
 
         rdfsClosure = DeductiveClosure(closure_class=RDFS_Semantics, rdfs_closure=False, improved_datatypes=False)
         rdfsClosure.expand(rdfGraph)
-
         logging.info(f'closure graph has {len(rdfGraph)} statements')
 
+        for triple in rdfGraph:
+            if isinstance(triple[0], Literal):
+                rdfGraph.remove(triple)
+
+        logging.info(f'reduced closure graph now has {len(rdfGraph)} statements')
+
         #   write rdf
-        for type in ['ttl', 'xml']:
-            dstFilePath = (srcDirPath / config.get('WORK', 'dstFileBase')).with_suffix(f'.{type}')
-            rdfGraph.serialize(destination=dstFilePath, format=type)
+        for suffix in ['ttl', 'xml']:
+            dstFilePath = (srcDirPath / config.get('WORK', 'dstFileBase')).with_suffix(f'.{suffix}')
+            rdfGraph.serialize(destination=dstFilePath, format=suffix)
             logging.info(f'wrote graph to {dstFilePath}')
 
         #   test
-        nsDict = dict(rdfGraph.namespaces())
-        mo = rdflib.Namespace(nsDict['mo'])
-        math = rdflib.Namespace(nsDict['math'])
-        prob = rdflib.Namespace(nsDict[''])
-        uriRef = rdflib.term.URIRef(value="https://www.mathematik-olympiaden.de/aufgaben/rdf/Problem#MO-511341")
+        # nsDict = dict(rdfGraph.namespaces())
+        # mo = rdflib.Namespace(nsDict['mo'])
+        # math = rdflib.Namespace(nsDict['math'])
+        # prob = rdflib.Namespace(nsDict[''])
+        # uriRef = rdflib.term.URIRef(value="https://www.mathematik-olympiaden.de/aufgaben/rdf/Problem#MO-511341")
 
     #   exceptions
     except Exception:
