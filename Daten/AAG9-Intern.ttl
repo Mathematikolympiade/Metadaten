@@ -550,6 +550,71 @@
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Zahlentheorie" .
 
+:MO-bre-22-01
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2", "3" ;
+    mo:zumGebiet "Gleichungen", "Zahlentheorie" .
+
+:MO-bre-22-02
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Gleichungen" .
+
+:MO-bre-22-03
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Gleichungen" .
+
+:MO-bre-22-04
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Gleichungen" .
+
+:MO-bre-22-05
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "1" ;
+    mo:zumGebiet "Funktionen" .
+
+:MO-bre-22-06
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Analysis", "Geometrie" .
+
+:MO-bre-22-07
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Gleichungen" .
+
+:MO-bre-22-08
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-bre-22-10
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Wahrscheinlichkeit" .
+
+:MO-bre-22-11
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Kombinatorik" .
+
+:MO-bre-22-12
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Ungleichungen" .
+
+:MO-bre-22-13
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Ungleichungen" .
+
+:MO-bre-22-14
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Geometrie" .
+
 :MO-fuc-00-01
     a mo:AufgabenVorschlag ;
     owl:sameAs mop:MO-420922 ;
@@ -1720,6 +1785,86 @@
     mo:hatSchwierigkeit "2" ;
     mo:zumGebiet "Geometrie" .
 
+:MO-fuc-22-01
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-fuc-22-02
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Zahlentheorie" .
+
+:MO-fuc-22-03
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "1" ;
+    mo:zumGebiet "Zahlentheorie" .
+
+:MO-fuc-22-04
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Zahlentheorie" .
+
+:MO-fuc-22-05
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Zahlentheorie" .
+
+:MO-fuc-22-06
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "1" ;
+    mo:zumGebiet "Zahlentheorie" .
+
+:MO-fuc-22-07
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-fuc-22-08
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-fuc-22-09
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "1" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-fuc-22-10
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "1" ;
+    mo:zumGebiet "Ungleichungen" .
+
+:MO-fuc-22-11
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "1" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-fuc-22-12
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "1" ;
+    mo:zumGebiet "Ungleichungen", "Zahlentheorie" .
+
+:MO-fuc-22-13
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-fuc-22-14
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Zahlentheorie" .
+
+:MO-fuc-22-15
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Zahlentheorie" .
+
+:MO-fuc-22-16
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "5" ;
+    mo:zumGebiet "Zahlentheorie" .
+
 :MO-gir-00-01
     a mo:AufgabenVorschlag ;
     owl:sameAs mop:MO-420921 ;
@@ -2366,6 +2511,16 @@
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Geometrie" .
+
+:MO-goe-22-01
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "2" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-goe-22-02
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "5/3" ;
+    mo:zumGebiet "Geometrie", "Kombinatorik", "Zahlentheorie" .
 
 :MO-gra-00-01
     a mo:AufgabenVorschlag ;
@@ -4915,6 +5070,21 @@
     a mo:AufgabenVorschlag ;
     mo:hatSchwierigkeit "3" ;
     mo:zumGebiet "Wahrscheinlichkeit" .
+
+:MO-olb-22-01
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Geometrie" .
+
+:MO-olb-22-02
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "4" ;
+    mo:zumGebiet "Folge", "Kombinatorik" .
+
+:MO-olb-22-03
+    a mo:AufgabenVorschlag ;
+    mo:hatSchwierigkeit "3" ;
+    mo:zumGebiet "Folge", "Kombinatorik" .
 
 :MO-poe-07-01
     a mo:AufgabenVorschlag ;
